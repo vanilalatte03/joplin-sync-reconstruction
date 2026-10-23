@@ -1,0 +1,439 @@
+{
+  "group": "legacy random campaigns only",
+  "runs": [
+    {
+      "name": "p20v8",
+      "sequenceId": "pilot-20",
+      "seed": 2026102301,
+      "joplinVersion": "3.7.21",
+      "reaVersion": "6.7.0",
+      "startedAt": "2026-10-23T08:09:11.138Z",
+      "finishedAt": "2026-10-23T08:09:17.987Z",
+      "stateChanges": 20,
+      "commands": 28,
+      "commandCounts": {
+        "CREATE_NOTE": 7,
+        "RENAME_NOTE": 3,
+        "UPDATE_NOTE": 6,
+        "SYNC": 3,
+        "DELETE_PERMANENTLY": 4,
+        "SYNC_ALL": 5
+      },
+      "syncCounts": {
+        "success": 21,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "setupSyncs": 3,
+      "findings": [
+        {
+          "id": "F1",
+          "kind": "unrepresented-local-revision",
+          "classification": "INCONCLUSIVE",
+          "step": 25,
+          "dedupe": "unrepresented-local-revision:body absent from all live/trash/conflict API results",
+          "detail": {
+            "reason": "body absent from all live/trash/conflict API results",
+            "client": "a",
+            "noteId": "2e756b8dbabbe377bd410685d8848068",
+            "body": "FUZZ:pilot-20:4:88948631 body\nline\nline",
+            "command": {
+              "op": "SYNC_ALL",
+              "order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "purpose": "settle-0"
+            }
+          }
+        }
+      ],
+      "elapsedMs": 6849,
+      "artifacts": [
+        {
+          "file": "summary.json",
+          "bytes": 1192,
+          "sha256": "ce1ed6609f0669d34c5a79f56205cbe897bcab09c806b2a5b9f6933e54c94895"
+        },
+        {
+          "file": "sequence.json",
+          "bytes": 3435,
+          "sha256": "93688141433da6421e39d84e52fb25a7db8ce22f33b006aca295b612ad021371"
+        },
+        {
+          "file": "operations.jsonl.gz",
+          "bytes": 4425,
+          "sha256": "d0da5c77ddaf1a85b8b9f026d3a877200ac43a9560107d9397f80d44a0819839"
+        },
+        {
+          "file": "identity.json",
+          "bytes": 713,
+          "sha256": "8744b143478fe51db47b130822900ee7da42b3ac7e8050f0ad25ff0c6e9ba0bd"
+        },
+        {
+          "file": "final-state.json",
+          "bytes": 9366,
+          "sha256": "ec66552da9e76a09430f246f60435b4c20ebe9244f199739fa1ec17c4d1b94b8"
+        },
+        {
+          "file": "cleanup.json",
+          "bytes": 197,
+          "sha256": "66bb74b270b3bb954b7b1c43e16a6f932e4de6ebf6ae821f65ef733f7a0ca0a0"
+        }
+      ],
+      "cleanup": [
+        {
+          "client": "a",
+          "pid": 22936,
+          "exited": true
+        },
+        {
+          "client": "b",
+          "pid": 32724,
+          "exited": true
+        },
+        {
+          "client": "c",
+          "pid": 38728,
+          "exited": true
+        }
+      ],
+      "identity": [
+        {
+          "client": "a",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        },
+        {
+          "client": "b",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        },
+        {
+          "client": "c",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "scale-100",
+      "sequenceId": "scale-100",
+      "seed": 2026102302,
+      "joplinVersion": "3.7.21",
+      "reaVersion": "6.7.0",
+      "startedAt": "2026-10-23T08:27:58.548Z",
+      "finishedAt": "2026-10-23T08:28:18.506Z",
+      "stateChanges": 100,
+      "commands": 110,
+      "commandCounts": {
+        "CREATE_NOTE": 17,
+        "DELETE_PERMANENTLY": 8,
+        "MOVE_TO_TRASH": 10,
+        "SYNC": 9,
+        "UPDATE_NOTE": 25,
+        "RENAME_NOTE": 13,
+        "RESTORE_NOTE": 7,
+        "SYNC_ALL": 9,
+        "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 7,
+        "RETRY_SYNC": 5
+      },
+      "syncCounts": {
+        "success": 44,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "setupSyncs": 3,
+      "findings": [
+        {
+          "id": "F1",
+          "kind": "unrepresented-local-revision",
+          "classification": "INCONCLUSIVE",
+          "step": 77,
+          "dedupe": "unrepresented-local-revision:body absent from all live/trash/conflict API results",
+          "detail": {
+            "reason": "body absent from all live/trash/conflict API results",
+            "client": "a",
+            "noteId": "1946b213e470220064ff0e6f4d63f6e9",
+            "body": "FUZZ:scale-100:n9:create",
+            "command": {
+              "op": "SYNC_ALL",
+              "order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          }
+        }
+      ],
+      "elapsedMs": 19958,
+      "artifacts": [
+        {
+          "file": "summary.json",
+          "bytes": 1265,
+          "sha256": "6ed26056447da3b96295ff2cd51c91335e3f5cff997c3c6e583df45b208f2332"
+        },
+        {
+          "file": "sequence.json",
+          "bytes": 13871,
+          "sha256": "2da073b216f3fb872683891bb1075e19b02529c3825f15be386988f83ef04946"
+        },
+        {
+          "file": "operations.jsonl.gz",
+          "bytes": 38233,
+          "sha256": "f7a08319bfa1ebfe8382caa2b79621aebfdd975c75cf8415a95be2f609362cf5"
+        },
+        {
+          "file": "identity.json",
+          "bytes": 713,
+          "sha256": "8744b143478fe51db47b130822900ee7da42b3ac7e8050f0ad25ff0c6e9ba0bd"
+        },
+        {
+          "file": "final-state.json",
+          "bytes": 27477,
+          "sha256": "9b605a50c0bfa7b309759c87c995324d63085c02f566bb3500343a7f78f3f891"
+        },
+        {
+          "file": "cleanup.json",
+          "bytes": 197,
+          "sha256": "02786e28ba8e2f7838c4746befbfd53f2e36cfe99e14ffaa81dd0d65484d0cf9"
+        }
+      ],
+      "cleanup": [
+        {
+          "client": "a",
+          "pid": 35448,
+          "exited": true
+        },
+        {
+          "client": "b",
+          "pid": 33852,
+          "exited": true
+        },
+        {
+          "client": "c",
+          "pid": 21056,
+          "exited": true
+        }
+      ],
+      "identity": [
+        {
+          "client": "a",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        },
+        {
+          "client": "b",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        },
+        {
+          "client": "c",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaign-1000",
+      "sequenceId": "campaign-1000",
+      "seed": 2026102303,
+      "joplinVersion": "3.7.21",
+      "reaVersion": "6.7.0",
+      "startedAt": "2026-10-23T09:18:02.369Z",
+      "finishedAt": "2026-10-23T09:20:48.216Z",
+      "stateChanges": 1000,
+      "commands": 1018,
+      "commandCounts": {
+        "CREATE_NOTE": 132,
+        "DELETE_PERMANENTLY": 61,
+        "UPDATE_NOTE": 245,
+        "SYNC": 65,
+        "MOVE_TO_TRASH": 99,
+        "RESTORE_NOTE": 71,
+        "RENAME_NOTE": 137,
+        "SYNC_ALL": 50,
+        "RETRY_SYNC": 71,
+        "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 87
+      },
+      "syncCounts": {
+        "success": 289,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "setupSyncs": 3,
+      "findings": [
+        {
+          "id": "F1",
+          "kind": "unrepresented-local-revision",
+          "classification": "INCONCLUSIVE",
+          "step": 58,
+          "dedupe": "unrepresented-local-revision:body absent from all live/trash/conflict API results",
+          "detail": {
+            "reason": "body absent from all live/trash/conflict API results",
+            "client": "a",
+            "noteId": "d2d15f7a9c95124015bed9141df4d6e3",
+            "body": "FUZZ:campaign-1000:n7:create",
+            "command": {
+              "op": "SYNC_ALL",
+              "order": [
+                "c",
+                "b",
+                "a"
+              ]
+            }
+          }
+        }
+      ],
+      "elapsedMs": 165847,
+      "artifacts": [
+        {
+          "file": "summary.json",
+          "bytes": 1286,
+          "sha256": "76ff91f76afdecdd82178b234500e281a968dc8a1c1b7fdbf1f077d498cac71f"
+        },
+        {
+          "file": "sequence.json",
+          "bytes": 135032,
+          "sha256": "b182f913b7a544b41b9fbd631cdb88aa9b534d4f25d7183e0f9cc2390172b12c"
+        },
+        {
+          "file": "operations.jsonl.gz",
+          "bytes": 25583675,
+          "sha256": "1bab6dc28032cf6a814fac8b5a7329125ce09adc6ddd3564161ac2a8c5158fc2"
+        },
+        {
+          "file": "identity.json",
+          "bytes": 713,
+          "sha256": "8744b143478fe51db47b130822900ee7da42b3ac7e8050f0ad25ff0c6e9ba0bd"
+        },
+        {
+          "file": "final-state.json",
+          "bytes": 245153,
+          "sha256": "34c7e42b2f4746be0d974005c846d86b0f2976120aeb12c9cedcc64b104a2948"
+        },
+        {
+          "file": "cleanup.json",
+          "bytes": 196,
+          "sha256": "ede07a0599fb8ad9f2e7feb8cebcd4b6f4265ee809e53584cf007e16635a0731"
+        }
+      ],
+      "cleanup": [
+        {
+          "client": "a",
+          "pid": 35448,
+          "exited": true
+        },
+        {
+          "client": "b",
+          "pid": 2012,
+          "exited": true
+        },
+        {
+          "client": "c",
+          "pid": 34300,
+          "exited": true
+        }
+      ],
+      "identity": [
+        {
+          "client": "a",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        },
+        {
+          "client": "b",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        },
+        {
+          "client": "c",
+          "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+          "settings": {
+            "target": 2,
+            "interval": 0,
+            "autoUpdate": false,
+            "uploadDelay": 86400000
+          }
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "randomSequences": 3,
+    "stateChanges": 1120,
+    "commands": 1156,
+    "commandCounts": {
+      "CREATE_NOTE": 156,
+      "RENAME_NOTE": 153,
+      "UPDATE_NOTE": 276,
+      "SYNC": 77,
+      "DELETE_PERMANENTLY": 73,
+      "SYNC_ALL": 64,
+      "MOVE_TO_TRASH": 109,
+      "RESTORE_NOTE": 78,
+      "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 94,
+      "RETRY_SYNC": 76
+    },
+    "syncCounts": {
+      "success": 354,
+      "failed": 0,
+      "timeout": 0,
+      "exception": 0
+    },
+    "setupSyncs": 9,
+    "deduplicatedSignals": 3
+  },
+  "classification": {
+    "EXPECTED BEHAVIOR": 3,
+    "HARNESS ERROR": 3,
+    "INCONCLUSIVE": 0,
+    "CONFIRMED DEFECT CANDIDATE": 0
+  },
+  "classificationCounting": "Three signals each have a harness classification and an original-behavior classification; columns are not additive incident counts."
+}

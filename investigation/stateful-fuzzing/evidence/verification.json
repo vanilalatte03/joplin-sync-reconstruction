@@ -1,0 +1,38 @@
+{
+  "scope": "Stateful investigation harness and selected evidence; Java engine and CLI unchanged",
+  "baseCommit": "358d18d6736a888ffa09913192321818f5d85455",
+  "checks": {
+    "javaIntegrationTests": 8,
+    "javaBuild": "PASS",
+    "cliRegressionTests": 3,
+    "previousConflictRecordedChecks": 27,
+    "oracleRegressionTests": 2,
+    "statefulRecordedChecks": 608,
+    "syntax": "all investigation/stateful-fuzzing/scripts/*.mjs PASS",
+    "diffWhitespace": "PASS"
+  },
+  "review": {
+    "blockingFindings": 0,
+    "fixed": [
+      "dirty-state gate missing from legacy preservation oracle",
+      "Existing run directory must not receive a fatal.json when construction is rejected"
+    ],
+    "limitations": [
+      "Recorded evidence checks do not replay Desktop",
+      "Local Java HTTP server validation command was rejected by automatic approval review before execution; CI runs the existing HTTP scenarios"
+    ]
+  },
+  "cleanup": {
+    "desktopTestProfilesRunning": 0,
+    "testPortsListening": 0,
+    "reducerExited": true,
+    "supplementExitCode": 0
+  },
+  "publication": {
+    "rawProfiles": false,
+    "rawLogs": false,
+    "apiTokens": false,
+    "fullOriginalModules": false,
+    "selectedSyntheticEvidence": true
+  }
+}

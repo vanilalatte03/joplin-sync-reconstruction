@@ -31,6 +31,12 @@ jobs:
       - name: Validate recorded Joplin conflict observations (no Desktop replay)
         working-directory: investigation/conflict-algorithm
         run: node scripts/conflict-verify.mjs --check
+      - name: Validate stateful fuzzing oracle and recorded evidence (no Desktop replay)
+        run: |
+          node --test investigation/stateful-fuzzing/scripts/oracle.test.mjs
+          if ($LASTEXITCODE -ne 0) { throw 'Oracle regression tests failed' }
+          node investigation/stateful-fuzzing/scripts/verify.mjs
+          if ($LASTEXITCODE -ne 0) { throw 'Fuzz evidence validation failed' }
       - name: HTTP synchronization and connection-loss scenarios
         run: |
           New-Item -ItemType Directory -Force work | Out-Null
