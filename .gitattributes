@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Preserve recorded evidence bytes, including whitespace emitted by Joplin.
+evidence/** -text -whitespace

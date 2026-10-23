@@ -1,0 +1,71 @@
+{
+  "before": {
+    "cursor": 6,
+    "changes": [
+      {
+        "seq": 1,
+        "note": {
+          "id": "note-c1f26e07-013b-4deb-9747-0a24c7b4d414",
+          "title": "demo",
+          "body": "initial 한글",
+          "version": 1,
+          "deleted": false
+        }
+      },
+      {
+        "seq": 2,
+        "note": {
+          "id": "note-c1f26e07-013b-4deb-9747-0a24c7b4d414",
+          "title": "demo",
+          "body": "edited",
+          "version": 2,
+          "deleted": false
+        }
+      },
+      {
+        "seq": 3,
+        "note": {
+          "id": "note-c1f26e07-013b-4deb-9747-0a24c7b4d414",
+          "title": "demo",
+          "body": "A concurrent",
+          "version": 3,
+          "deleted": false
+        }
+      },
+      {
+        "seq": 4,
+        "note": {
+          "id": "retry-c1f26e07-013b-4deb-9747-0a24c7b4d414",
+          "title": "retry",
+          "body": "committed once",
+          "version": 1,
+          "deleted": false
+        }
+      },
+      {
+        "seq": 5,
+        "note": {
+          "id": "outage-c1f26e07-013b-4deb-9747-0a24c7b4d414",
+          "title": "outage",
+          "body": "durable",
+          "version": 1,
+          "deleted": false
+        }
+      },
+      {
+        "seq": 6,
+        "note": {
+          "id": "note-c1f26e07-013b-4deb-9747-0a24c7b4d414",
+          "title": "demo",
+          "body": "A concurrent",
+          "version": 4,
+          "deleted": true
+        }
+      }
+    ]
+  },
+  "observedBefore": "2026-10-22T14:50:47.376Z",
+  "observedAfter": "2026-10-22T14:55:12.892Z",
+  "pass": true,
+  "method": "Stop original JVM, start a new JVM with same H2 file, compare full change log and cursor"
+}

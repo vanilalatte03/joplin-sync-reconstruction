@@ -1,0 +1,14 @@
+{
+  "observedAt": "2026-10-22T14:57:13.2866182Z",
+  "hostNode": "v24.14.0",
+  "java": "21.0.9",
+  "rea": "6.7.0",
+  "joplin": "3.7.21",
+  "joplinSha256": "5CF5686D8A3E2C1195448D1A0324602A2EF9A0CF61A867B323571CA2F8DD7B33",
+  "authenticodeStatus": "Valid",
+  "signer": "CN=Joplin, O=Joplin, L=Nancy, C=FR",
+  "mcpToolCount": 207,
+  "codexLocalRegistrationVerified": true,
+  "defaultJoplinDirectoryExists": false,
+  "isolation": "same OS account, separate profiles and process environment, not a sandbox"
+}

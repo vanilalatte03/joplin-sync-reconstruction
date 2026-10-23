@@ -1,0 +1,92 @@
+{
+  "observedAt": "2026-10-23T05:18:44.651Z",
+  "java": {
+    "tests": 8,
+    "failures": 0,
+    "errors": 0
+  },
+  "node": {
+    "tests": 3,
+    "failures": 0
+  },
+  "http": {
+    "scenarios": 8,
+    "failures": 0,
+    "details": [
+      {
+        "scenario": "create propagation",
+        "checks": {
+          "version": 1
+        },
+        "pass": true
+      },
+      {
+        "scenario": "edit propagation",
+        "checks": {
+          "version": 2
+        },
+        "pass": true
+      },
+      {
+        "scenario": "offline durable local edit",
+        "checks": {
+          "pendingSurvivesClientRestart": true
+        },
+        "pass": true
+      },
+      {
+        "scenario": "conflict preservation",
+        "checks": {
+          "bothBodiesPreserved": true
+        },
+        "pass": true
+      },
+      {
+        "scenario": "connection lost after server commit then retry",
+        "checks": {
+          "actualHttpSocketDestroyed": true,
+          "requestsForwarded": 2,
+          "version": 1,
+          "changeCount": 1
+        },
+        "pass": true
+      },
+      {
+        "scenario": "outage restart and later retry",
+        "checks": {
+          "stableOperationId": true,
+          "pendingPreserved": true
+        },
+        "pass": true
+      },
+      {
+        "scenario": "delete propagation",
+        "checks": {
+          "tombstonePreserved": true
+        },
+        "pass": true
+      },
+      {
+        "scenario": "http validation and conflict audit",
+        "checks": {
+          "invalidRequestStatus": 400,
+          "conflictRetrievable": true
+        },
+        "pass": true
+      }
+    ]
+  },
+  "publicAudit": {
+    "filesScanned": 66,
+    "knownCredentials": 0,
+    "credentialPatterns": 0,
+    "personalPaths": 0,
+    "rawReaBundlesExcluded": true,
+    "workflowYamlValid": true
+  },
+  "review": {
+    "sql": "Parameterized statements; transaction retains commit/cursor lock in single JVM",
+    "localPersistence": "Special property note IDs regression-tested after null-prototype dictionary fix",
+    "scope": "Local research demo; authentication and multi-JVM scaling not implemented"
+  }
+}

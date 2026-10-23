@@ -1,0 +1,68 @@
+{
+  "run": "c1f26e07-013b-4deb-9747-0a24c7b4d414",
+  "observedAt": "2026-10-22T14:46:44.975Z",
+  "base": "http://127.0.0.1:8087",
+  "results": [
+    {
+      "scenario": "create propagation",
+      "checks": {
+        "version": 1
+      },
+      "pass": true
+    },
+    {
+      "scenario": "edit propagation",
+      "checks": {
+        "version": 2
+      },
+      "pass": true
+    },
+    {
+      "scenario": "offline durable local edit",
+      "checks": {
+        "pendingSurvivesClientRestart": true
+      },
+      "pass": true
+    },
+    {
+      "scenario": "conflict preservation",
+      "checks": {
+        "bothBodiesPreserved": true
+      },
+      "pass": true
+    },
+    {
+      "scenario": "connection lost after server commit then retry",
+      "checks": {
+        "actualHttpSocketDestroyed": true,
+        "requestsForwarded": 2,
+        "version": 1,
+        "changeCount": 1
+      },
+      "pass": true
+    },
+    {
+      "scenario": "outage restart and later retry",
+      "checks": {
+        "stableOperationId": true,
+        "pendingPreserved": true
+      },
+      "pass": true
+    },
+    {
+      "scenario": "delete propagation",
+      "checks": {
+        "tombstonePreserved": true
+      },
+      "pass": true
+    },
+    {
+      "scenario": "http validation and conflict audit",
+      "checks": {
+        "invalidRequestStatus": 400,
+        "conflictRetrievable": true
+      },
+      "pass": true
+    }
+  ]
+}

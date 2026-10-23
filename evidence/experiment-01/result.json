@@ -1,0 +1,21 @@
+{
+  "scenario": "create note then synchronize",
+  "observedAt": "2026-10-22T14:38:36.039Z",
+  "client": "Joplin Desktop 3.7.21 official portable",
+  "inputMethod": "public authenticated Clipper Data API",
+  "syncTrigger": "actual Electron application menu synchronize",
+  "noteId": "f94a1174d0f7496b9ccd8fa86b1a2640",
+  "folderId": "1bab821b05ca4c8eb6266648b2e3c509",
+  "pass": true,
+  "checks": {
+    "fileCreated": true,
+    "titlePreserved": true,
+    "bodyPreserved": true,
+    "typeIsNote": true
+  },
+  "limitations": [
+    "One client only; no cross-client convergence established",
+    "Filesystem target; no network request or failure exercised",
+    "Internal scheduling and conflict algorithms not established"
+  ]
+}

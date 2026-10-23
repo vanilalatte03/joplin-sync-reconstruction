@@ -1,0 +1,15 @@
+import {spawn} from 'node:child_process';
+import fs from 'node:fs';
+import path from 'node:path';
+const client=process.argv[2]||'a';
+const root=path.resolve(client==='a'?'work/runtime':'work/runtime-b');
+fs.mkdirSync(root,{recursive:true});
+fs.mkdirSync(path.join(root,'home','.config','joplin-desktop'),{recursive:true});
+const out=fs.openSync(path.join(root,'electron.log'),'a');
+const exe=path.resolve('work/joplin-portable/Joplin.exe');
+const args=['--profile',path.join(root,'profile-'+client),'--user-data-dir='+path.join(root,'chromium-'+client),'--remote-debugging-port='+(client==='a'?9231:9233),'--no-welcome'];
+const p=spawn(exe,args,{detached:true,stdio:['ignore',out,out],env:{...process.env,USERPROFILE:path.join(root,'home'),HOME:path.join(root,'home'),APPDATA:path.join(root,'appdata'),LOCALAPPDATA:path.join(root,'localappdata')}});
+fs.writeFileSync(path.join(root,'launch.json'),JSON.stringify({pid:p.pid,exe,args,isolation:'dedicated profile and appdata; same OS account'},null,2));
+console.log('Launched isolated Joplin PID '+p.pid);
+p.on('exit',(code,signal)=>{console.log(JSON.stringify({exit:code,signal}));process.exit(code||0)});
+setInterval(()=>{},30000);

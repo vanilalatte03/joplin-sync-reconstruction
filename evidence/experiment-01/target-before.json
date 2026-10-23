@@ -1,0 +1,38 @@
+[
+  {
+    "name": ".lock",
+    "bytes": 0,
+    "directory": true,
+    "sha256": null
+  },
+  {
+    "name": ".resource",
+    "bytes": 0,
+    "directory": true,
+    "sha256": null
+  },
+  {
+    "name": ".sync",
+    "bytes": 0,
+    "directory": true,
+    "sha256": null
+  },
+  {
+    "name": "info.json",
+    "bytes": 385,
+    "directory": false,
+    "sha256": "669b588ddd447c3945bcbb1a0926dc4a85a4bc8e6340caa02ffecd065d8e7487"
+  },
+  {
+    "name": "locks",
+    "bytes": 0,
+    "directory": true,
+    "sha256": null
+  },
+  {
+    "name": "temp",
+    "bytes": 0,
+    "directory": true,
+    "sha256": null
+  }
+]

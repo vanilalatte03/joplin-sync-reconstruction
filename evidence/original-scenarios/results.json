@@ -1,0 +1,60 @@
+[
+  {
+    "scenario": "create propagation",
+    "observedAt": "2026-10-22T14:40:46.509Z",
+    "observations": {
+      "sameIdAndBody": true
+    }
+  },
+  {
+    "scenario": "edit propagation",
+    "observedAt": "2026-10-22T14:40:48.517Z",
+    "observations": {
+      "sameBody": true,
+      "remoteFileNameUnchanged": true
+    }
+  },
+  {
+    "scenario": "offline local edit",
+    "observedAt": "2026-10-22T14:40:48.540Z",
+    "observations": {
+      "localSaved": true,
+      "remoteUnchangedBeforeSync": true,
+      "limitation": "Sync withheld; no real network isolation applied to filesystem target"
+    }
+  },
+  {
+    "scenario": "concurrent divergent edits",
+    "observedAt": "2026-10-22T14:40:50.341Z",
+    "observations": {
+      "canonical": "A-concurrent-edit",
+      "conflict": {
+        "id": "e86b43d1b87943e4a5558399f33fa620",
+        "title": "REA-EXP-001",
+        "body": "B-offline-edit",
+        "is_conflict": 1,
+        "conflict_original_id": "f94a1174d0f7496b9ccd8fa86b1a2640",
+        "deleted_time": 0
+      },
+      "localAndRemoteContentsPreserved": true
+    }
+  },
+  {
+    "scenario": "destination failure and retry",
+    "observedAt": "2026-10-22T14:40:52.796Z",
+    "observations": {
+      "failureReported": true,
+      "retryStoredPayload": true,
+      "limitation": "Filesystem unavailable before sync; mid-transfer network interruption remains unverified"
+    }
+  },
+  {
+    "scenario": "delete propagation",
+    "observedAt": "2026-10-22T14:41:10.316Z",
+    "observations": {
+      "deletedTime": 1792680052801,
+      "remoteFileStillExists": true,
+      "trashPropagated": true
+    }
+  }
+]

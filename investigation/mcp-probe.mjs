@@ -1,0 +1,12 @@
+import {Client} from '../work/tools/node_modules/@modelcontextprotocol/sdk/dist/esm/client/index.js';
+import {StdioClientTransport} from '../work/tools/node_modules/@modelcontextprotocol/sdk/dist/esm/client/stdio.js';
+import fs from 'node:fs';
+import path from 'node:path';
+const client=new Client({name:'joplin-lab',version:'1.0.0'});
+const transport=new StdioClientTransport({command:process.execPath,args:[path.resolve('work/tools/node_modules/rea-agents/scripts/rea.mjs'),'mcp'],stderr:'pipe'});
+await client.connect(transport);
+let all=[],cursor;
+do {const r=await client.listTools(cursor?{cursor}:{}); all.push(...r.tools); cursor=r.nextCursor;}while(cursor);
+fs.writeFileSync('work/rea-mcp-tools.json',JSON.stringify(all,null,2));
+console.log(JSON.stringify({connected:true,tools:all.length,names:all.filter(t=>/electron|javascript_application|trace_application|export_evidence/.test(t.name)).map(t=>t.name)}));
+await client.close();

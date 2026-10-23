@@ -1,0 +1,813 @@
+{
+  "method": "CDP precise coverage during actual menu-triggered sync; source map attribution",
+  "observedAt": "2026-10-22T14:48:10.687Z",
+  "noteId": "8c3956532e17468c8b794f693e4e9571",
+  "functions": [
+    {
+      "functionName": "f_a",
+      "generatedStart": 8264509,
+      "generatedEnd": 8264874,
+      "count": 3,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 65,
+      "column": 0
+    },
+    {
+      "functionName": "g_a",
+      "generatedStart": 8265860,
+      "generatedEnd": 8266144,
+      "count": 2,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 130,
+      "column": 7
+    },
+    {
+      "functionName": "y_a",
+      "generatedStart": 8266167,
+      "generatedEnd": 8266221,
+      "count": 2,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 157,
+      "column": 7
+    },
+    {
+      "functionName": "",
+      "generatedStart": 8266758,
+      "generatedEnd": 8266984,
+      "count": 4,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 185,
+      "column": 21
+    },
+    {
+      "functionName": "eL",
+      "generatedStart": 8267000,
+      "generatedEnd": 8267158,
+      "count": 3,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 195,
+      "column": 0
+    },
+    {
+      "functionName": "v_a",
+      "generatedStart": 8267180,
+      "generatedEnd": 8267236,
+      "count": 13,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 205,
+      "column": 0
+    },
+    {
+      "functionName": "O_a",
+      "generatedStart": 8268814,
+      "generatedEnd": 8268870,
+      "count": 1,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 313,
+      "column": 0
+    },
+    {
+      "functionName": "m8",
+      "generatedStart": 8268933,
+      "generatedEnd": 8269282,
+      "count": 17,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 329,
+      "column": 1
+    },
+    {
+      "functionName": "toObject",
+      "generatedStart": 8269282,
+      "generatedEnd": 8269587,
+      "count": 4,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 339,
+      "column": 8
+    },
+    {
+      "functionName": "filterSyncInfo",
+      "generatedStart": 8269587,
+      "generatedEnd": 8270045,
+      "count": 2,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 353,
+      "column": 8
+    },
+    {
+      "functionName": "load",
+      "generatedStart": 8270105,
+      "generatedEnd": 8270962,
+      "count": 17,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 382,
+      "column": 8
+    },
+    {
+      "functionName": "get version",
+      "generatedStart": 8271098,
+      "generatedEnd": 8271133,
+      "count": 8,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 417,
+      "column": 1
+    },
+    {
+      "functionName": "set version",
+      "generatedStart": 8271133,
+      "generatedEnd": 8271185,
+      "count": 17,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 421,
+      "column": 1
+    },
+    {
+      "functionName": "get ppk",
+      "generatedStart": 8271185,
+      "generatedEnd": 8271218,
+      "count": 2,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 427,
+      "column": 1
+    },
+    {
+      "functionName": "get e2ee",
+      "generatedStart": 8271295,
+      "generatedEnd": 8271330,
+      "count": 2,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 437,
+      "column": 1
+    },
+    {
+      "functionName": "get appMinVersion",
+      "generatedStart": 8271403,
+      "generatedEnd": 8271450,
+      "count": 21,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 447,
+      "column": 1
+    },
+    {
+      "functionName": "get activeMasterKeyId",
+      "generatedStart": 8271493,
+      "generatedEnd": 8271554,
+      "count": 4,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 455,
+      "column": 1
+    },
+    {
+      "functionName": "get masterKeys",
+      "generatedStart": 8272062,
+      "generatedEnd": 8272103,
+      "count": 30,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 485,
+      "column": 1
+    },
+    {
+      "functionName": "get noteLockKey",
+      "generatedStart": 8272196,
+      "generatedEnd": 8272239,
+      "count": 4,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 495,
+      "column": 1
+    },
+    {
+      "functionName": "S_a",
+      "generatedStart": 8272578,
+      "generatedEnd": 8272610,
+      "count": 2,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 522,
+      "column": 0
+    },
+    {
+      "functionName": "",
+      "generatedStart": 8274004,
+      "generatedEnd": 8274301,
+      "count": 1,
+      "source": "../lib/services/synchronizer/syncInfoUtils.ts",
+      "line": 607,
+      "column": 30
+    },
+    {
+      "functionName": "encryptionSupported",
+      "generatedStart": 8278742,
+      "generatedEnd": 8278773,
+      "count": 13,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 86,
+      "column": 15
+    },
+    {
+      "functionName": "getClass",
+      "generatedStart": 8279393,
+      "generatedEnd": 8279673,
+      "count": 80,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 134,
+      "column": 15
+    },
+    {
+      "functionName": "systemPath",
+      "generatedStart": 8280089,
+      "generatedEnd": 8280182,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 167,
+      "column": 15
+    },
+    {
+      "functionName": "isSystemPath",
+      "generatedStart": 8280189,
+      "generatedEnd": 8280330,
+      "count": 19,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 174,
+      "column": 15
+    },
+    {
+      "functionName": "itemClass",
+      "generatedStart": 8280337,
+      "generatedEnd": 8280727,
+      "count": 59,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 185,
+      "column": 15
+    },
+    {
+      "functionName": "syncedItemIds",
+      "generatedStart": 8280734,
+      "generatedEnd": 8280978,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 201,
+      "column": 8
+    },
+    {
+      "functionName": "remoteItemMetadata",
+      "generatedStart": 8280985,
+      "generatedEnd": 8281375,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 211,
+      "column": 8
+    },
+    {
+      "functionName": "pathToId",
+      "generatedStart": 8281711,
+      "generatedEnd": 8281827,
+      "count": 14,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 239,
+      "column": 15
+    },
+    {
+      "functionName": "loadItemsByIds",
+      "generatedStart": 8282066,
+      "generatedEnd": 8282330,
+      "count": 9,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 261,
+      "column": 8
+    },
+    {
+      "functionName": "deletedItems",
+      "generatedStart": 8284206,
+      "generatedEnd": 8284306,
+      "count": 1,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 376,
+      "column": 15
+    },
+    {
+      "functionName": "serialize_format",
+      "generatedStart": 8284875,
+      "generatedEnd": 8285302,
+      "count": 45,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 404,
+      "column": 15
+    },
+    {
+      "functionName": "unserialize_format",
+      "generatedStart": 8285309,
+      "generatedEnd": 8285895,
+      "count": 47,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 427,
+      "column": 15
+    },
+    {
+      "functionName": "serialize",
+      "generatedStart": 8285902,
+      "generatedEnd": 8286465,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 456,
+      "column": 8
+    },
+    {
+      "functionName": "serializeForSync",
+      "generatedStart": 8286882,
+      "generatedEnd": 8288101,
+      "count": 4,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 517,
+      "column": 8
+    },
+    {
+      "functionName": "unserialize",
+      "generatedStart": 8288493,
+      "generatedEnd": 8289415,
+      "count": 49,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 589,
+      "column": 8
+    },
+    {
+      "functionName": "itemsThatNeedSync",
+      "generatedStart": 8290846,
+      "generatedEnd": 8292175,
+      "count": 29,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 739,
+      "column": 8
+    },
+    {
+      "functionName": "",
+      "generatedStart": 8290918,
+      "generatedEnd": 8290936,
+      "count": 21,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 741,
+      "column": 54
+    },
+    {
+      "functionName": "syncItemClassNames",
+      "generatedStart": 8292182,
+      "generatedEnd": 8292253,
+      "count": 5,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 831,
+      "column": 15
+    },
+    {
+      "functionName": "",
+      "generatedStart": 8292237,
+      "generatedEnd": 8292251,
+      "count": 35,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 832,
+      "column": 44
+    },
+    {
+      "functionName": "modelTypeToClassName",
+      "generatedStart": 8292469,
+      "generatedEnd": 8292660,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 853,
+      "column": 15
+    },
+    {
+      "functionName": "syncDisabledItemsCount",
+      "generatedStart": 8293049,
+      "generatedEnd": 8293298,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 878,
+      "column": 8
+    },
+    {
+      "functionName": "updateSyncTimeQueries",
+      "generatedStart": 8293401,
+      "generatedEnd": 8293970,
+      "count": 4,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 893,
+      "column": 15
+    },
+    {
+      "functionName": "saveSyncTime",
+      "generatedStart": 8293977,
+      "generatedEnd": 8294090,
+      "count": 4,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 913,
+      "column": 8
+    },
+    {
+      "functionName": "deleteOrphanSyncItems",
+      "generatedStart": 8294705,
+      "generatedEnd": 8295112,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 941,
+      "column": 8
+    },
+    {
+      "functionName": "displayTitle",
+      "generatedStart": 8295119,
+      "generatedEnd": 8295244,
+      "count": 2,
+      "source": "../lib/models/BaseItem.ts",
+      "line": 958,
+      "column": 15
+    },
+    {
+      "functionName": "",
+      "generatedStart": 9016920,
+      "generatedEnd": 9017013,
+      "count": 1,
+      "source": "../lib/services/synchronizer/LockHandler.ts",
+      "line": 29,
+      "column": 17
+    },
+    {
+      "functionName": "get enabled",
+      "generatedStart": 9018652,
+      "generatedEnd": 9018687,
+      "count": 4,
+      "source": "../lib/services/synchronizer/LockHandler.ts",
+      "line": 162,
+      "column": 1
+    },
+    {
+      "functionName": "startAutoLockRefresh",
+      "generatedStart": 9022106,
+      "generatedEnd": 9023111,
+      "count": 1,
+      "source": "../lib/services/synchronizer/LockHandler.ts",
+      "line": 380,
+      "column": 8
+    },
+    {
+      "functionName": "stopAutoLockRefresh",
+      "generatedStart": 9023111,
+      "generatedEnd": 9023362,
+      "count": 1,
+      "source": "../lib/services/synchronizer/LockHandler.ts",
+      "line": 441,
+      "column": 8
+    },
+    {
+      "functionName": "acquireLock",
+      "generatedStart": 9023362,
+      "generatedEnd": 9023677,
+      "count": 1,
+      "source": "../lib/services/synchronizer/LockHandler.ts",
+      "line": 458,
+      "column": 8
+    },
+    {
+      "functionName": "releaseLock",
+      "generatedStart": 9023677,
+      "generatedEnd": 9023922,
+      "count": 1,
+      "source": "../lib/services/synchronizer/LockHandler.ts",
+      "line": 477,
+      "column": 8
+    },
+    {
+      "functionName": "checkCanSync",
+      "generatedStart": 9026079,
+      "generatedEnd": 9026584,
+      "count": 1,
+      "source": "../lib/services/synchronizer/MigrationHandler.ts",
+      "line": 70,
+      "column": 8
+    },
+    {
+      "functionName": "H3t",
+      "generatedStart": 9031414,
+      "generatedEnd": 9031553,
+      "count": 1,
+      "source": "../lib/services/synchronizer/ItemUploader.ts",
+      "line": 23,
+      "column": 1
+    },
+    {
+      "functionName": "serializeAndUploadItem",
+      "generatedStart": 9031639,
+      "generatedEnd": 9032108,
+      "count": 6,
+      "source": "../lib/services/synchronizer/ItemUploader.ts",
+      "line": 36,
+      "column": 8
+    },
+    {
+      "functionName": "preUploadItems",
+      "generatedStart": 9032108,
+      "generatedEnd": 9032797,
+      "count": 2,
+      "source": "../lib/services/synchronizer/ItemUploader.ts",
+      "line": 57,
+      "column": 8
+    },
+    {
+      "functionName": "C1e.default",
+      "generatedStart": 9058010,
+      "generatedEnd": 9059936,
+      "count": 2,
+      "source": "../lib/services/synchronizer/utils/handleConflictAction.ts",
+      "line": 13,
+      "column": 15
+    },
+    {
+      "functionName": "cN.default",
+      "generatedStart": 9061249,
+      "generatedEnd": 9062306,
+      "count": 2,
+      "source": "../lib/services/synchronizer/utils/syncDeleteStep.ts",
+      "line": 14,
+      "column": 15
+    },
+    {
+      "functionName": "A1e.default",
+      "generatedStart": 9064117,
+      "generatedEnd": 9064615,
+      "count": 3,
+      "source": "../lib/services/synchronizer/utils/checkDisabledSyncItemsNotification.ts",
+      "line": 9,
+      "column": 15
+    },
+    {
+      "functionName": "state",
+      "generatedStart": 9066900,
+      "generatedEnd": 9066927,
+      "count": 8,
+      "source": "../lib/Synchronizer.ts",
+      "line": 128,
+      "column": 8
+    },
+    {
+      "functionName": "api",
+      "generatedStart": 9066948,
+      "generatedEnd": 9066971,
+      "count": 18,
+      "source": "../lib/Synchronizer.ts",
+      "line": 136,
+      "column": 8
+    },
+    {
+      "functionName": "lockHandler",
+      "generatedStart": 9067089,
+      "generatedEnd": 9067211,
+      "count": 4,
+      "source": "../lib/Synchronizer.ts",
+      "line": 154,
+      "column": 8
+    },
+    {
+      "functionName": "lockClientType",
+      "generatedStart": 9067211,
+      "generatedEnd": 9067361,
+      "count": 2,
+      "source": "../lib/Synchronizer.ts",
+      "line": 160,
+      "column": 9
+    },
+    {
+      "functionName": "migrationHandler",
+      "generatedStart": 9067361,
+      "generatedEnd": 9067575,
+      "count": 1,
+      "source": "../lib/Synchronizer.ts",
+      "line": 166,
+      "column": 8
+    },
+    {
+      "functionName": "resourceService",
+      "generatedStart": 9067888,
+      "generatedEnd": 9067935,
+      "count": 3,
+      "source": "../lib/Synchronizer.ts",
+      "line": 193,
+      "column": 11
+    },
+    {
+      "functionName": "reportHasErrors",
+      "generatedStart": 9068062,
+      "generatedEnd": 9068122,
+      "count": 11,
+      "source": "../lib/Synchronizer.ts",
+      "line": 206,
+      "column": 16
+    },
+    {
+      "functionName": "completionTime",
+      "generatedStart": 9068129,
+      "generatedEnd": 9068227,
+      "count": 3,
+      "source": "../lib/Synchronizer.ts",
+      "line": 210,
+      "column": 16
+    },
+    {
+      "functionName": "reportToLines",
+      "generatedStart": 9068234,
+      "generatedEnd": 9069140,
+      "count": 9,
+      "source": "../lib/Synchronizer.ts",
+      "line": 216,
+      "column": 15
+    },
+    {
+      "functionName": "logSyncOperation",
+      "generatedStart": 9069140,
+      "generatedEnd": 9069971,
+      "count": 7,
+      "source": "../lib/Synchronizer.ts",
+      "line": 232,
+      "column": 8
+    },
+    {
+      "functionName": "logSyncSummary",
+      "generatedStart": 9069971,
+      "generatedEnd": 9070502,
+      "count": 4,
+      "source": "../lib/Synchronizer.ts",
+      "line": 276,
+      "column": 8
+    },
+    {
+      "functionName": "cancelling",
+      "generatedStart": 9070809,
+      "generatedEnd": 9070846,
+      "count": 14,
+      "source": "../lib/Synchronizer.ts",
+      "line": 324,
+      "column": 8
+    },
+    {
+      "functionName": "isFullSync",
+      "generatedStart": 9071151,
+      "generatedEnd": 9071250,
+      "count": 1,
+      "source": "../lib/Synchronizer.ts",
+      "line": 345,
+      "column": 8
+    },
+    {
+      "functionName": "setPpkIfNotExist",
+      "generatedStart": 9071620,
+      "generatedEnd": 9071786,
+      "count": 1,
+      "source": "../lib/Synchronizer.ts",
+      "line": 364,
+      "column": 9
+    },
+    {
+      "functionName": "apiCall",
+      "generatedStart": 9071786,
+      "generatedEnd": 9072100,
+      "count": 10,
+      "source": "../lib/Synchronizer.ts",
+      "line": 374,
+      "column": 9
+    },
+    {
+      "functionName": "start",
+      "generatedStart": 9072100,
+      "generatedEnd": 9087613,
+      "count": 39,
+      "source": "../lib/Synchronizer.ts",
+      "line": 399,
+      "column": 8
+    },
+    {
+      "functionName": "onProgress_",
+      "generatedStart": 9072352,
+      "generatedEnd": 9072364,
+      "count": 7,
+      "source": "../lib/Synchronizer.ts",
+      "line": 410,
+      "column": 63
+    },
+    {
+      "functionName": "",
+      "generatedStart": 9081724,
+      "generatedEnd": 9081737,
+      "count": 2,
+      "source": "../lib/Synchronizer.ts",
+      "line": 987,
+      "column": 30
+    },
+    {
+      "functionName": "",
+      "generatedStart": 9087116,
+      "generatedEnd": 9087135,
+      "count": 1,
+      "source": "../lib/Synchronizer.ts",
+      "line": 1290,
+      "column": 43
+    },
+    {
+      "functionName": "fsDriver",
+      "generatedStart": 10701435,
+      "generatedEnd": 10701538,
+      "count": 7,
+      "source": "../lib/file-api-driver-local.ts",
+      "line": 30,
+      "column": 8
+    },
+    {
+      "functionName": "metadataFromStat_",
+      "generatedStart": 10701674,
+      "generatedEnd": 10701768,
+      "count": 11,
+      "source": "../lib/file-api-driver-local.ts",
+      "line": 45,
+      "column": 9
+    },
+    {
+      "functionName": "metadataFromStats_",
+      "generatedStart": 10701768,
+      "generatedEnd": 10701881,
+      "count": 1,
+      "source": "../lib/file-api-driver-local.ts",
+      "line": 54,
+      "column": 9
+    },
+    {
+      "functionName": "delta",
+      "generatedStart": 10702001,
+      "generatedEnd": 10702214,
+      "count": 2,
+      "source": "../lib/file-api-driver-local.ts",
+      "line": 71,
+      "column": 8
+    },
+    {
+      "functionName": "get",
+      "generatedStart": 10702385,
+      "generatedEnd": 10702614,
+      "count": 8,
+      "source": "../lib/file-api-driver-local.ts",
+      "line": 100,
+      "column": 8
+    },
+    {
+      "functionName": "put",
+      "generatedStart": 10702744,
+      "generatedEnd": 10702934,
+      "count": 4,
+      "source": "../lib/file-api-driver-local.ts",
+      "line": 147,
+      "column": 8
+    },
+    {
+      "functionName": "id",
+      "generatedStart": 11721715,
+      "generatedEnd": 11721729,
+      "count": 9,
+      "source": "../lib/SyncTargetFilesystem.ts",
+      "line": 9,
+      "column": 15
+    },
+    {
+      "functionName": "targetName",
+      "generatedStart": 11721736,
+      "generatedEnd": 11721768,
+      "count": 9,
+      "source": "../lib/SyncTargetFilesystem.ts",
+      "line": 13,
+      "column": 15
+    },
+    {
+      "functionName": "isAuthenticated",
+      "generatedStart": 11721858,
+      "generatedEnd": 11721891,
+      "count": 3,
+      "source": "../lib/SyncTargetFilesystem.ts",
+      "line": 25,
+      "column": 8
+    },
+    {
+      "functionName": "syncPath_",
+      "generatedStart": 11721891,
+      "generatedEnd": 11721943,
+      "count": 28,
+      "source": "../lib/SyncTargetFilesystem.ts",
+      "line": 29,
+      "column": 9
+    },
+    {
+      "functionName": "",
+      "generatedStart": 11722003,
+      "generatedEnd": 11722023,
+      "count": 28,
+      "source": "../lib/SyncTargetFilesystem.ts",
+      "line": 36,
+      "column": 30
+    }
+  ],
+  "limitations": [
+    "Coverage proves execution in window, not caller/callee order",
+    "Profiler resets counters and can affect timing; not passive observation",
+    "Source-map names and locations are shipped metadata; lexical names can be minified"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+  "mapSha256": "b5100a1a560d7c71ef1dc23ad4a2efffe206f6908b82172dd55363074ce3b650",
+  "probes": [
+    {
+      "sourceMapSource": "../lib/Synchronizer.ts",
+      "sourceIndex": 843,
+      "sourceContentAvailable": false,
+      "generatedRange": {
+        "min": 9065619,
+        "max": 9087700
+      },
+      "selectedTopLevelDeclarations": [
+        {
+          "start": 9064622,
+          "end": 9087705
+        }
+      ],
+      "output": "Synchronizer.probe.js",
+      "sha256": "337d54412dd2352ff2cb8996e4b4b83c79fb11ebc76bc38fb26defcc7625f7c3",
+      "limitations": [
+        "Source-map attribution only; no original source contents shipped in map",
+        "Whole generated declarations overlapping mapped range selected",
+        "External dependency bindings may be unresolved; probes are never executed"
+      ]
+    },
+    {
+      "sourceMapSource": "../lib/file-api-driver-local.ts",
+      "sourceIndex": 1537,
+      "sourceContentAvailable": false,
+      "generatedRange": {
+        "min": 10701245,
+        "max": 10703383
+      },
+      "selectedTopLevelDeclarations": [
+        {
+          "start": 10701169,
+          "end": 10703388
+        }
+      ],
+      "output": "file-api-driver-local.probe.js",
+      "sha256": "ef6bef28f640363a09b5eb8a472b829475957f3ebd5c55f0a055df62d5f6a23e",
+      "limitations": [
+        "Source-map attribution only; no original source contents shipped in map",
+        "Whole generated declarations overlapping mapped range selected",
+        "External dependency bindings may be unresolved; probes are never executed"
+      ]
+    },
+    {
+      "sourceMapSource": "../lib/SyncTargetFilesystem.ts",
+      "sourceIndex": 1821,
+      "sourceContentAvailable": false,
+      "generatedRange": {
+        "min": 11721559,
+        "max": 11722260
+      },
+      "selectedTopLevelDeclarations": [
+        {
+          "start": 11721399,
+          "end": 11722265
+        }
+      ],
+      "output": "SyncTargetFilesystem.probe.js",
+      "sha256": "4af759b1bbc19557676b332c462920a4c109fa6ba18bb532ce84b372f25a0cd1",
+      "limitations": [
+        "Source-map attribution only; no original source contents shipped in map",
+        "Whole generated declarations overlapping mapped range selected",
+        "External dependency bindings may be unresolved; probes are never executed"
+      ]
+    }
+  ]
+}

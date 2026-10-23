@@ -1,0 +1,12 @@
+{
+  "observedAt": "2026-10-22T14:48:51.819Z",
+  "scenario": "permanent delete propagation",
+  "noteId": "f94a1174d0f7496b9ccd8fa86b1a2640",
+  "remoteFileAbsent": true,
+  "peerHttpStatus": 404,
+  "pass": true,
+  "limitations": [
+    "No explicit remote tombstone file observed; do not infer its presence",
+    "Delete record retention and long-offline client behavior not tested"
+  ]
+}
