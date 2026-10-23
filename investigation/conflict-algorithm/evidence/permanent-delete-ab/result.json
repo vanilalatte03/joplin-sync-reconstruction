@@ -1,0 +1,311 @@
+{
+  "caseId": "permanent-delete-ab",
+  "observedAt": "2026-10-23T05:56:34.440Z",
+  "configuration": {
+    "caseId": "permanent-delete-ab",
+    "deletion": "permanent",
+    "order": [
+      "a",
+      "b"
+    ]
+  },
+  "noteId": "6c1c0a9b03523730a25acf7c2f968abc",
+  "baseUpdatedTime": 1792731383751,
+  "before": {
+    "a": {
+      "canonical": {
+        "id": "6c1c0a9b03523730a25acf7c2f968abc",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "permanent-delete-ab",
+        "body": "BASE",
+        "updated_time": 1792731383751,
+        "user_updated_time": 1792731383751,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731383751,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734983948,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "6c1c0a9b03523730a25acf7c2f968abc",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "permanent-delete-ab",
+        "body": "BASE",
+        "updated_time": 1792731383751,
+        "user_updated_time": 1792731383751,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731383751,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734983948,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734983948.4287,
+      "properties": {
+        "id": "6c1c0a9b03523730a25acf7c2f968abc",
+        "updated_time": "2026-10-23T04:56:23.751Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:56:23.751Z",
+        "deleted_time": "0"
+      },
+      "text": "permanent-delete-ab\n\nBASE\n\nid: 6c1c0a9b03523730a25acf7c2f968abc\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:56:23.754Z\nupdated_time: 2026-10-23T04:56:23.751Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734983754\nuser_created_time: 2026-10-23T05:56:23.754Z\nuser_updated_time: 2026-10-23T04:56:23.751Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "afterEdits": {
+    "a": {
+      "canonical": null,
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731383751,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734983948,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "6c1c0a9b03523730a25acf7c2f968abc",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "permanent-delete-ab",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734993383,
+        "user_updated_time": 1792734993383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731383751,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734983948,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734983948.4287,
+      "properties": {
+        "id": "6c1c0a9b03523730a25acf7c2f968abc",
+        "updated_time": "2026-10-23T04:56:23.751Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:56:23.751Z",
+        "deleted_time": "0"
+      },
+      "text": "permanent-delete-ab\n\nBASE\n\nid: 6c1c0a9b03523730a25acf7c2f968abc\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:56:23.754Z\nupdated_time: 2026-10-23T04:56:23.751Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734983754\nuser_created_time: 2026-10-23T05:56:23.754Z\nuser_updated_time: 2026-10-23T04:56:23.751Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "inputs": {
+    "deletion": "permanent",
+    "b": {
+      "id": "6c1c0a9b03523730a25acf7c2f968abc",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "permanent-delete-ab",
+      "body": "B_OFFLINE_EDIT",
+      "created_time": 1792734983754,
+      "updated_time": 1792734993383,
+      "is_conflict": 0,
+      "latitude": "0.00000000",
+      "longitude": "0.00000000",
+      "altitude": "0.0000",
+      "author": "",
+      "source_url": "",
+      "is_todo": 0,
+      "todo_due": 0,
+      "todo_completed": 0,
+      "source": "joplin-desktop",
+      "source_application": "net.cozic.joplin-desktop",
+      "application_data": "",
+      "order": 1792734983754,
+      "user_created_time": 1792734983754,
+      "user_updated_time": 1792734993383,
+      "encryption_cipher_text": "",
+      "encryption_applied": 0,
+      "markup_language": 1,
+      "is_shared": 0,
+      "share_id": "",
+      "conflict_original_id": "",
+      "master_key_id": "",
+      "user_data": "",
+      "deleted_time": 0,
+      "is_locked": 0,
+      "extracted_resource_ids": "",
+      "type_": 1
+    }
+  },
+  "remoteBeforeSecond": {
+    "exists": false
+  },
+  "beforeSecond": {
+    "a": {
+      "canonical": null,
+      "conflicts": []
+    },
+    "b": {
+      "canonical": {
+        "id": "6c1c0a9b03523730a25acf7c2f968abc",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "permanent-delete-ab",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734993383,
+        "user_updated_time": 1792734993383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731383751,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734983948,
+        "base_body": "",
+        "base_title": ""
+      }
+    }
+  },
+  "afterSecond": {
+    "a": {
+      "canonical": null,
+      "conflicts": []
+    },
+    "b": {
+      "canonical": null,
+      "conflicts": [
+        {
+          "id": "8d19cce71eb44b0aa3131c2c04ab2c1c",
+          "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+          "title": "permanent-delete-ab",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734993383,
+          "user_updated_time": 1792734993383,
+          "is_conflict": 1,
+          "conflict_original_id": "6c1c0a9b03523730a25acf7c2f968abc",
+          "deleted_time": 0
+        }
+      ]
+    },
+    "remote": {
+      "exists": false
+    }
+  },
+  "final": {
+    "a": {
+      "canonical": null,
+      "conflicts": []
+    },
+    "b": {
+      "canonical": null,
+      "conflicts": [
+        {
+          "id": "8d19cce71eb44b0aa3131c2c04ab2c1c",
+          "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+          "title": "permanent-delete-ab",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734993383,
+          "user_updated_time": 1792734993383,
+          "is_conflict": 1,
+          "conflict_original_id": "6c1c0a9b03523730a25acf7c2f968abc",
+          "deleted_time": 0
+        }
+      ]
+    },
+    "remote": {
+      "exists": false
+    }
+  },
+  "trace": [
+    {
+      "caseId": "permanent-delete-ab",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "remoteMissing",
+      "observedAt": "2026-10-23T05:56:33.871Z",
+      "captured": {
+        "local": {
+          "id": "6c1c0a9b03523730a25acf7c2f968abc",
+          "title": "permanent-delete-ab",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734993383,
+          "user_updated_time": 1792734993383,
+          "sync_time": 1792731383751,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": false,
+        "hasSyncTime": true
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 63771
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "permanent-delete-ab",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:56:33.901Z",
+      "captured": {
+        "action": "noteConflict",
+        "local": {
+          "id": "6c1c0a9b03523730a25acf7c2f968abc",
+          "title": "permanent-delete-ab",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734993383,
+          "user_updated_time": 1792734993383,
+          "sync_time": 1792731383751,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": null,
+        "remoteExists": false,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "caseId": "natural-identical",
+  "observedAt": "2026-10-23T05:58:29.621Z",
+  "configuration": {
+    "caseId": "natural-identical",
+    "natural": true,
+    "edits": {
+      "aBody": "SAME",
+      "bBody": "SAME"
+    }
+  },
+  "noteId": "40f8c33559f49d6695f6907d5598e5aa",
+  "baseUpdatedTime": 1792735084924,
+  "before": {
+    "a": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "BASE",
+        "updated_time": 1792735084924,
+        "user_updated_time": 1792735084924,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735084924,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735085134,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "BASE",
+        "updated_time": 1792735084924,
+        "user_updated_time": 1792735084924,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735084924,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735085134,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735085133.7456,
+      "properties": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "updated_time": "2026-10-23T05:58:04.924Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:58:04.924Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-identical\n\nBASE\n\nid: 40f8c33559f49d6695f6907d5598e5aa\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:04.924Z\nupdated_time: 2026-10-23T05:58:04.924Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735084924\nuser_created_time: 2026-10-23T05:58:04.924Z\nuser_updated_time: 2026-10-23T05:58:04.924Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "afterEdits": {
+    "a": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096386,
+        "user_updated_time": 1792735096386,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735084924,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735085134,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096397,
+        "user_updated_time": 1792735096397,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735084924,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735085134,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735085133.7456,
+      "properties": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "updated_time": "2026-10-23T05:58:04.924Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:58:04.924Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-identical\n\nBASE\n\nid: 40f8c33559f49d6695f6907d5598e5aa\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:04.924Z\nupdated_time: 2026-10-23T05:58:04.924Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735084924\nuser_created_time: 2026-10-23T05:58:04.924Z\nuser_updated_time: 2026-10-23T05:58:04.924Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "inputs": {
+    "a": {
+      "id": "40f8c33559f49d6695f6907d5598e5aa",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-identical",
+      "body": "SAME",
+      "created_time": 1792735084924,
+      "updated_time": 1792735096386,
+      "is_conflict": 0,
+      "latitude": "0.00000000",
+      "longitude": "0.00000000",
+      "altitude": "0.0000",
+      "author": "",
+      "source_url": "",
+      "is_todo": 0,
+      "todo_due": 0,
+      "todo_completed": 0,
+      "source": "joplin-desktop",
+      "source_application": "net.cozic.joplin-desktop",
+      "application_data": "",
+      "order": 1792735084924,
+      "user_created_time": 1792735084924,
+      "user_updated_time": 1792735096386,
+      "encryption_cipher_text": "",
+      "encryption_applied": 0,
+      "markup_language": 1,
+      "is_shared": 0,
+      "share_id": "",
+      "conflict_original_id": "",
+      "master_key_id": "",
+      "user_data": "",
+      "deleted_time": 0,
+      "is_locked": 0,
+      "extracted_resource_ids": "",
+      "type_": 1
+    },
+    "b": {
+      "id": "40f8c33559f49d6695f6907d5598e5aa",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-identical",
+      "body": "SAME",
+      "created_time": 1792735084924,
+      "updated_time": 1792735096397,
+      "is_conflict": 0,
+      "latitude": "0.00000000",
+      "longitude": "0.00000000",
+      "altitude": "0.0000",
+      "author": "",
+      "source_url": "",
+      "is_todo": 0,
+      "todo_due": 0,
+      "todo_completed": 0,
+      "source": "joplin-desktop",
+      "source_application": "net.cozic.joplin-desktop",
+      "application_data": "",
+      "order": 1792735084924,
+      "user_created_time": 1792735084924,
+      "user_updated_time": 1792735096397,
+      "encryption_cipher_text": "",
+      "encryption_applied": 0,
+      "markup_language": 1,
+      "is_shared": 0,
+      "share_id": "",
+      "conflict_original_id": "",
+      "master_key_id": "",
+      "user_data": "",
+      "deleted_time": 0,
+      "is_locked": 0,
+      "extracted_resource_ids": "",
+      "type_": 1
+    }
+  },
+  "remoteBeforeSecond": {
+    "exists": true,
+    "mtimeMs": 1792735096597.1428,
+    "properties": {
+      "id": "40f8c33559f49d6695f6907d5598e5aa",
+      "updated_time": "2026-10-23T05:58:16.386Z",
+      "is_conflict": "0",
+      "user_updated_time": "2026-10-23T05:58:16.386Z",
+      "deleted_time": "0"
+    },
+    "text": "natural-identical\n\nSAME\n\nid: 40f8c33559f49d6695f6907d5598e5aa\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:04.924Z\nupdated_time: 2026-10-23T05:58:16.386Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735084924\nuser_created_time: 2026-10-23T05:58:04.924Z\nuser_updated_time: 2026-10-23T05:58:16.386Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+  },
+  "beforeSecond": {
+    "a": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096386,
+        "user_updated_time": 1792735096386,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735096386,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735096597,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096397,
+        "user_updated_time": 1792735096397,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735084924,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735085134,
+        "base_body": "",
+        "base_title": ""
+      }
+    }
+  },
+  "afterSecond": {
+    "a": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096386,
+        "user_updated_time": 1792735096386,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735096386,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735096597,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096386,
+        "user_updated_time": 1792735096386,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735096386,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735096597,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735096597.1428,
+      "properties": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "updated_time": "2026-10-23T05:58:16.386Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:58:16.386Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-identical\n\nSAME\n\nid: 40f8c33559f49d6695f6907d5598e5aa\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:04.924Z\nupdated_time: 2026-10-23T05:58:16.386Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735084924\nuser_created_time: 2026-10-23T05:58:04.924Z\nuser_updated_time: 2026-10-23T05:58:16.386Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "final": {
+    "a": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096386,
+        "user_updated_time": 1792735096386,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735096386,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735096597,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-identical",
+        "body": "SAME",
+        "updated_time": 1792735096386,
+        "user_updated_time": 1792735096386,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735096386,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735096597,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735096597.1428,
+      "properties": {
+        "id": "40f8c33559f49d6695f6907d5598e5aa",
+        "updated_time": "2026-10-23T05:58:16.386Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:58:16.386Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-identical\n\nSAME\n\nid: 40f8c33559f49d6695f6907d5598e5aa\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:04.924Z\nupdated_time: 2026-10-23T05:58:16.386Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735084924\nuser_created_time: 2026-10-23T05:58:04.924Z\nuser_updated_time: 2026-10-23T05:58:16.386Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "trace": [
+    {
+      "caseId": "natural-identical",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:58:16.592Z",
+      "captured": {
+        "local": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096386,
+          "user_updated_time": 1792735096386,
+          "sync_time": 1792735084924,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "BASE",
+          "updated_time": 1792735084924,
+          "user_updated_time": 1792735084924,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": false,
+        "localGreaterThanRemote": true,
+        "remoteFileStat": {
+          "path": "40f8c33559f49d6695f6907d5598e5aa.md",
+          "updated_time": 1792735085134,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-identical",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:58:16.622Z",
+      "captured": {
+        "action": "updateRemote",
+        "local": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096386,
+          "user_updated_time": 1792735096386,
+          "sync_time": 1792735084924,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "BASE",
+          "updated_time": 1792735084924,
+          "user_updated_time": 1792735084924,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-identical",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:58:28.058Z",
+      "captured": {
+        "local": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096397,
+          "user_updated_time": 1792735096397,
+          "sync_time": 1792735084924,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096386,
+          "user_updated_time": 1792735096386,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": true,
+        "localGreaterThanRemote": true,
+        "remoteFileStat": {
+          "path": "40f8c33559f49d6695f6907d5598e5aa.md",
+          "updated_time": 1792735096597,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-identical",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:58:28.092Z",
+      "captured": {
+        "action": "noteConflict",
+        "local": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096397,
+          "user_updated_time": 1792735096397,
+          "sync_time": 1792735084924,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096386,
+          "user_updated_time": 1792735096386,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-identical",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "contentFunction",
+      "observedAt": "2026-10-23T05:58:28.119Z",
+      "captured": {
+        "local": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096397,
+          "user_updated_time": 1792735096397,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "40f8c33559f49d6695f6907d5598e5aa",
+          "title": "natural-identical",
+          "body": "SAME",
+          "updated_time": 1792735096386,
+          "user_updated_time": 1792735096386,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "sameTitle": true,
+        "sameBody": true,
+        "hasCiphertext": false,
+        "predicateExpression": false
+      },
+      "stack": [
+        {
+          "functionName": "mustHandleConflict",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 2788,
+            "columnNumber": 1487
+          }
+        },
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44863
+          }
+        }
+      ]
+    }
+  ]
+}

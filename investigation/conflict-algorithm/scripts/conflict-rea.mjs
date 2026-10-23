@@ -1,0 +1,13 @@
+import {Client} from '../work/tools/node_modules/@modelcontextprotocol/sdk/dist/esm/client/index.js';import {StdioClientTransport} from '../work/tools/node_modules/@modelcontextprotocol/sdk/dist/esm/client/stdio.js';import fs from 'node:fs';import path from 'node:path';
+const raw=path.resolve('work/conflict-rea');fs.mkdirSync(raw,{recursive:true});const client=new Client({name:'conflict-algorithm-investigation',version:'1'});await client.connect(new StdioClientTransport({command:process.execPath,args:[path.resolve('work/tools/node_modules/rea-agents/scripts/rea.mjs'),'mcp'],stderr:'pipe'}));
+const records=[];const call=async(name,args,file)=>{const r=await client.callTool({name,arguments:args},undefined,{timeout:180000});fs.writeFileSync(path.join(raw,file+'.json'),JSON.stringify(r,null,2));if(r.isError)throw Error(r.content[0].text);const e=r.structuredContent||JSON.parse(r.content[0].text);records.push({file:file+'.json',operation:name,evidenceId:e.evidence_id,normalized:e.normalized_result});console.log(name+' saved '+file);return e};
+try{
+ const files=fs.readdirSync('work/conflict-static').filter(n=>n.endsWith('.probe.js'));
+ const analysis=await call('analyze_javascript_application',{input_path:path.resolve('work/conflict-static'),source_paths:files,detail:'summary',analysis_timeout_ms:60000},'static-analysis');const application={kind:'retained-evidence',evidence_id:analysis.normalized_result.parent_evidence_id};
+ await call('trace_application_feature',{application,seed:{kind:'module',value:'handleConflictAction.probe.js',match:'exact'},direction:'outgoing'},'handler-module-trace');
+ for(const name of ['mustHandleConflict','createConflictNote','sync_time'])await call('trace_javascript_semantics',{application,query:{seed:{kind:'property',name},direction:name==='sync_time'?'forward-influence':'callers'}},'semantic-'+name);
+ await call('export_evidence_bundle',{path:path.join(raw,'evidence-bundle.json'),overwrite:true},'export');
+ const summary=records.map(r=>({file:r.file,operation:r.operation,evidenceId:r.evidenceId,status:r.normalized?.status,seed:r.normalized?.seed,summary:r.normalized?.summary,coverage:r.normalized?.coverage,sourceCoverage:r.normalized?.source_coverage,limitations:r.normalized?.limitations,foundNodes:r.normalized?.nodes?.length,foundRelations:r.normalized?.relations?.length,parentEvidenceId:r.normalized?.parent_evidence_id}));
+ const clean=JSON.stringify(summary,null,2).replaceAll(path.resolve('work/conflict-static').replaceAll('\\','\\\\'),'<STATIC_PROBES>').replaceAll(path.resolve('work/conflict-static'),'<STATIC_PROBES>');
+ fs.writeFileSync('evidence/rea-findings.json',clean);console.log('REA summaries exported.');
+}finally{await client.close()}

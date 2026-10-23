@@ -1,0 +1,119 @@
+{
+  "joplinVersion": "3.7.21",
+  "reaVersion": "6.7.0",
+  "bundleSha256": "7123656e59c7d2585d84176a793ab1f4b06c6db4c2981bd7c14d06104aa28a20",
+  "mapSha256": "b5100a1a560d7c71ef1dc23ad4a2efffe206f6908b82172dd55363074ce3b650",
+  "sourceContentsAvailable": false,
+  "probes": [
+    {
+      "source": "../lib/Synchronizer.ts",
+      "sourceIndex": 843,
+      "generatedDeclaration": {
+        "start": 9064622,
+        "end": 9087705
+      },
+      "mappedRange": {
+        "min": 9065619,
+        "max": 9087700
+      },
+      "probe": "Synchronizer.probe.js",
+      "probeSha256": "337d54412dd2352ff2cb8996e4b4b83c79fb11ebc76bc38fb26defcc7625f7c3",
+      "bytes": 23088
+    },
+    {
+      "source": "../lib/services/synchronizer/utils/handleConflictAction.ts",
+      "sourceIndex": 839,
+      "generatedDeclaration": {
+        "start": 9057694,
+        "end": 9059938
+      },
+      "mappedRange": {
+        "min": 9057854,
+        "max": 9059935
+      },
+      "probe": "handleConflictAction.probe.js",
+      "probeSha256": "20c82d9895360246c01574805dea8340ce1a0a24bc5b2ca83aa0500d55ebf682",
+      "bytes": 2249
+    },
+    {
+      "source": "../lib/services/synchronizer/utils/syncDeleteStep.ts",
+      "sourceIndex": 841,
+      "generatedDeclaration": {
+        "start": 9060087,
+        "end": 9063819
+      },
+      "mappedRange": {
+        "min": 9061086,
+        "max": 9063799
+      },
+      "probe": "syncDeleteStep.probe.js",
+      "probeSha256": "eef3b5504a3520fd7a24b8439ef9583af2fad2fa2c1143fecf9f3d9d3d9baff6",
+      "bytes": 3737
+    },
+    {
+      "source": "../lib/services/synchronizer/ItemUploader.ts",
+      "sourceIndex": 834,
+      "generatedDeclaration": {
+        "start": 9031120,
+        "end": 9032816
+      },
+      "mappedRange": {
+        "min": 9031280,
+        "max": 9032811
+      },
+      "probe": "ItemUploader.probe.js",
+      "probeSha256": "76a34675dc3debd036138a9ef8a93f26f2089c7928b91712b8438a086233ba34",
+      "bytes": 1701
+    },
+    {
+      "source": "../lib/models/BaseItem.ts",
+      "sourceIndex": 640,
+      "generatedDeclaration": {
+        "start": 8278322,
+        "end": 8297667
+      },
+      "mappedRange": {
+        "min": 8278480,
+        "max": 8297663
+      },
+      "probe": "BaseItem.probe.js",
+      "probeSha256": "90973b782371f4cbbdc90451567c61d76362ea3fa8b3e7c9a78016f633b53795",
+      "bytes": 19350
+    },
+    {
+      "source": "../lib/models/Note.ts",
+      "sourceIndex": 731,
+      "generatedDeclaration": {
+        "start": 8569372,
+        "end": 8593428
+      },
+      "mappedRange": {
+        "min": 8569530,
+        "max": 8593424
+      },
+      "probe": "Note.probe.js",
+      "probeSha256": "6681f04752bfbda253a791c93d88403fe9b2217acdb68a32d6beafd9239dd0d7",
+      "bytes": 24061
+    },
+    {
+      "source": "../lib/models/ConflictNoteState.ts",
+      "sourceIndex": 838,
+      "generatedDeclaration": {
+        "start": 9056767,
+        "end": 9057689
+      },
+      "mappedRange": {
+        "min": 9056927,
+        "max": 9057684
+      },
+      "probe": "ConflictNoteState.probe.js",
+      "probeSha256": "31846076ec1f2edfedca2ec4d6f60ceabe6f4ccda6d67c69626aa460ba0f3ab1",
+      "bytes": 927
+    }
+  ],
+  "limitations": [
+    "Generated declarations selected via shipped source-map; never executed",
+    "Pretty files are formatting aids; generated ranges refer to original bundle",
+    "External minified bindings remain unresolved until verified"
+  ]
+}

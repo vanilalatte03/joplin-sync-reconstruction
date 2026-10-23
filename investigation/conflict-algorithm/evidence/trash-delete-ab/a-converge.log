@@ -1,0 +1,30 @@
+2026-10-23 14:56:02: Preparing scheduled sync
+2026-10-23 14:56:02: Starting scheduled sync
+2026-10-23 14:56:02: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1792734962341]
+2026-10-23 14:56:02: Synchronizer: Indexing resources...
+2026-10-23 14:56:02: ResourceService::indexNoteResources: Start
+2026-10-23 14:56:02: Performance: ResourceService/indexNoteResources: Start at 377.76s
+2026-10-23 14:56:02: Performance: SearchEngine/syncTables: Start at 377.83s
+2026-10-23 14:56:02: SearchEngine: Updating FTS table...
+2026-10-23 14:56:02: Performance: ResourceService/indexNoteResources: End at 377.87s (took 109.9ms)
+2026-10-23 14:56:02: ResourceService::indexNoteResources: Completed
+2026-10-23 14:56:02: Performance: ShareService/maintenance: Start at 377.87s
+2026-10-23 14:56:02: Performance: ShareService/maintenance: End at 377.87s (took 0.1ms)
+2026-10-23 14:56:02: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:56:02: Synchronizer: Sync target is already setup - checking it...
+2026-10-23 14:56:02: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:56:02: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-10-23 14:56:02: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-10-23 14:56:02: Synchronizer: BasicDelta (enhanced): Report: {"timestamp":1792734952624,"older":0,"newer":0,"equal":17}
+2026-10-23 14:56:02: Synchronizer: supportsDeltaWithItems =  <false>
+2026-10-23 14:56:02: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-10-23 14:56:02: Synchronizer: Sync: finished: Synchronisation finished [1792734962341]
+2026-10-23 14:56:02: Synchronizer: Operations completed:
+2026-10-23 14:56:02: Synchronizer: fetchingTotal: -
+2026-10-23 14:56:02: Synchronizer: Total folders: 2
+2026-10-23 14:56:02: Synchronizer: Total notes: 16
+2026-10-23 14:56:02: Synchronizer: Total resources: 0
+2026-10-23 14:56:02: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-10-23 14:56:02: Updating items_normalized from {"updated_time":0,"id":""}
+2026-10-23 14:56:02: SearchEngine: Updated FTS table in 18ms. Inserted: 0. Deleted: 0
+2026-10-23 14:56:02: Performance: SearchEngine/syncTables: End at 377.95s (took 126ms)

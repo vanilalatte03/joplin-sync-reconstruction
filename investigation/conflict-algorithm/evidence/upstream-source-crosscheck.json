@@ -1,0 +1,95 @@
+{
+  "observedAt": "2026-10-23T06:02:10.555Z",
+  "purpose": "Post-experiment verification only; primary discovery used shipped bundle, REA and actual Desktop runtime",
+  "files": [
+    {
+      "file": "packages/lib/Synchronizer.ts",
+      "url": "https://raw.githubusercontent.com/laurent22/joplin/v3.7.21/packages/lib/Synchronizer.ts",
+      "sha256": "c64d6a4739df0a59695d40f0e5f769fec54d4362ec134cd7bfe146f71a503771",
+      "locations": [
+        {
+          "needle": "remoteContent.updated_time > local.sync_time",
+          "found": true,
+          "line": 709
+        },
+        {
+          "needle": "remote has been deleted, but local has changes",
+          "found": true,
+          "line": 677
+        }
+      ]
+    },
+    {
+      "file": "packages/lib/models/Note.ts",
+      "url": "https://raw.githubusercontent.com/laurent22/joplin/v3.7.21/packages/lib/models/Note.ts",
+      "sha256": "0a2116598b353ce97b95e31fc300180cfeac934fa265680d08ea86d7a4463152",
+      "locations": [
+        {
+          "needle": "static mustHandleConflict",
+          "found": true,
+          "line": 1123
+        },
+        {
+          "needle": "static async createConflictNote",
+          "found": true,
+          "line": 1323
+        }
+      ]
+    },
+    {
+      "file": "packages/lib/models/BaseItem.ts",
+      "url": "https://raw.githubusercontent.com/laurent22/joplin/v3.7.21/packages/lib/models/BaseItem.ts",
+      "sha256": "e46663a7215aad86052e1d90707a1dca4cb9b2b50e5ba89887f87fd50b2a8eaa",
+      "locations": [
+        {
+          "needle": "s.sync_time < items.updated_time OR force_sync = 1",
+          "found": true,
+          "line": 802
+        },
+        {
+          "needle": "remoteItemSyncTime",
+          "found": true,
+          "line": 1070
+        }
+      ]
+    },
+    {
+      "file": "packages/lib/services/synchronizer/utils/handleConflictAction.ts",
+      "url": "https://raw.githubusercontent.com/laurent22/joplin/v3.7.21/packages/lib/services/synchronizer/utils/handleConflictAction.ts",
+      "sha256": "c9be318e5412773d16ce704d3dfcefc377acf530b282ba57da50d73c4ccd881e",
+      "locations": [
+        {
+          "needle": "Note.mustHandleConflict(local, remoteContent)",
+          "found": true,
+          "line": 56
+        },
+        {
+          "needle": "Note.createConflictNote(local",
+          "found": true,
+          "line": 65
+        },
+        {
+          "needle": "if (remoteExists)",
+          "found": true,
+          "line": 30
+        }
+      ]
+    },
+    {
+      "file": "packages/lib/services/synchronizer/utils/syncDeleteStep.ts",
+      "url": "https://raw.githubusercontent.com/laurent22/joplin/v3.7.21/packages/lib/services/synchronizer/utils/syncDeleteStep.ts",
+      "sha256": "d45f15c2f0e2cb7b6e72b6b24541eed01dc7349eaf2395bfc57cc255453a2be4",
+      "locations": [
+        {
+          "needle": "await apiCall('delete'",
+          "found": true,
+          "line": 37
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Tag reference was fetched directly after experiments and hashed; web-reader cached line displays differed, so citations use direct-download snapshots or generated artifact positions",
+    "The loaded generated bundle independently matched the analyzed artifact SHA-256; no whole-build equivalence from source tag is claimed"
+  ]
+}

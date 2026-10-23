@@ -1,0 +1,419 @@
+{
+  "caseId": "local-updated-equals-sync",
+  "observedAt": "2026-10-23T05:52:53.813Z",
+  "configuration": {
+    "caseId": "local-updated-equals-sync",
+    "edits": {
+      "aTime": 10000,
+      "bTime": 0
+    }
+  },
+  "noteId": "d929efcc599df9cdabd82f85204eb57a",
+  "baseUpdatedTime": 1792731169774,
+  "before": {
+    "a": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "BASE",
+        "updated_time": 1792731169774,
+        "user_updated_time": 1792731169774,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731169774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734769974,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "BASE",
+        "updated_time": 1792731169774,
+        "user_updated_time": 1792731169774,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731169774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734769974,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734769973.8125,
+      "properties": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "updated_time": "2026-10-23T04:52:49.774Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:52:49.774Z",
+        "deleted_time": "0"
+      },
+      "text": "local-updated-equals-sync\n\nBASE\n\nid: d929efcc599df9cdabd82f85204eb57a\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:52:49.778Z\nupdated_time: 2026-10-23T04:52:49.774Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734769778\nuser_created_time: 2026-10-23T05:52:49.778Z\nuser_updated_time: 2026-10-23T04:52:49.774Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "afterEdits": {
+    "a": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "A_EDIT",
+        "updated_time": 1792731179774,
+        "user_updated_time": 1792734771443,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731169774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734769974,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "B_EDIT",
+        "updated_time": 1792731169774,
+        "user_updated_time": 1792734771470,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731169774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734769974,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734769973.8125,
+      "properties": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "updated_time": "2026-10-23T04:52:49.774Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:52:49.774Z",
+        "deleted_time": "0"
+      },
+      "text": "local-updated-equals-sync\n\nBASE\n\nid: d929efcc599df9cdabd82f85204eb57a\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:52:49.778Z\nupdated_time: 2026-10-23T04:52:49.774Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734769778\nuser_created_time: 2026-10-23T05:52:49.778Z\nuser_updated_time: 2026-10-23T04:52:49.774Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "inputs": {
+    "a": {
+      "id": "d929efcc599df9cdabd82f85204eb57a",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-updated-equals-sync",
+      "body": "A_EDIT",
+      "updated_time": 1792731179774,
+      "user_updated_time": 1792734771443,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0,
+      "type_": 1
+    },
+    "b": {
+      "id": "d929efcc599df9cdabd82f85204eb57a",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-updated-equals-sync",
+      "body": "B_EDIT",
+      "updated_time": 1792731169774,
+      "user_updated_time": 1792734771470,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0,
+      "type_": 1
+    }
+  },
+  "remoteBeforeSecond": {
+    "exists": true,
+    "mtimeMs": 1792734771675.0415,
+    "properties": {
+      "id": "d929efcc599df9cdabd82f85204eb57a",
+      "updated_time": "2026-10-23T04:52:59.774Z",
+      "is_conflict": "0",
+      "user_updated_time": "2026-10-23T05:52:51.443Z",
+      "deleted_time": "0"
+    },
+    "text": "local-updated-equals-sync\n\nA_EDIT\n\nid: d929efcc599df9cdabd82f85204eb57a\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:52:49.778Z\nupdated_time: 2026-10-23T04:52:59.774Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734769778\nuser_created_time: 2026-10-23T05:52:49.778Z\nuser_updated_time: 2026-10-23T05:52:51.443Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+  },
+  "beforeSecond": {
+    "a": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "A_EDIT",
+        "updated_time": 1792731179774,
+        "user_updated_time": 1792734771443,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731179774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734771675,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "B_EDIT",
+        "updated_time": 1792731169774,
+        "user_updated_time": 1792734771470,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731169774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734769974,
+        "base_body": "",
+        "base_title": ""
+      }
+    }
+  },
+  "afterSecond": {
+    "a": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "A_EDIT",
+        "updated_time": 1792731179774,
+        "user_updated_time": 1792734771443,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731179774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734771675,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "A_EDIT",
+        "updated_time": 1792731179774,
+        "user_updated_time": 1792734771443,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731179774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734771675,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734771675.0415,
+      "properties": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "updated_time": "2026-10-23T04:52:59.774Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:52:51.443Z",
+        "deleted_time": "0"
+      },
+      "text": "local-updated-equals-sync\n\nA_EDIT\n\nid: d929efcc599df9cdabd82f85204eb57a\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:52:49.778Z\nupdated_time: 2026-10-23T04:52:59.774Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734769778\nuser_created_time: 2026-10-23T05:52:49.778Z\nuser_updated_time: 2026-10-23T05:52:51.443Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "final": {
+    "a": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "A_EDIT",
+        "updated_time": 1792731179774,
+        "user_updated_time": 1792734771443,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731179774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734771675,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-updated-equals-sync",
+        "body": "A_EDIT",
+        "updated_time": 1792731179774,
+        "user_updated_time": 1792734771443,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731179774,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734771675,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734771675.0415,
+      "properties": {
+        "id": "d929efcc599df9cdabd82f85204eb57a",
+        "updated_time": "2026-10-23T04:52:59.774Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:52:51.443Z",
+        "deleted_time": "0"
+      },
+      "text": "local-updated-equals-sync\n\nA_EDIT\n\nid: d929efcc599df9cdabd82f85204eb57a\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:52:49.778Z\nupdated_time: 2026-10-23T04:52:59.774Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734769778\nuser_created_time: 2026-10-23T05:52:49.778Z\nuser_updated_time: 2026-10-23T05:52:51.443Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "trace": [
+    {
+      "caseId": "local-updated-equals-sync",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:52:51.669Z",
+      "captured": {
+        "local": {
+          "id": "d929efcc599df9cdabd82f85204eb57a",
+          "title": "local-updated-equals-sync",
+          "body": "A_EDIT",
+          "updated_time": 1792731179774,
+          "user_updated_time": 1792734771443,
+          "sync_time": 1792731169774,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "d929efcc599df9cdabd82f85204eb57a",
+          "title": "local-updated-equals-sync",
+          "body": "BASE",
+          "updated_time": 1792731169774,
+          "user_updated_time": 1792731169774,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": false,
+        "localGreaterThanRemote": true,
+        "remoteFileStat": {
+          "path": "d929efcc599df9cdabd82f85204eb57a.md",
+          "updated_time": 1792734769974,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "local-updated-equals-sync",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:52:51.699Z",
+      "captured": {
+        "action": "updateRemote",
+        "local": {
+          "id": "d929efcc599df9cdabd82f85204eb57a",
+          "title": "local-updated-equals-sync",
+          "body": "A_EDIT",
+          "updated_time": 1792731179774,
+          "user_updated_time": 1792734771443,
+          "sync_time": 1792731169774,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "d929efcc599df9cdabd82f85204eb57a",
+          "title": "local-updated-equals-sync",
+          "body": "BASE",
+          "updated_time": 1792731169774,
+          "user_updated_time": 1792731169774,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    }
+  ]
+}

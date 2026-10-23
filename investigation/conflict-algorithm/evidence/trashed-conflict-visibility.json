@@ -1,0 +1,16 @@
+[
+  {
+    "caseId": "trash-delete-ba",
+    "conflictNoteId": "8b133fed8ac84454a244fd2faa3183dd",
+    "isConflict": 1,
+    "deletedTime": 1792734973377,
+    "inOrdinaryConflictedNotesSelector": false
+  },
+  {
+    "caseId": "natural-trash-ba",
+    "conflictNoteId": "c847b512875f42669d924d158cfd532d",
+    "isConflict": 1,
+    "deletedTime": 1792735147382,
+    "inOrdinaryConflictedNotesSelector": false
+  }
+]

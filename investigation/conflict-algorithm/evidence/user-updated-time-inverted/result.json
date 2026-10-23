@@ -1,0 +1,592 @@
+{
+  "caseId": "user-updated-time-inverted",
+  "observedAt": "2026-10-23T05:55:04.632Z",
+  "configuration": {
+    "caseId": "user-updated-time-inverted",
+    "edits": {
+      "aUser": 1792634751343,
+      "bUser": 1792834751343
+    }
+  },
+  "noteId": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+  "baseUpdatedTime": 1792731284091,
+  "before": {
+    "a": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "BASE",
+        "updated_time": 1792731284091,
+        "user_updated_time": 1792731284091,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731284091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734884390,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "BASE",
+        "updated_time": 1792731284091,
+        "user_updated_time": 1792731284091,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731284091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734884390,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734884389.698,
+      "properties": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "updated_time": "2026-10-23T04:54:44.091Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:54:44.091Z",
+        "deleted_time": "0"
+      },
+      "text": "user-updated-time-inverted\n\nBASE\n\nid: 8a3d0bfcb6f6106e3d9b89644c2a1b65\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:54:44.094Z\nupdated_time: 2026-10-23T04:54:44.091Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734884094\nuser_created_time: 2026-10-23T05:54:44.094Z\nuser_updated_time: 2026-10-23T04:54:44.091Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "afterEdits": {
+    "a": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "A_EDIT",
+        "updated_time": 1792731294091,
+        "user_updated_time": 1792634751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731284091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734884390,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "B_EDIT",
+        "updated_time": 1792731304091,
+        "user_updated_time": 1792834751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731284091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734884390,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734884389.698,
+      "properties": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "updated_time": "2026-10-23T04:54:44.091Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:54:44.091Z",
+        "deleted_time": "0"
+      },
+      "text": "user-updated-time-inverted\n\nBASE\n\nid: 8a3d0bfcb6f6106e3d9b89644c2a1b65\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:54:44.094Z\nupdated_time: 2026-10-23T04:54:44.091Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734884094\nuser_created_time: 2026-10-23T05:54:44.094Z\nuser_updated_time: 2026-10-23T04:54:44.091Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "inputs": {
+    "a": {
+      "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "user-updated-time-inverted",
+      "body": "A_EDIT",
+      "updated_time": 1792731294091,
+      "user_updated_time": 1792634751343,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0,
+      "type_": 1
+    },
+    "b": {
+      "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "user-updated-time-inverted",
+      "body": "B_EDIT",
+      "updated_time": 1792731304091,
+      "user_updated_time": 1792834751343,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0,
+      "type_": 1
+    }
+  },
+  "remoteBeforeSecond": {
+    "exists": true,
+    "mtimeMs": 1792734894658.9138,
+    "properties": {
+      "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+      "updated_time": "2026-10-23T04:54:54.091Z",
+      "is_conflict": "0",
+      "user_updated_time": "2026-10-22T02:05:51.343Z",
+      "deleted_time": "0"
+    },
+    "text": "user-updated-time-inverted\n\nA_EDIT\n\nid: 8a3d0bfcb6f6106e3d9b89644c2a1b65\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:54:44.094Z\nupdated_time: 2026-10-23T04:54:54.091Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734884094\nuser_created_time: 2026-10-23T05:54:44.094Z\nuser_updated_time: 2026-10-22T02:05:51.343Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+  },
+  "beforeSecond": {
+    "a": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "A_EDIT",
+        "updated_time": 1792731294091,
+        "user_updated_time": 1792634751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731294091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734894659,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "B_EDIT",
+        "updated_time": 1792731304091,
+        "user_updated_time": 1792834751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731284091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734884390,
+        "base_body": "",
+        "base_title": ""
+      }
+    }
+  },
+  "afterSecond": {
+    "a": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "A_EDIT",
+        "updated_time": 1792731294091,
+        "user_updated_time": 1792634751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731294091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734894659,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "A_EDIT",
+        "updated_time": 1792731294091,
+        "user_updated_time": 1792634751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [
+        {
+          "id": "6555a8b3c1a84e69812dc161d1b8eb88",
+          "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+          "title": "user-updated-time-inverted",
+          "body": "B_EDIT",
+          "updated_time": 1792731304091,
+          "user_updated_time": 1792834751343,
+          "is_conflict": 1,
+          "conflict_original_id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "deleted_time": 0
+        }
+      ],
+      "syncItem": {
+        "sync_time": 1792731294091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734894659,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734894658.9138,
+      "properties": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "updated_time": "2026-10-23T04:54:54.091Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-22T02:05:51.343Z",
+        "deleted_time": "0"
+      },
+      "text": "user-updated-time-inverted\n\nA_EDIT\n\nid: 8a3d0bfcb6f6106e3d9b89644c2a1b65\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:54:44.094Z\nupdated_time: 2026-10-23T04:54:54.091Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734884094\nuser_created_time: 2026-10-23T05:54:44.094Z\nuser_updated_time: 2026-10-22T02:05:51.343Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "final": {
+    "a": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "A_EDIT",
+        "updated_time": 1792731294091,
+        "user_updated_time": 1792634751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731294091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734894659,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "A_EDIT",
+        "updated_time": 1792731294091,
+        "user_updated_time": 1792634751343,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [
+        {
+          "id": "6555a8b3c1a84e69812dc161d1b8eb88",
+          "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+          "title": "user-updated-time-inverted",
+          "body": "B_EDIT",
+          "updated_time": 1792731304091,
+          "user_updated_time": 1792834751343,
+          "is_conflict": 1,
+          "conflict_original_id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "deleted_time": 0
+        }
+      ],
+      "syncItem": {
+        "sync_time": 1792731294091,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734894659,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734894658.9138,
+      "properties": {
+        "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "updated_time": "2026-10-23T04:54:54.091Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-22T02:05:51.343Z",
+        "deleted_time": "0"
+      },
+      "text": "user-updated-time-inverted\n\nA_EDIT\n\nid: 8a3d0bfcb6f6106e3d9b89644c2a1b65\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:54:44.094Z\nupdated_time: 2026-10-23T04:54:54.091Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734884094\nuser_created_time: 2026-10-23T05:54:44.094Z\nuser_updated_time: 2026-10-22T02:05:51.343Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "trace": [
+    {
+      "caseId": "user-updated-time-inverted",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:54:54.654Z",
+      "captured": {
+        "local": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "A_EDIT",
+          "updated_time": 1792731294091,
+          "user_updated_time": 1792634751343,
+          "sync_time": 1792731284091,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "BASE",
+          "updated_time": 1792731284091,
+          "user_updated_time": 1792731284091,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": false,
+        "localGreaterThanRemote": true,
+        "remoteFileStat": {
+          "path": "8a3d0bfcb6f6106e3d9b89644c2a1b65.md",
+          "updated_time": 1792734884390,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "user-updated-time-inverted",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:54:54.684Z",
+      "captured": {
+        "action": "updateRemote",
+        "local": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "A_EDIT",
+          "updated_time": 1792731294091,
+          "user_updated_time": 1792634751343,
+          "sync_time": 1792731284091,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "BASE",
+          "updated_time": 1792731284091,
+          "user_updated_time": 1792731284091,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "user-updated-time-inverted",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:55:03.758Z",
+      "captured": {
+        "local": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "B_EDIT",
+          "updated_time": 1792731304091,
+          "user_updated_time": 1792834751343,
+          "sync_time": 1792731284091,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "A_EDIT",
+          "updated_time": 1792731294091,
+          "user_updated_time": 1792634751343,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": true,
+        "localGreaterThanRemote": true,
+        "remoteFileStat": {
+          "path": "8a3d0bfcb6f6106e3d9b89644c2a1b65.md",
+          "updated_time": 1792734894659,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "user-updated-time-inverted",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:55:03.788Z",
+      "captured": {
+        "action": "noteConflict",
+        "local": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "B_EDIT",
+          "updated_time": 1792731304091,
+          "user_updated_time": 1792834751343,
+          "sync_time": 1792731284091,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "A_EDIT",
+          "updated_time": 1792731294091,
+          "user_updated_time": 1792634751343,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "user-updated-time-inverted",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "contentFunction",
+      "observedAt": "2026-10-23T05:55:03.819Z",
+      "captured": {
+        "local": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "B_EDIT",
+          "updated_time": 1792731304091,
+          "user_updated_time": 1792834751343,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+          "title": "user-updated-time-inverted",
+          "body": "A_EDIT",
+          "updated_time": 1792731294091,
+          "user_updated_time": 1792634751343,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "sameTitle": true,
+        "sameBody": false,
+        "hasCiphertext": false,
+        "predicateExpression": true
+      },
+      "stack": [
+        {
+          "functionName": "mustHandleConflict",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 2788,
+            "columnNumber": 1487
+          }
+        },
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44863
+          }
+        }
+      ]
+    }
+  ]
+}

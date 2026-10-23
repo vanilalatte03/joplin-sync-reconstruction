@@ -1,0 +1,606 @@
+{
+  "caseId": "natural-trash-ba",
+  "observedAt": "2026-10-23T05:59:20.309Z",
+  "configuration": {
+    "caseId": "natural-trash-ba",
+    "natural": true,
+    "deletion": "trash",
+    "order": [
+      "b",
+      "a"
+    ]
+  },
+  "noteId": "bd1305965695150289fcd31d732734db",
+  "baseUpdatedTime": 1792735135607,
+  "before": {
+    "a": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "BASE",
+        "updated_time": 1792735135607,
+        "user_updated_time": 1792735135607,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735135607,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735135817,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "BASE",
+        "updated_time": 1792735135607,
+        "user_updated_time": 1792735135607,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735135607,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735135817,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735135816.724,
+      "properties": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "updated_time": "2026-10-23T05:58:55.607Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:58:55.607Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-trash-ba\n\nBASE\n\nid: bd1305965695150289fcd31d732734db\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:55.607Z\nupdated_time: 2026-10-23T05:58:55.607Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735135607\nuser_created_time: 2026-10-23T05:58:55.607Z\nuser_updated_time: 2026-10-23T05:58:55.607Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "afterEdits": {
+    "a": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "BASE",
+        "updated_time": 1792735147382,
+        "user_updated_time": 1792735135607,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 1792735147382
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735135607,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735135817,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735147387,
+        "user_updated_time": 1792735147387,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735135607,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735135817,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735135816.724,
+      "properties": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "updated_time": "2026-10-23T05:58:55.607Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:58:55.607Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-trash-ba\n\nBASE\n\nid: bd1305965695150289fcd31d732734db\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:55.607Z\nupdated_time: 2026-10-23T05:58:55.607Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735135607\nuser_created_time: 2026-10-23T05:58:55.607Z\nuser_updated_time: 2026-10-23T05:58:55.607Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "inputs": {
+    "deletion": "trash",
+    "b": {
+      "id": "bd1305965695150289fcd31d732734db",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-trash-ba",
+      "body": "B_OFFLINE_EDIT",
+      "created_time": 1792735135607,
+      "updated_time": 1792735147387,
+      "is_conflict": 0,
+      "latitude": "0.00000000",
+      "longitude": "0.00000000",
+      "altitude": "0.0000",
+      "author": "",
+      "source_url": "",
+      "is_todo": 0,
+      "todo_due": 0,
+      "todo_completed": 0,
+      "source": "joplin-desktop",
+      "source_application": "net.cozic.joplin-desktop",
+      "application_data": "",
+      "order": 1792735135607,
+      "user_created_time": 1792735135607,
+      "user_updated_time": 1792735147387,
+      "encryption_cipher_text": "",
+      "encryption_applied": 0,
+      "markup_language": 1,
+      "is_shared": 0,
+      "share_id": "",
+      "conflict_original_id": "",
+      "master_key_id": "",
+      "user_data": "",
+      "deleted_time": 0,
+      "is_locked": 0,
+      "extracted_resource_ids": "",
+      "type_": 1
+    }
+  },
+  "remoteBeforeSecond": {
+    "exists": true,
+    "mtimeMs": 1792735147609.5618,
+    "properties": {
+      "id": "bd1305965695150289fcd31d732734db",
+      "updated_time": "2026-10-23T05:59:07.387Z",
+      "is_conflict": "0",
+      "user_updated_time": "2026-10-23T05:59:07.387Z",
+      "deleted_time": "0"
+    },
+    "text": "natural-trash-ba\n\nB_OFFLINE_EDIT\n\nid: bd1305965695150289fcd31d732734db\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:55.607Z\nupdated_time: 2026-10-23T05:59:07.387Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735135607\nuser_created_time: 2026-10-23T05:58:55.607Z\nuser_updated_time: 2026-10-23T05:59:07.387Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+  },
+  "beforeSecond": {
+    "a": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "BASE",
+        "updated_time": 1792735147382,
+        "user_updated_time": 1792735135607,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 1792735147382
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735135607,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735135817,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735147387,
+        "user_updated_time": 1792735147387,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735147387,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735147610,
+        "base_body": "",
+        "base_title": ""
+      }
+    }
+  },
+  "afterSecond": {
+    "a": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735147387,
+        "user_updated_time": 1792735147387,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [
+        {
+          "id": "c847b512875f42669d924d158cfd532d",
+          "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+          "title": "natural-trash-ba",
+          "body": "BASE",
+          "updated_time": 1792735147382,
+          "user_updated_time": 1792735135607,
+          "is_conflict": 1,
+          "conflict_original_id": "bd1305965695150289fcd31d732734db",
+          "deleted_time": 1792735147382
+        }
+      ],
+      "syncItem": {
+        "sync_time": 1792735147387,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735147610,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735147387,
+        "user_updated_time": 1792735147387,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735147387,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735147610,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735147609.5618,
+      "properties": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "updated_time": "2026-10-23T05:59:07.387Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:59:07.387Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-trash-ba\n\nB_OFFLINE_EDIT\n\nid: bd1305965695150289fcd31d732734db\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:55.607Z\nupdated_time: 2026-10-23T05:59:07.387Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735135607\nuser_created_time: 2026-10-23T05:58:55.607Z\nuser_updated_time: 2026-10-23T05:59:07.387Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "final": {
+    "a": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735147387,
+        "user_updated_time": 1792735147387,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [
+        {
+          "id": "c847b512875f42669d924d158cfd532d",
+          "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+          "title": "natural-trash-ba",
+          "body": "BASE",
+          "updated_time": 1792735147382,
+          "user_updated_time": 1792735135607,
+          "is_conflict": 1,
+          "conflict_original_id": "bd1305965695150289fcd31d732734db",
+          "deleted_time": 1792735147382
+        }
+      ],
+      "syncItem": {
+        "sync_time": 1792735147387,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735147610,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735147387,
+        "user_updated_time": 1792735147387,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792735147387,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792735147610,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792735147609.5618,
+      "properties": {
+        "id": "bd1305965695150289fcd31d732734db",
+        "updated_time": "2026-10-23T05:59:07.387Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:59:07.387Z",
+        "deleted_time": "0"
+      },
+      "text": "natural-trash-ba\n\nB_OFFLINE_EDIT\n\nid: bd1305965695150289fcd31d732734db\nparent_id: 3a44f588a7364fb787780bcc23c537f8\ncreated_time: 2026-10-23T05:58:55.607Z\nupdated_time: 2026-10-23T05:59:07.387Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792735135607\nuser_created_time: 2026-10-23T05:58:55.607Z\nuser_updated_time: 2026-10-23T05:59:07.387Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "trace": [
+    {
+      "caseId": "natural-trash-ba",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:59:07.598Z",
+      "captured": {
+        "local": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792735147387,
+          "user_updated_time": 1792735147387,
+          "sync_time": 1792735135607,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "BASE",
+          "updated_time": 1792735135607,
+          "user_updated_time": 1792735135607,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": false,
+        "localGreaterThanRemote": true,
+        "remoteFileStat": {
+          "path": "bd1305965695150289fcd31d732734db.md",
+          "updated_time": 1792735135817,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-trash-ba",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:59:07.652Z",
+      "captured": {
+        "action": "updateRemote",
+        "local": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792735147387,
+          "user_updated_time": 1792735147387,
+          "sync_time": 1792735135607,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "BASE",
+          "updated_time": 1792735135607,
+          "user_updated_time": 1792735135607,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-trash-ba",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:59:08.534Z",
+      "captured": {
+        "local": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "BASE",
+          "updated_time": 1792735147382,
+          "user_updated_time": 1792735135607,
+          "sync_time": 1792735135607,
+          "deleted_time": 1792735147382,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792735147387,
+          "user_updated_time": 1792735147387,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": true,
+        "localGreaterThanRemote": false,
+        "remoteFileStat": {
+          "path": "bd1305965695150289fcd31d732734db.md",
+          "updated_time": 1792735147610,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-trash-ba",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:59:08.565Z",
+      "captured": {
+        "action": "noteConflict",
+        "local": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "BASE",
+          "updated_time": 1792735147382,
+          "user_updated_time": 1792735135607,
+          "sync_time": 1792735135607,
+          "deleted_time": 1792735147382,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792735147387,
+          "user_updated_time": 1792735147387,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "natural-trash-ba",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "contentFunction",
+      "observedAt": "2026-10-23T05:59:08.596Z",
+      "captured": {
+        "local": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "BASE",
+          "updated_time": 1792735147382,
+          "user_updated_time": 1792735135607,
+          "deleted_time": 1792735147382,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "bd1305965695150289fcd31d732734db",
+          "title": "natural-trash-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792735147387,
+          "user_updated_time": 1792735147387,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "sameTitle": true,
+        "sameBody": false,
+        "hasCiphertext": false,
+        "predicateExpression": true
+      },
+      "stack": [
+        {
+          "functionName": "mustHandleConflict",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 2788,
+            "columnNumber": 1487
+          }
+        },
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44863
+          }
+        }
+      ]
+    }
+  ]
+}

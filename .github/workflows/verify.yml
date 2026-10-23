@@ -28,6 +28,9 @@ jobs:
         run: mvn --batch-mode verify
       - name: CLI persistence regression tests
         run: node --test clients/client.test.mjs
+      - name: Validate recorded Joplin conflict observations (no Desktop replay)
+        working-directory: investigation/conflict-algorithm
+        run: node scripts/conflict-verify.mjs --check
       - name: HTTP synchronization and connection-loss scenarios
         run: |
           New-Item -ItemType Directory -Force work | Out-Null

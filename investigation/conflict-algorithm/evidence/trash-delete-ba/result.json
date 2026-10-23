@@ -1,0 +1,605 @@
+{
+  "caseId": "trash-delete-ba",
+  "observedAt": "2026-10-23T05:56:23.749Z",
+  "configuration": {
+    "caseId": "trash-delete-ba",
+    "deletion": "trash",
+    "order": [
+      "b",
+      "a"
+    ]
+  },
+  "noteId": "f848d4f51eccd7f9a5d18ec58b3a1671",
+  "baseUpdatedTime": 1792731362583,
+  "before": {
+    "a": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "BASE",
+        "updated_time": 1792731362583,
+        "user_updated_time": 1792731362583,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731362583,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734962796,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "BASE",
+        "updated_time": 1792731362583,
+        "user_updated_time": 1792731362583,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731362583,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734962796,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734962796.0542,
+      "properties": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "updated_time": "2026-10-23T04:56:02.583Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:56:02.583Z",
+        "deleted_time": "0"
+      },
+      "text": "trash-delete-ba\n\nBASE\n\nid: f848d4f51eccd7f9a5d18ec58b3a1671\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:56:02.588Z\nupdated_time: 2026-10-23T04:56:02.583Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734962588\nuser_created_time: 2026-10-23T05:56:02.588Z\nuser_updated_time: 2026-10-23T04:56:02.583Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "afterEdits": {
+    "a": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "BASE",
+        "updated_time": 1792734973377,
+        "user_updated_time": 1792731362583,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 1792734973377
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731362583,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734962796,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734973383,
+        "user_updated_time": 1792734973383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731362583,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734962796,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734962796.0542,
+      "properties": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "updated_time": "2026-10-23T04:56:02.583Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T04:56:02.583Z",
+        "deleted_time": "0"
+      },
+      "text": "trash-delete-ba\n\nBASE\n\nid: f848d4f51eccd7f9a5d18ec58b3a1671\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:56:02.588Z\nupdated_time: 2026-10-23T04:56:02.583Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734962588\nuser_created_time: 2026-10-23T05:56:02.588Z\nuser_updated_time: 2026-10-23T04:56:02.583Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "inputs": {
+    "deletion": "trash",
+    "b": {
+      "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "trash-delete-ba",
+      "body": "B_OFFLINE_EDIT",
+      "created_time": 1792734962588,
+      "updated_time": 1792734973383,
+      "is_conflict": 0,
+      "latitude": "0.00000000",
+      "longitude": "0.00000000",
+      "altitude": "0.0000",
+      "author": "",
+      "source_url": "",
+      "is_todo": 0,
+      "todo_due": 0,
+      "todo_completed": 0,
+      "source": "joplin-desktop",
+      "source_application": "net.cozic.joplin-desktop",
+      "application_data": "",
+      "order": 1792734962588,
+      "user_created_time": 1792734962588,
+      "user_updated_time": 1792734973383,
+      "encryption_cipher_text": "",
+      "encryption_applied": 0,
+      "markup_language": 1,
+      "is_shared": 0,
+      "share_id": "",
+      "conflict_original_id": "",
+      "master_key_id": "",
+      "user_data": "",
+      "deleted_time": 0,
+      "is_locked": 0,
+      "extracted_resource_ids": "",
+      "type_": 1
+    }
+  },
+  "remoteBeforeSecond": {
+    "exists": true,
+    "mtimeMs": 1792734973588.7656,
+    "properties": {
+      "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+      "updated_time": "2026-10-23T05:56:13.383Z",
+      "is_conflict": "0",
+      "user_updated_time": "2026-10-23T05:56:13.383Z",
+      "deleted_time": "0"
+    },
+    "text": "trash-delete-ba\n\nB_OFFLINE_EDIT\n\nid: f848d4f51eccd7f9a5d18ec58b3a1671\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:56:02.588Z\nupdated_time: 2026-10-23T05:56:13.383Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734962588\nuser_created_time: 2026-10-23T05:56:02.588Z\nuser_updated_time: 2026-10-23T05:56:13.383Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+  },
+  "beforeSecond": {
+    "a": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "BASE",
+        "updated_time": 1792734973377,
+        "user_updated_time": 1792731362583,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 1792734973377
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792731362583,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734962796,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734973383,
+        "user_updated_time": 1792734973383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792734973383,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734973589,
+        "base_body": "",
+        "base_title": ""
+      }
+    }
+  },
+  "afterSecond": {
+    "a": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734973383,
+        "user_updated_time": 1792734973383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [
+        {
+          "id": "8b133fed8ac84454a244fd2faa3183dd",
+          "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+          "title": "trash-delete-ba",
+          "body": "BASE",
+          "updated_time": 1792734973377,
+          "user_updated_time": 1792731362583,
+          "is_conflict": 1,
+          "conflict_original_id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "deleted_time": 1792734973377
+        }
+      ],
+      "syncItem": {
+        "sync_time": 1792734973383,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734973589,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734973383,
+        "user_updated_time": 1792734973383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792734973383,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734973589,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734973588.7656,
+      "properties": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "updated_time": "2026-10-23T05:56:13.383Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:56:13.383Z",
+        "deleted_time": "0"
+      },
+      "text": "trash-delete-ba\n\nB_OFFLINE_EDIT\n\nid: f848d4f51eccd7f9a5d18ec58b3a1671\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:56:02.588Z\nupdated_time: 2026-10-23T05:56:13.383Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734962588\nuser_created_time: 2026-10-23T05:56:02.588Z\nuser_updated_time: 2026-10-23T05:56:13.383Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "final": {
+    "a": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734973383,
+        "user_updated_time": 1792734973383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [
+        {
+          "id": "8b133fed8ac84454a244fd2faa3183dd",
+          "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+          "title": "trash-delete-ba",
+          "body": "BASE",
+          "updated_time": 1792734973377,
+          "user_updated_time": 1792731362583,
+          "is_conflict": 1,
+          "conflict_original_id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "deleted_time": 1792734973377
+        }
+      ],
+      "syncItem": {
+        "sync_time": 1792734973383,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734973589,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "b": {
+      "canonical": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734973383,
+        "user_updated_time": 1792734973383,
+        "is_conflict": 0,
+        "conflict_original_id": "",
+        "deleted_time": 0
+      },
+      "conflicts": [],
+      "syncItem": {
+        "sync_time": 1792734973383,
+        "force_sync": 0,
+        "remote_item_updated_time": 1792734973589,
+        "base_body": "",
+        "base_title": ""
+      }
+    },
+    "remote": {
+      "exists": true,
+      "mtimeMs": 1792734973588.7656,
+      "properties": {
+        "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "updated_time": "2026-10-23T05:56:13.383Z",
+        "is_conflict": "0",
+        "user_updated_time": "2026-10-23T05:56:13.383Z",
+        "deleted_time": "0"
+      },
+      "text": "trash-delete-ba\n\nB_OFFLINE_EDIT\n\nid: f848d4f51eccd7f9a5d18ec58b3a1671\nparent_id: 6427b1439ed241f4b5619fad067f00f2\ncreated_time: 2026-10-23T05:56:02.588Z\nupdated_time: 2026-10-23T05:56:13.383Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792734962588\nuser_created_time: 2026-10-23T05:56:02.588Z\nuser_updated_time: 2026-10-23T05:56:13.383Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+    }
+  },
+  "trace": [
+    {
+      "caseId": "trash-delete-ba",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:56:13.583Z",
+      "captured": {
+        "local": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734973383,
+          "user_updated_time": 1792734973383,
+          "sync_time": 1792731362583,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "BASE",
+          "updated_time": 1792731362583,
+          "user_updated_time": 1792731362583,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": false,
+        "localGreaterThanRemote": true,
+        "remoteFileStat": {
+          "path": "f848d4f51eccd7f9a5d18ec58b3a1671.md",
+          "updated_time": 1792734962796,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "trash-delete-ba",
+      "phase": "experiment",
+      "client": "b",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:56:13.614Z",
+      "captured": {
+        "action": "updateRemote",
+        "local": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734973383,
+          "user_updated_time": 1792734973383,
+          "sync_time": 1792731362583,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "BASE",
+          "updated_time": 1792731362583,
+          "user_updated_time": 1792731362583,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "trash-delete-ba",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "timestampCandidate",
+      "observedAt": "2026-10-23T05:56:14.578Z",
+      "captured": {
+        "local": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "BASE",
+          "updated_time": 1792734973377,
+          "user_updated_time": 1792731362583,
+          "sync_time": 1792731362583,
+          "deleted_time": 1792734973377,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734973383,
+          "user_updated_time": 1792734973383,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteGreaterThanSync": true,
+        "localGreaterThanRemote": false,
+        "remoteFileStat": {
+          "path": "f848d4f51eccd7f9a5d18ec58b3a1671.md",
+          "updated_time": 1792734973589,
+          "isDir": false
+        },
+        "selectedBefore": null
+      },
+      "stack": [
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 64290
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "trash-delete-ba",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "conflictHandler",
+      "observedAt": "2026-10-23T05:56:14.608Z",
+      "captured": {
+        "action": "noteConflict",
+        "local": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "BASE",
+          "updated_time": 1792734973377,
+          "user_updated_time": 1792731362583,
+          "sync_time": 1792731362583,
+          "deleted_time": 1792734973377,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734973383,
+          "user_updated_time": 1792734973383,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "remoteExists": true,
+        "isReadOnly": false
+      },
+      "stack": [
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44199
+          }
+        },
+        {
+          "functionName": "start",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 66206
+          }
+        }
+      ]
+    },
+    {
+      "caseId": "trash-delete-ba",
+      "phase": "experiment",
+      "client": "a",
+      "kind": "contentFunction",
+      "observedAt": "2026-10-23T05:56:14.640Z",
+      "captured": {
+        "local": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "BASE",
+          "updated_time": 1792734973377,
+          "user_updated_time": 1792731362583,
+          "deleted_time": 1792734973377,
+          "is_conflict": 0
+        },
+        "remote": {
+          "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+          "title": "trash-delete-ba",
+          "body": "B_OFFLINE_EDIT",
+          "updated_time": 1792734973383,
+          "user_updated_time": 1792734973383,
+          "deleted_time": 0,
+          "is_conflict": 0
+        },
+        "sameTitle": true,
+        "sameBody": false,
+        "hasCiphertext": false,
+        "predicateExpression": true
+      },
+      "stack": [
+        {
+          "functionName": "mustHandleConflict",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 2788,
+            "columnNumber": 1487
+          }
+        },
+        {
+          "functionName": "C1e.default",
+          "url": "",
+          "location": {
+            "scriptId": "129",
+            "lineNumber": 3123,
+            "columnNumber": 44863
+          }
+        }
+      ]
+    }
+  ]
+}

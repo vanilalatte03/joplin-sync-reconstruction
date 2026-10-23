@@ -1,0 +1,6 @@
+{
+  "checkedAt": "2026-10-23T06:19:26.9104923Z",
+  "isolatedDesktopProcessesRemaining": 0,
+  "quitMethod": "Original Electron app.quit via each test CDP renderer",
+  "existingEngineWorkingTreeClean": true
+}

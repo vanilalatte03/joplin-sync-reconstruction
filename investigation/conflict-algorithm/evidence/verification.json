@@ -1,0 +1,123 @@
+{
+  "observedAt": "2026-10-23T06:18:25.886Z",
+  "experiments": 24,
+  "syntheticTimestampExperiments": 17,
+  "naturalTimestampControls": 7,
+  "checks": [
+    {
+      "name": "Every run starts from identical synced BASE note and inactive force_sync",
+      "pass": true
+    },
+    {
+      "name": "A then B keeps A canonical and B conflict",
+      "pass": true
+    },
+    {
+      "name": "B then A keeps B canonical and A conflict",
+      "pass": true
+    },
+    {
+      "name": "natural-A then B keeps A canonical and B conflict",
+      "pass": true
+    },
+    {
+      "name": "natural-B then A keeps B canonical and A conflict",
+      "pass": true
+    },
+    {
+      "name": "local-clock-ahead still enters noteConflict and preserves local B",
+      "pass": true
+    },
+    {
+      "name": "local-clock-behind still enters noteConflict and preserves local B",
+      "pass": true
+    },
+    {
+      "name": "user-updated-time-inverted still enters noteConflict and preserves local B",
+      "pass": true
+    },
+    {
+      "name": "Local greater/less than remote both exercised",
+      "pass": true
+    },
+    {
+      "name": "local-updated-equals-sync not selected for upload and gets remote A without conflict copy",
+      "pass": true
+    },
+    {
+      "name": "local-updated-before-sync not selected for upload and gets remote A without conflict copy",
+      "pass": true
+    },
+    {
+      "name": "remote-updated-equals-sync chooses updateRemote B and produces no conflict copy",
+      "pass": true
+    },
+    {
+      "name": "remote-updated-before-sync chooses updateRemote B and produces no conflict copy",
+      "pass": true
+    },
+    {
+      "name": "Remote one millisecond after sync_time chooses noteConflict",
+      "pass": true
+    },
+    {
+      "name": "Old filesystem mtime does not prevent outgoing serialized timestamp conflict",
+      "pass": true
+    },
+    {
+      "name": "same-title-and-body enters candidate conflict but content predicate is false and creates no copy",
+      "pass": true
+    },
+    {
+      "name": "natural-identical enters candidate conflict but content predicate is false and creates no copy",
+      "pass": true
+    },
+    {
+      "name": "Same body with different title creates conflict copy",
+      "pass": true
+    },
+    {
+      "name": "trash-delete-ab propagates trash and keeps B edit as live conflict",
+      "pass": true
+    },
+    {
+      "name": "trash-delete-ba restores original from remote B and stores A trash conflict",
+      "pass": true
+    },
+    {
+      "name": "permanent-delete-ab handles missing previously-synced remote by conflict copy and original removal",
+      "pass": true
+    },
+    {
+      "name": "permanent-delete-ba removes uploaded B edit without a new conflict note",
+      "pass": true
+    },
+    {
+      "name": "natural-trash-ab propagates trash and keeps B edit as live conflict",
+      "pass": true
+    },
+    {
+      "name": "natural-trash-ba restores original from remote B and stores A trash conflict",
+      "pass": true
+    },
+    {
+      "name": "natural-permanent-ab handles missing previously-synced remote by conflict copy and original removal",
+      "pass": true
+    },
+    {
+      "name": "natural-permanent-ba removes uploaded B edit without a new conflict note",
+      "pass": true
+    },
+    {
+      "name": "Observed synchronous stack links start to handleConflictAction and handler to Note.mustHandleConflict",
+      "pass": true
+    }
+  ],
+  "checksPassed": 27,
+  "engineChanges": false,
+  "limitations": [
+    "Assertions validate recorded actual Joplin Desktop observations, not a new sync implementation",
+    "Synthetic timestamp/file metadata controls are explicitly labeled; natural controls do not modify timestamps",
+    "All runs postpone automatic scheduling and use real manual sync; no conflict method is replaced"
+  ]
+}
