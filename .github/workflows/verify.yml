@@ -1,0 +1,47 @@
+name: Verify sync engine
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - name: Java integration tests and executable package
+        run: mvn --batch-mode verify
+      - name: CLI persistence regression tests
+        run: node --test clients/client.test.mjs
+      - name: HTTP synchronization and connection-loss scenarios
+        run: |
+          New-Item -ItemType Directory -Force work | Out-Null
+          $serverProcess=Start-Process java -ArgumentList '-jar','target/sync-lab-0.1.0.jar' -PassThru -WindowStyle Hidden -RedirectStandardOutput work/server.stdout.log -RedirectStandardError work/server.stderr.log
+          try {
+            $ready=$false
+            for ($attempt=0; $attempt -lt 30; $attempt++) {
+              if ($serverProcess.HasExited) { throw 'Server exited before readiness' }
+              try { $health=Invoke-RestMethod http://127.0.0.1:8087/health; if ($health.status -eq 'UP') { $ready=$true; break } } catch {}
+              Start-Sleep -Seconds 1
+            }
+            if (-not $ready) { throw 'Server readiness timeout' }
+            node scripts/demo.mjs
+            if ($LASTEXITCODE -ne 0) { throw 'HTTP scenarios failed' }
+          } finally {
+            if (-not $serverProcess.HasExited) { Stop-Process -Id $serverProcess.Id }
+          }

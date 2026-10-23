@@ -1,0 +1,13 @@
+target/
+work/
+.codex/
+.env
+.env.*
+!.env.example
+*.mv.db
+*.trace.db
+*.log
+!evidence/original-scenarios/*.log
+node_modules/
+.DS_Store
+Thumbs.db
