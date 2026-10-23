@@ -1,0 +1,89 @@
+[
+  {
+    "attempt": "pilot-20",
+    "classification": "HARNESS ERROR",
+    "fatal": null,
+    "unknownFlagObserved": false,
+    "summaryPresent": false,
+    "operationsPresent": false,
+    "countedAsCompletedSequence": false
+  },
+  {
+    "attempt": "pilot-20-v2",
+    "classification": "HARNESS ERROR",
+    "fatal": {
+      "classification": "HARNESS ERROR pending investigation",
+      "message": "Original menu did not finish initializing",
+      "step": 0
+    },
+    "unknownFlagObserved": false,
+    "summaryPresent": false,
+    "operationsPresent": false,
+    "countedAsCompletedSequence": false
+  },
+  {
+    "attempt": "p20v3",
+    "classification": "HARNESS ERROR",
+    "fatal": {
+      "classification": "HARNESS ERROR pending investigation",
+      "message": "Original menu did not finish initializing",
+      "step": 0
+    },
+    "unknownFlagObserved": false,
+    "summaryPresent": false,
+    "operationsPresent": false,
+    "countedAsCompletedSequence": false
+  },
+  {
+    "attempt": "p20v4",
+    "classification": "HARNESS ERROR",
+    "fatal": {
+      "classification": "HARNESS ERROR pending investigation",
+      "message": "Original menu did not finish initializing",
+      "step": 0
+    },
+    "unknownFlagObserved": false,
+    "summaryPresent": false,
+    "operationsPresent": false,
+    "countedAsCompletedSequence": false
+  },
+  {
+    "attempt": "p20v5",
+    "classification": "HARNESS ERROR",
+    "fatal": {
+      "classification": "HARNESS ERROR pending investigation",
+      "message": "Original menu did not finish initializing",
+      "step": 0
+    },
+    "unknownFlagObserved": true,
+    "summaryPresent": false,
+    "operationsPresent": false,
+    "countedAsCompletedSequence": false
+  },
+  {
+    "attempt": "p20v6",
+    "classification": "HARNESS ERROR",
+    "fatal": {
+      "classification": "HARNESS ERROR pending investigation",
+      "message": "Bootstrap breakpoint timeout",
+      "step": 0
+    },
+    "unknownFlagObserved": false,
+    "summaryPresent": false,
+    "operationsPresent": false,
+    "countedAsCompletedSequence": false
+  },
+  {
+    "attempt": "p20v7",
+    "classification": "HARNESS ERROR",
+    "fatal": {
+      "classification": "HARNESS ERROR pending investigation",
+      "message": "Bootstrap breakpoint timeout",
+      "step": 0
+    },
+    "unknownFlagObserved": false,
+    "summaryPresent": false,
+    "operationsPresent": false,
+    "countedAsCompletedSequence": false
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "groups": {
+    "randomLegacy": {
+      "sequences": 3,
+      "stateChanges": 1120,
+      "commands": 1156,
+      "setupSyncs": 9,
+      "syncCounts": {
+        "success": 354,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "commandCounts": {
+        "CREATE_NOTE": 156,
+        "RENAME_NOTE": 153,
+        "UPDATE_NOTE": 276,
+        "SYNC": 77,
+        "DELETE_PERMANENTLY": 73,
+        "SYNC_ALL": 64,
+        "MOVE_TO_TRASH": 109,
+        "RESTORE_NOTE": 78,
+        "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 94,
+        "RETRY_SYNC": 76
+      }
+    },
+    "reductionSearch": {
+      "sequences": 70,
+      "stateChanges": 367,
+      "commands": 801,
+      "setupSyncs": 210,
+      "syncCounts": {
+        "success": 733,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "commandCounts": {
+        "CREATE_NOTE": 157,
+        "RENAME_NOTE": 82,
+        "UPDATE_NOTE": 156,
+        "SYNC": 142,
+        "DELETE_PERMANENTLY": 137,
+        "SYNC_ALL": 127
+      }
+    },
+    "reductionRepeats": {
+      "sequences": 3,
+      "stateChanges": 9,
+      "commands": 21,
+      "setupSyncs": 9,
+      "syncCounts": {
+        "success": 33,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "commandCounts": {
+        "CREATE_NOTE": 3,
+        "UPDATE_NOTE": 3,
+        "SYNC": 6,
+        "DELETE_PERMANENTLY": 3,
+        "SYNC_ALL": 6
+      }
+    },
+    "dirtyReplay": {
+      "sequences": 1,
+      "stateChanges": 3,
+      "commands": 7,
+      "setupSyncs": 3,
+      "syncCounts": {
+        "success": 11,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "commandCounts": {
+        "CREATE_NOTE": 1,
+        "UPDATE_NOTE": 1,
+        "SYNC": 2,
+        "DELETE_PERMANENTLY": 1,
+        "SYNC_ALL": 2
+      }
+    },
+    "controlled": {
+      "sequences": 1,
+      "stateChanges": 5,
+      "commands": 15,
+      "setupSyncs": 3,
+      "syncCounts": {
+        "success": 26,
+        "failed": 1,
+        "timeout": 0,
+        "exception": 0
+      },
+      "commandCounts": {
+        "CREATE_NOTE": 2,
+        "SYNC_ALL": 6,
+        "UPDATE_NOTE": 1,
+        "SYNC": 4,
+        "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 1,
+        "RETRY_SYNC": 1
+      }
+    },
+    "randomImproved": {
+      "sequences": 1,
+      "stateChanges": 1002,
+      "commands": 1029,
+      "setupSyncs": 3,
+      "syncCounts": {
+        "success": 291,
+        "failed": 0,
+        "timeout": 0,
+        "exception": 0
+      },
+      "commandCounts": {
+        "CREATE_NOTE": 144,
+        "DELETE_PERMANENTLY": 65,
+        "MOVE_TO_TRASH": 89,
+        "RENAME_NOTE": 140,
+        "SYNC": 73,
+        "RESTORE_NOTE": 68,
+        "UPDATE_NOTE": 252,
+        "RETRY_SYNC": 65,
+        "SYNC_ALL": 50,
+        "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 83
+      }
+    }
+  },
+  "allCompleted": {
+    "sequences": 79,
+    "stateChanges": 2506,
+    "commands": 3029,
+    "setupSyncs": 237,
+    "syncCounts": {
+      "success": 1448,
+      "failed": 1,
+      "timeout": 0,
+      "exception": 0
+    },
+    "commandCounts": {
+      "CREATE_NOTE": 463,
+      "RENAME_NOTE": 375,
+      "UPDATE_NOTE": 689,
+      "SYNC": 304,
+      "DELETE_PERMANENTLY": 279,
+      "SYNC_ALL": 255,
+      "MOVE_TO_TRASH": 198,
+      "RESTORE_NOTE": 146,
+      "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 178,
+      "RETRY_SYNC": 142
+    }
+  },
+  "notes": [
+    "Startup and instrumentation syncs excluded; folder setup syncs included.",
+    "Random sequences, deletion trials and repeats count separately.",
+    "The controlled failed sync was deliberately injected and issued outside the command ledger.",
+    "Early startup failures are excluded from completed-sequence counts."
+  ]
+}

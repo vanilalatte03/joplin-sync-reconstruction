@@ -20,6 +20,10 @@ Push-Location investigation/conflict-algorithm
 try { node scripts/conflict-verify.mjs --check } finally { Pop-Location }
 ```
 
+## Stateful Fuzzing 후속 조사
+
+새 A/B/C 프로필에서 상태 의존 무작위 시퀀스를 실행하고, 본문 손실 신호를 축소·재현해 판정기의 false positive를 조사했다. [방법·결과·재현 명령](investigation/stateful-fuzzing/README.md)에 별도로 정리했다. Java 동기화 엔진은 변경하지 않았다.
+
 ## 초기 조사에서 확인한 결과
 
 - 원본: 노트 생성·수정 전파, 동기화하지 않은 로컬 편집 보존, 두 클라이언트의 충돌 보존, 파일 대상 오류 후 재시도, 일반 삭제와 영구 삭제 전파를 확인했다.

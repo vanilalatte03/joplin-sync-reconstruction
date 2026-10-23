@@ -1,0 +1,504 @@
+{
+  "originalRun": "p20v8",
+  "summary": {
+    "sequenceId": "pilot-20",
+    "seed": 2026102301,
+    "joplinVersion": "3.7.21",
+    "reaVersion": "6.7.0",
+    "startedAt": "2026-10-23T08:09:11.138Z",
+    "finishedAt": "2026-10-23T08:09:17.987Z",
+    "stateChanges": 20,
+    "commands": 28,
+    "commandCounts": {
+      "CREATE_NOTE": 7,
+      "RENAME_NOTE": 3,
+      "UPDATE_NOTE": 6,
+      "SYNC": 3,
+      "DELETE_PERMANENTLY": 4,
+      "SYNC_ALL": 5
+    },
+    "syncCounts": {
+      "success": 21,
+      "failed": 0,
+      "timeout": 0,
+      "exception": 0
+    },
+    "setupSyncs": 3,
+    "findings": [
+      {
+        "id": "F1",
+        "kind": "unrepresented-local-revision",
+        "classification": "INCONCLUSIVE",
+        "step": 25,
+        "dedupe": "unrepresented-local-revision:body absent from all live/trash/conflict API results",
+        "detail": {
+          "reason": "body absent from all live/trash/conflict API results",
+          "client": "a",
+          "noteId": "2e756b8dbabbe377bd410685d8848068",
+          "body": "FUZZ:pilot-20:4:88948631 body\nline\nline",
+          "command": {
+            "op": "SYNC_ALL",
+            "order": [
+              "a",
+              "b",
+              "c"
+            ],
+            "purpose": "settle-0"
+          }
+        }
+      }
+    ],
+    "elapsedMs": 6849
+  },
+  "ledger": [
+    {"index":1,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":2,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":3,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":4,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":5,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":6,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":7,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":8,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":4,"client":"b","label":"SYNC","status":"success","elapsedMs":316}]},
+    {"index":9,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":10,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":11,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":12,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":13,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":14,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":15,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":5,"client":"c","label":"SYNC","status":"success","elapsedMs":325}]},
+    {"index":16,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":17,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":18,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":19,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":20,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":6,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":387},{"id":7,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":421},{"id":8,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":413}]},
+    {"index":21,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":22,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":9,"client":"c","label":"SYNC","status":"success","elapsedMs":178}]},
+    {"index":23,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":24,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":25,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":10,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":345},{"id":11,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":386},{"id":12,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":360}]},
+    {"index":26,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":13,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":335},{"id":14,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":320},{"id":15,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":190}]},
+    {"index":27,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":16,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":198},{"id":17,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":185},{"id":18,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":160}]},
+    {"index":28,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":19,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":178},{"id":20,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":191},{"id":21,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":159}]}
+  ],
+  "canonicalFinal": {
+    "a": [
+    {"id":"4e15c92667783c5403e8f5c36e77c207","title":"FUZZ:pilot-20:18:18751128 title","body":"FUZZ:pilot-20:n6:create","deleted":false},
+    {"id":"588556ad42dedfc80ed2a0ed2f9c66bd","title":"FUZZ title n7","body":"FUZZ:pilot-20:n7:create","deleted":false},
+    {"id":"9055f6b96d45fee608c191948b916bf9","title":"FUZZ:pilot-20:2:87141066 title","body":"FUZZ:pilot-20:23:45867880 body\n한글","deleted":false},
+    {"id":"998e1670dd0896e11a7613bab2b2390c","title":"FUZZ title n4","body":"FUZZ:pilot-20:n4:create","deleted":false}
+  ],
+    "b": [
+    {"id":"4e15c92667783c5403e8f5c36e77c207","title":"FUZZ:pilot-20:18:18751128 title","body":"FUZZ:pilot-20:n6:create","deleted":false},
+    {"id":"588556ad42dedfc80ed2a0ed2f9c66bd","title":"FUZZ title n7","body":"FUZZ:pilot-20:n7:create","deleted":false},
+    {"id":"9055f6b96d45fee608c191948b916bf9","title":"FUZZ:pilot-20:2:87141066 title","body":"FUZZ:pilot-20:23:45867880 body\n한글","deleted":false},
+    {"id":"998e1670dd0896e11a7613bab2b2390c","title":"FUZZ title n4","body":"FUZZ:pilot-20:n4:create","deleted":false}
+  ],
+    "c": [
+    {"id":"4e15c92667783c5403e8f5c36e77c207","title":"FUZZ:pilot-20:18:18751128 title","body":"FUZZ:pilot-20:n6:create","deleted":false},
+    {"id":"588556ad42dedfc80ed2a0ed2f9c66bd","title":"FUZZ title n7","body":"FUZZ:pilot-20:n7:create","deleted":false},
+    {"id":"9055f6b96d45fee608c191948b916bf9","title":"FUZZ:pilot-20:2:87141066 title","body":"FUZZ:pilot-20:23:45867880 body\n한글","deleted":false},
+    {"id":"998e1670dd0896e11a7613bab2b2390c","title":"FUZZ title n4","body":"FUZZ:pilot-20:n4:create","deleted":false}
+  ]
+  },
+  "adjudication": {
+    "signalClassification": "HARNESS ERROR",
+    "originalBehavior": "EXPECTED BEHAVIOR",
+    "reason": "Clean historical body checked as if it were an unsynced local revision",
+    "affectedClientLocalEditsBeforeSignal": [],
+    "metadataLimitation": "Legacy snapshots did not record sync_items; clean-state inference uses complete command and before/after history."
+  },
+  "history": [
+    {
+      "index": 4,
+      "command": {
+        "op": "CREATE_NOTE",
+        "client": "b",
+        "key": "n3",
+        "title": "FUZZ title n3",
+        "body": "FUZZ:pilot-20:n3:create"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:n3:create","updated_time":1792742951319,"user_updated_time":1792742951319,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [],
+      "remoteAfter": []
+    },
+    {
+      "index": 5,
+      "command": {
+        "op": "UPDATE_NOTE",
+        "client": "b",
+        "key": "n3",
+        "body": "FUZZ:pilot-20:4:88948631 body\nline\nline"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:n3:create","updated_time":1792742951319,"user_updated_time":1792742951319,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline","updated_time":1792742951348,"user_updated_time":1792742951348,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [],
+      "remoteAfter": []
+    },
+    {
+      "index": 12,
+      "command": {
+        "op": "UPDATE_NOTE",
+        "client": "b",
+        "key": "n3",
+        "body": "FUZZ:pilot-20:11:53944227 body\nline\nline"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline","updated_time":1792742951348,"user_updated_time":1792742951348,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952127,"user_updated_time":1792742952127,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "2e756b8dbabbe377bd410685d8848068.md",
+          "sha256": "60e7a8bebda5d525775c12b7208ec6a29d3aeb0608ef3e10a77fd54e84bc918b",
+          "bytes": 752,
+          "mtimeMs": 1792742951814.552,
+          "serialized": "FUZZ title n3\n\nFUZZ:pilot-20:4:88948631 body\nline\nline\n\nid: 2e756b8dbabbe377bd410685d8848068\nparent_id: 39d3e1ebaaba4c399469ecea38be063f\ncreated_time: 2026-10-23T08:09:11.319Z\nupdated_time: 2026-10-23T08:09:11.348Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792742951319\nuser_created_time: 2026-10-23T08:09:11.319Z\nuser_updated_time: 2026-10-23T08:09:11.348Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "2e756b8dbabbe377bd410685d8848068.md",
+          "sha256": "60e7a8bebda5d525775c12b7208ec6a29d3aeb0608ef3e10a77fd54e84bc918b",
+          "bytes": 752,
+          "mtimeMs": 1792742951814.552,
+          "serialized": "FUZZ title n3\n\nFUZZ:pilot-20:4:88948631 body\nline\nline\n\nid: 2e756b8dbabbe377bd410685d8848068\nparent_id: 39d3e1ebaaba4c399469ecea38be063f\ncreated_time: 2026-10-23T08:09:11.319Z\nupdated_time: 2026-10-23T08:09:11.348Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792742951319\nuser_created_time: 2026-10-23T08:09:11.319Z\nuser_updated_time: 2026-10-23T08:09:11.348Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "command": {
+        "op": "RENAME_NOTE",
+        "client": "b",
+        "key": "n3",
+        "title": "FUZZ:pilot-20:12:17560025 title"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952127,"user_updated_time":1792742952127,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ:pilot-20:12:17560025 title","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952162,"user_updated_time":1792742952162,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "2e756b8dbabbe377bd410685d8848068.md",
+          "sha256": "60e7a8bebda5d525775c12b7208ec6a29d3aeb0608ef3e10a77fd54e84bc918b",
+          "bytes": 752,
+          "mtimeMs": 1792742951814.552,
+          "serialized": "FUZZ title n3\n\nFUZZ:pilot-20:4:88948631 body\nline\nline\n\nid: 2e756b8dbabbe377bd410685d8848068\nparent_id: 39d3e1ebaaba4c399469ecea38be063f\ncreated_time: 2026-10-23T08:09:11.319Z\nupdated_time: 2026-10-23T08:09:11.348Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792742951319\nuser_created_time: 2026-10-23T08:09:11.319Z\nuser_updated_time: 2026-10-23T08:09:11.348Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "2e756b8dbabbe377bd410685d8848068.md",
+          "sha256": "60e7a8bebda5d525775c12b7208ec6a29d3aeb0608ef3e10a77fd54e84bc918b",
+          "bytes": 752,
+          "mtimeMs": 1792742951814.552,
+          "serialized": "FUZZ title n3\n\nFUZZ:pilot-20:4:88948631 body\nline\nline\n\nid: 2e756b8dbabbe377bd410685d8848068\nparent_id: 39d3e1ebaaba4c399469ecea38be063f\ncreated_time: 2026-10-23T08:09:11.319Z\nupdated_time: 2026-10-23T08:09:11.348Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792742951319\nuser_created_time: 2026-10-23T08:09:11.319Z\nuser_updated_time: 2026-10-23T08:09:11.348Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "command": {
+        "op": "DELETE_PERMANENTLY",
+        "client": "c",
+        "key": "n3"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ:pilot-20:12:17560025 title","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952162,"user_updated_time":1792742952162,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline","updated_time":1792742951348,"user_updated_time":1792742951348,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ:pilot-20:12:17560025 title","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952162,"user_updated_time":1792742952162,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "2e756b8dbabbe377bd410685d8848068.md",
+          "sha256": "60e7a8bebda5d525775c12b7208ec6a29d3aeb0608ef3e10a77fd54e84bc918b",
+          "bytes": 752,
+          "mtimeMs": 1792742951814.552,
+          "serialized": "FUZZ title n3\n\nFUZZ:pilot-20:4:88948631 body\nline\nline\n\nid: 2e756b8dbabbe377bd410685d8848068\nparent_id: 39d3e1ebaaba4c399469ecea38be063f\ncreated_time: 2026-10-23T08:09:11.319Z\nupdated_time: 2026-10-23T08:09:11.348Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792742951319\nuser_created_time: 2026-10-23T08:09:11.319Z\nuser_updated_time: 2026-10-23T08:09:11.348Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "2e756b8dbabbe377bd410685d8848068.md",
+          "sha256": "60e7a8bebda5d525775c12b7208ec6a29d3aeb0608ef3e10a77fd54e84bc918b",
+          "bytes": 752,
+          "mtimeMs": 1792742951814.552,
+          "serialized": "FUZZ title n3\n\nFUZZ:pilot-20:4:88948631 body\nline\nline\n\nid: 2e756b8dbabbe377bd410685d8848068\nparent_id: 39d3e1ebaaba4c399469ecea38be063f\ncreated_time: 2026-10-23T08:09:11.319Z\nupdated_time: 2026-10-23T08:09:11.348Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792742951319\nuser_created_time: 2026-10-23T08:09:11.319Z\nuser_updated_time: 2026-10-23T08:09:11.348Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "command": {
+        "op": "SYNC_ALL",
+        "order": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "status": "success",
+      "stateChanges": 0,
+      "syncs": [
+        {
+          "id": 6,
+          "client": "a",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 387
+        },
+        {
+          "id": 7,
+          "client": "b",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 421
+        },
+        {
+          "id": 8,
+          "client": "c",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 413
+        }
+      ],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ:pilot-20:12:17560025 title","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952162,"user_updated_time":1792742952162,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline","updated_time":1792742951348,"user_updated_time":1792742951348,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ:pilot-20:12:17560025 title","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952162,"user_updated_time":1792742952162,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "2e756b8dbabbe377bd410685d8848068.md",
+          "sha256": "60e7a8bebda5d525775c12b7208ec6a29d3aeb0608ef3e10a77fd54e84bc918b",
+          "bytes": 752,
+          "mtimeMs": 1792742951814.552,
+          "serialized": "FUZZ title n3\n\nFUZZ:pilot-20:4:88948631 body\nline\nline\n\nid: 2e756b8dbabbe377bd410685d8848068\nparent_id: 39d3e1ebaaba4c399469ecea38be063f\ncreated_time: 2026-10-23T08:09:11.319Z\nupdated_time: 2026-10-23T08:09:11.348Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792742951319\nuser_created_time: 2026-10-23T08:09:11.319Z\nuser_updated_time: 2026-10-23T08:09:11.348Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": []
+    },
+    {
+      "index": 21,
+      "command": {
+        "op": "DELETE_PERMANENTLY",
+        "client": "b",
+        "key": "n3"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline","updated_time":1792742951348,"user_updated_time":1792742951348,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ:pilot-20:12:17560025 title","body":"FUZZ:pilot-20:11:53944227 body\nline\nline","updated_time":1792742952162,"user_updated_time":1792742952162,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline","updated_time":1792742951348,"user_updated_time":1792742951348,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [],
+      "remoteAfter": []
+    },
+    {
+      "index": 25,
+      "command": {
+        "op": "SYNC_ALL",
+        "order": [
+          "a",
+          "b",
+          "c"
+        ],
+        "purpose": "settle-0"
+      },
+      "status": "success",
+      "stateChanges": 0,
+      "syncs": [
+        {
+          "id": 10,
+          "client": "a",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 345
+        },
+        {
+          "id": 11,
+          "client": "b",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 386
+        },
+        {
+          "id": 12,
+          "client": "c",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 360
+        }
+      ],
+      "before": {
+        "a": [
+    {"id":"2e756b8dbabbe377bd410685d8848068","parent_id":"39d3e1ebaaba4c399469ecea38be063f","title":"FUZZ title n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline","updated_time":1792742951348,"user_updated_time":1792742951348,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [],
+      "remoteAfter": []
+    }
+  ]
+}

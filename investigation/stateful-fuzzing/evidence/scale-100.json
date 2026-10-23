@@ -1,0 +1,655 @@
+{
+  "originalRun": "scale-100",
+  "summary": {
+    "sequenceId": "scale-100",
+    "seed": 2026102302,
+    "joplinVersion": "3.7.21",
+    "reaVersion": "6.7.0",
+    "startedAt": "2026-10-23T08:27:58.548Z",
+    "finishedAt": "2026-10-23T08:28:18.506Z",
+    "stateChanges": 100,
+    "commands": 110,
+    "commandCounts": {
+      "CREATE_NOTE": 17,
+      "DELETE_PERMANENTLY": 8,
+      "MOVE_TO_TRASH": 10,
+      "SYNC": 9,
+      "UPDATE_NOTE": 25,
+      "RENAME_NOTE": 13,
+      "RESTORE_NOTE": 7,
+      "SYNC_ALL": 9,
+      "MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS": 7,
+      "RETRY_SYNC": 5
+    },
+    "syncCounts": {
+      "success": 44,
+      "failed": 0,
+      "timeout": 0,
+      "exception": 0
+    },
+    "setupSyncs": 3,
+    "findings": [
+      {
+        "id": "F1",
+        "kind": "unrepresented-local-revision",
+        "classification": "INCONCLUSIVE",
+        "step": 77,
+        "dedupe": "unrepresented-local-revision:body absent from all live/trash/conflict API results",
+        "detail": {
+          "reason": "body absent from all live/trash/conflict API results",
+          "client": "a",
+          "noteId": "1946b213e470220064ff0e6f4d63f6e9",
+          "body": "FUZZ:scale-100:n9:create",
+          "command": {
+            "op": "SYNC_ALL",
+            "order": [
+              "a",
+              "b",
+              "c"
+            ]
+          }
+        }
+      }
+    ],
+    "elapsedMs": 19958
+  },
+  "ledger": [
+    {"index":1,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":2,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":3,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":4,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":5,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":6,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":7,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":8,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":4,"client":"a","label":"SYNC","status":"success","elapsedMs":352}]},
+    {"index":9,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":10,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":11,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":12,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":13,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":14,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":15,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":5,"client":"a","label":"SYNC","status":"success","elapsedMs":347}]},
+    {"index":16,"op":"RESTORE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":17,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":18,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":19,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":20,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":6,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":316},{"id":7,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":344},{"id":8,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":373}]},
+    {"index":21,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":22,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":9,"client":"b","label":"SYNC","status":"success","elapsedMs":325}]},
+    {"index":23,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":24,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":25,"op":"MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS","status":"success","stateChanges":3,"syncs":[]},
+    {"index":26,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":27,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":28,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":29,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":10,"client":"c","label":"SYNC","status":"success","elapsedMs":456}]},
+    {"index":30,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":31,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":32,"op":"MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS","status":"success","stateChanges":3,"syncs":[]},
+    {"index":33,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":34,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":35,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":36,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":11,"client":"c","label":"SYNC","status":"success","elapsedMs":411}]},
+    {"index":37,"op":"MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS","status":"success","stateChanges":3,"syncs":[]},
+    {"index":38,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":39,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":12,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":436},{"id":13,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":453},{"id":14,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":408}]},
+    {"index":40,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":41,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":42,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":43,"op":"RETRY_SYNC","status":"success","stateChanges":0,"syncs":[{"id":15,"client":"c","label":"RETRY_SYNC","status":"success","elapsedMs":522}]},
+    {"index":44,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":45,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":46,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":47,"op":"RESTORE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":48,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":49,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":50,"op":"RETRY_SYNC","status":"success","stateChanges":0,"syncs":[{"id":16,"client":"b","label":"RETRY_SYNC","status":"success","elapsedMs":380}]},
+    {"index":51,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":52,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":53,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":54,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":55,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":56,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":57,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":17,"client":"b","label":"SYNC","status":"success","elapsedMs":249}]},
+    {"index":58,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":18,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":186},{"id":19,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":537},{"id":20,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":526}]},
+    {"index":59,"op":"RESTORE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":60,"op":"MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS","status":"success","stateChanges":3,"syncs":[]},
+    {"index":61,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":62,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":63,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":64,"op":"RETRY_SYNC","status":"success","stateChanges":0,"syncs":[{"id":21,"client":"c","label":"RETRY_SYNC","status":"success","elapsedMs":429}]},
+    {"index":65,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":66,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":67,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":68,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":69,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":70,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":71,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":22,"client":"c","label":"SYNC","status":"success","elapsedMs":439}]},
+    {"index":72,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":73,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":74,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":75,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":76,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":77,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":23,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":565},{"id":24,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":593},{"id":25,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":476}]},
+    {"index":78,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":79,"op":"MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS","status":"success","stateChanges":3,"syncs":[]},
+    {"index":80,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":81,"op":"RESTORE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":82,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":83,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":84,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":85,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":26,"client":"c","label":"SYNC","status":"success","elapsedMs":414}]},
+    {"index":86,"op":"RESTORE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":87,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":88,"op":"DELETE_PERMANENTLY","status":"success","stateChanges":1,"syncs":[]},
+    {"index":89,"op":"MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS","status":"success","stateChanges":2,"syncs":[]},
+    {"index":90,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":91,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":92,"op":"RETRY_SYNC","status":"success","stateChanges":0,"syncs":[{"id":27,"client":"a","label":"RETRY_SYNC","status":"success","elapsedMs":540}]},
+    {"index":93,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":94,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":95,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":96,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":28,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":464},{"id":29,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":568},{"id":30,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":427}]},
+    {"index":97,"op":"MODIFY_SAME_NOTE_ON_MULTIPLE_CLIENTS","status":"success","stateChanges":3,"syncs":[]},
+    {"index":98,"op":"RESTORE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":99,"op":"RETRY_SYNC","status":"success","stateChanges":0,"syncs":[{"id":31,"client":"a","label":"RETRY_SYNC","status":"success","elapsedMs":437}]},
+    {"index":100,"op":"MOVE_TO_TRASH","status":"success","stateChanges":1,"syncs":[]},
+    {"index":101,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":102,"op":"RESTORE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":103,"op":"UPDATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":104,"op":"CREATE_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":105,"op":"RENAME_NOTE","status":"success","stateChanges":1,"syncs":[]},
+    {"index":106,"op":"SYNC","status":"success","stateChanges":0,"syncs":[{"id":32,"client":"a","label":"SYNC","status":"success","elapsedMs":445}]},
+    {"index":107,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":33,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":161},{"id":34,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":482},{"id":35,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":462}]},
+    {"index":108,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":36,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":321},{"id":37,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":364},{"id":38,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":194}]},
+    {"index":109,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":39,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":171},{"id":40,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":184},{"id":41,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":190}]},
+    {"index":110,"op":"SYNC_ALL","status":"success","stateChanges":0,"syncs":[{"id":42,"client":"c","label":"SYNC_ALL","status":"success","elapsedMs":196},{"id":43,"client":"b","label":"SYNC_ALL","status":"success","elapsedMs":139},{"id":44,"client":"a","label":"SYNC_ALL","status":"success","elapsedMs":156}]}
+  ],
+  "canonicalFinal": {
+    "a": [
+    {"id":"1ae59c2171559bce13361c78a186f866","title":"FUZZ:scale-100:104:74425923 title","body":"FUZZ:scale-100:94:96335581 body\n😀","deleted":true},
+    {"id":"2dfefc2ce6d484b9f9a76ff5a9f8807d","title":"FUZZ:scale-100:62:46478902 title","body":"FUZZ:scale-100:93:48195916 body\n","deleted":false},
+    {"id":"2eba24161604bdb3d514d4ae9c7af484","title":"FUZZ title n15","body":"FUZZ:scale-100:n15:create","deleted":false},
+    {"id":"39b104899ee09c557af3b7cfc1e1bbe9","title":"FUZZ:scale-100:75:54533911 title","body":"FUZZ:scale-100:n10:create","deleted":false},
+    {"id":"40e059cf8650b525e804e5430485ddaa","title":"FUZZ title n11","body":"FUZZ:scale-100:86:68680486 body\nsame pattern","deleted":false},
+    {"id":"6c651da9a2fcdeb88b43466b78d8294e","title":"FUZZ title n14","body":"FUZZ:scale-100:102:5508638 body\nline\nline","deleted":false},
+    {"id":"8b51a55cad94a3ec067cfa73a7d3e6dd","title":"FUZZ:scale-100:83:33731355 title","body":"FUZZ:scale-100:96:82844155:identical","deleted":false},
+    {"id":"e18557b552d1c751ddc59b35fd019dcb","title":"FUZZ:scale-100:64:14305150 title","body":"FUZZ:scale-100:39:67116359 body\nline\nline","deleted":true},
+    {"id":"e74501e51f5ae30a386c3801e923ae58","title":"FUZZ title n17","body":"FUZZ:scale-100:n17:create","deleted":false}
+  ],
+    "b": [
+    {"id":"1ae59c2171559bce13361c78a186f866","title":"FUZZ:scale-100:104:74425923 title","body":"FUZZ:scale-100:94:96335581 body\n😀","deleted":true},
+    {"id":"2dfefc2ce6d484b9f9a76ff5a9f8807d","title":"FUZZ:scale-100:62:46478902 title","body":"FUZZ:scale-100:93:48195916 body\n","deleted":false},
+    {"id":"2eba24161604bdb3d514d4ae9c7af484","title":"FUZZ title n15","body":"FUZZ:scale-100:n15:create","deleted":false},
+    {"id":"39b104899ee09c557af3b7cfc1e1bbe9","title":"FUZZ:scale-100:75:54533911 title","body":"FUZZ:scale-100:n10:create","deleted":false},
+    {"id":"40e059cf8650b525e804e5430485ddaa","title":"FUZZ title n11","body":"FUZZ:scale-100:86:68680486 body\nsame pattern","deleted":false},
+    {"id":"6c651da9a2fcdeb88b43466b78d8294e","title":"FUZZ title n14","body":"FUZZ:scale-100:102:5508638 body\nline\nline","deleted":false},
+    {"id":"8b51a55cad94a3ec067cfa73a7d3e6dd","title":"FUZZ:scale-100:83:33731355 title","body":"FUZZ:scale-100:96:82844155:identical","deleted":false},
+    {"id":"e18557b552d1c751ddc59b35fd019dcb","title":"FUZZ:scale-100:64:14305150 title","body":"FUZZ:scale-100:39:67116359 body\nline\nline","deleted":true},
+    {"id":"e74501e51f5ae30a386c3801e923ae58","title":"FUZZ title n17","body":"FUZZ:scale-100:n17:create","deleted":false}
+  ],
+    "c": [
+    {"id":"1ae59c2171559bce13361c78a186f866","title":"FUZZ:scale-100:104:74425923 title","body":"FUZZ:scale-100:94:96335581 body\n😀","deleted":true},
+    {"id":"2dfefc2ce6d484b9f9a76ff5a9f8807d","title":"FUZZ:scale-100:62:46478902 title","body":"FUZZ:scale-100:93:48195916 body\n","deleted":false},
+    {"id":"2eba24161604bdb3d514d4ae9c7af484","title":"FUZZ title n15","body":"FUZZ:scale-100:n15:create","deleted":false},
+    {"id":"39b104899ee09c557af3b7cfc1e1bbe9","title":"FUZZ:scale-100:75:54533911 title","body":"FUZZ:scale-100:n10:create","deleted":false},
+    {"id":"40e059cf8650b525e804e5430485ddaa","title":"FUZZ title n11","body":"FUZZ:scale-100:86:68680486 body\nsame pattern","deleted":false},
+    {"id":"6c651da9a2fcdeb88b43466b78d8294e","title":"FUZZ title n14","body":"FUZZ:scale-100:102:5508638 body\nline\nline","deleted":false},
+    {"id":"8b51a55cad94a3ec067cfa73a7d3e6dd","title":"FUZZ:scale-100:83:33731355 title","body":"FUZZ:scale-100:96:82844155:identical","deleted":false},
+    {"id":"e18557b552d1c751ddc59b35fd019dcb","title":"FUZZ:scale-100:64:14305150 title","body":"FUZZ:scale-100:39:67116359 body\nline\nline","deleted":true},
+    {"id":"e74501e51f5ae30a386c3801e923ae58","title":"FUZZ title n17","body":"FUZZ:scale-100:n17:create","deleted":false}
+  ]
+  },
+  "adjudication": {
+    "signalClassification": "HARNESS ERROR",
+    "originalBehavior": "EXPECTED BEHAVIOR",
+    "reason": "Clean historical body checked as if it were an unsynced local revision",
+    "affectedClientLocalEditsBeforeSignal": [],
+    "metadataLimitation": "Legacy snapshots did not record sync_items; clean-state inference uses complete command and before/after history."
+  },
+  "history": [
+    {
+      "index": 33,
+      "command": {
+        "op": "CREATE_NOTE",
+        "client": "b",
+        "key": "n9",
+        "title": "FUZZ title n9",
+        "body": "FUZZ:scale-100:n9:create"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [],
+      "remoteAfter": []
+    },
+    {
+      "index": 54,
+      "command": {
+        "op": "UPDATE_NOTE",
+        "client": "c",
+        "key": "n9",
+        "body": "FUZZ:scale-100:53:16422215 body\nline\nline"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "1686483f706b5b66510a325c2945249983675feb7eb41f22b21462b73a41fce3",
+          "bytes": 737,
+          "mtimeMs": 1792744083532.8599,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:n9:create\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:02.294Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:02.294Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "1686483f706b5b66510a325c2945249983675feb7eb41f22b21462b73a41fce3",
+          "bytes": 737,
+          "mtimeMs": 1792744083532.8599,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:n9:create\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:02.294Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:02.294Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "command": {
+        "op": "SYNC_ALL",
+        "order": [
+          "b",
+          "a",
+          "c"
+        ]
+      },
+      "status": "success",
+      "stateChanges": 0,
+      "syncs": [
+        {
+          "id": 18,
+          "client": "b",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 186
+        },
+        {
+          "id": 19,
+          "client": "a",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 537
+        },
+        {
+          "id": 20,
+          "client": "c",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 526
+        }
+      ],
+      "before": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "after": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "1686483f706b5b66510a325c2945249983675feb7eb41f22b21462b73a41fce3",
+          "bytes": 737,
+          "mtimeMs": 1792744083532.8599,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:n9:create\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:02.294Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:02.294Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "command": {
+        "op": "UPDATE_NOTE",
+        "client": "b",
+        "key": "n9",
+        "body": "FUZZ:scale-100:67:31292968 body\n😀"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "after": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "command": {
+        "op": "SYNC_ALL",
+        "order": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "status": "success",
+      "stateChanges": 0,
+      "syncs": [
+        {
+          "id": 23,
+          "client": "a",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 565
+        },
+        {
+          "id": 24,
+          "client": "b",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 593
+        },
+        {
+          "id": 25,
+          "client": "c",
+          "label": "SYNC_ALL",
+          "status": "success",
+          "elapsedMs": 476
+        }
+      ],
+      "before": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:n9:create","updated_time":1792744082294,"user_updated_time":1792744082294,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "after": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0},
+    {"id":"30b040b94ad747c4ae0cac907a394c78","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":1,"conflict_original_id":"1946b213e470220064ff0e6f4d63f6e9","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "command": {
+        "op": "DELETE_PERMANENTLY",
+        "client": "c",
+        "key": "n9"
+      },
+      "status": "success",
+      "stateChanges": 1,
+      "syncs": [],
+      "before": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0},
+    {"id":"30b040b94ad747c4ae0cac907a394c78","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":1,"conflict_original_id":"1946b213e470220064ff0e6f4d63f6e9","deleted_time":0}
+  ],
+        "c": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ]
+      },
+      "after": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0},
+    {"id":"30b040b94ad747c4ae0cac907a394c78","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":1,"conflict_original_id":"1946b213e470220064ff0e6f4d63f6e9","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "command": {
+        "op": "SYNC",
+        "client": "c"
+      },
+      "status": "success",
+      "stateChanges": 0,
+      "syncs": [
+        {
+          "id": 26,
+          "client": "c",
+          "label": "SYNC",
+          "status": "success",
+          "elapsedMs": 414
+        }
+      ],
+      "before": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0},
+    {"id":"30b040b94ad747c4ae0cac907a394c78","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":1,"conflict_original_id":"1946b213e470220064ff0e6f4d63f6e9","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0},
+    {"id":"30b040b94ad747c4ae0cac907a394c78","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":1,"conflict_original_id":"1946b213e470220064ff0e6f4d63f6e9","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [
+        {
+          "file": "1946b213e470220064ff0e6f4d63f6e9.md",
+          "sha256": "3eb33d35a450c09d7b96e40cdae842e7e3cc57df98a200d06288579f15cb60d6",
+          "bytes": 754,
+          "mtimeMs": 1792744086922.6965,
+          "serialized": "FUZZ title n9\n\nFUZZ:scale-100:53:16422215 body\nline\nline\n\nid: 1946b213e470220064ff0e6f4d63f6e9\nparent_id: 6d650689a94b43f98ca6afcd08e1f5d7\ncreated_time: 2026-10-23T08:28:02.294Z\nupdated_time: 2026-10-23T08:28:05.594Z\nis_conflict: 0\nlatitude: 0.00000000\nlongitude: 0.00000000\naltitude: 0.0000\nauthor: \nsource_url: \nis_todo: 0\ntodo_due: 0\ntodo_completed: 0\nsource: joplin-desktop\nsource_application: net.cozic.joplin-desktop\napplication_data: \norder: 1792744082294\nuser_created_time: 2026-10-23T08:28:02.294Z\nuser_updated_time: 2026-10-23T08:28:05.594Z\nencryption_cipher_text: \nencryption_applied: 0\nmarkup_language: 1\nis_shared: 0\nshare_id: \nconflict_original_id: \nmaster_key_id: \nuser_data: \ndeleted_time: 0\nis_locked: 0\nextracted_resource_ids: \ntype_: 1"
+        }
+      ],
+      "remoteAfter": []
+    },
+    {
+      "index": 92,
+      "command": {
+        "op": "RETRY_SYNC",
+        "client": "a"
+      },
+      "status": "success",
+      "stateChanges": 0,
+      "syncs": [
+        {
+          "id": 27,
+          "client": "a",
+          "label": "RETRY_SYNC",
+          "status": "success",
+          "elapsedMs": 540
+        }
+      ],
+      "before": {
+        "a": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0}
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0},
+    {"id":"30b040b94ad747c4ae0cac907a394c78","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":1,"conflict_original_id":"1946b213e470220064ff0e6f4d63f6e9","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "after": {
+        "a": [
+
+  ],
+        "b": [
+    {"id":"1946b213e470220064ff0e6f4d63f6e9","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:53:16422215 body\nline\nline","updated_time":1792744085594,"user_updated_time":1792744085594,"is_conflict":0,"conflict_original_id":"","deleted_time":0},
+    {"id":"30b040b94ad747c4ae0cac907a394c78","parent_id":"6d650689a94b43f98ca6afcd08e1f5d7","title":"FUZZ title n9","body":"FUZZ:scale-100:67:31292968 body\n😀","updated_time":1792744088013,"user_updated_time":1792744088013,"is_conflict":1,"conflict_original_id":"1946b213e470220064ff0e6f4d63f6e9","deleted_time":0}
+  ],
+        "c": [
+
+  ]
+      },
+      "remoteBefore": [],
+      "remoteAfter": []
+    }
+  ]
+}

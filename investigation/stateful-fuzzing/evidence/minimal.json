@@ -1,0 +1,18 @@
+{
+  "sequenceId": "pilot-20",
+  "seed": 2026102301,
+  "commands": [
+    {"op":"CREATE_NOTE","client":"b","key":"n3","title":"FUZZ title n3","body":"FUZZ:pilot-20:n3:create"},
+    {"op":"UPDATE_NOTE","client":"b","key":"n3","body":"FUZZ:pilot-20:4:88948631 body\nline\nline"},
+    {"op":"SYNC","client":"b"},
+    {"op":"SYNC","client":"c"},
+    {"op":"DELETE_PERMANENTLY","client":"c","key":"n3"},
+    {"op":"SYNC_ALL","order":["a","b","c"]},
+    {"op":"SYNC_ALL","order":["a","b","c"],"purpose":"settle-0"}
+  ],
+  "target": {
+    "kind": "unrepresented-local-revision",
+    "body": "FUZZ:pilot-20:4:88948631 body\nline\nline"
+  },
+  "oracle": "legacy-v1"
+}
