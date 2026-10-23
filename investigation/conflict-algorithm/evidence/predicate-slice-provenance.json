@@ -1,0 +1,14 @@
+{
+  "source": "../lib/models/Note.ts",
+  "originalMethodRange": {
+    "start": 8589004,
+    "end": 8589213
+  },
+  "originalBodyRange": {
+    "start": 8589034,
+    "end": 8589213
+  },
+  "bodySha256": "6a9fdf32571e063120ce1cf16c2d8785a6ee017bea98948a18d9f0e52d6765b9",
+  "sliceSha256": "8aaf9586be00f339e3fffb346a2f661701c348f9bbfbc2559a490fd975369094",
+  "transformation": "Original generated method body and parameters retained verbatim; static method presented as standalone function only for REA data-flow analysis. Never executed; no engine changes."
+}

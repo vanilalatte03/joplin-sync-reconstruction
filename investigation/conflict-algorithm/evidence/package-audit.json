@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-23T06:19:27.749Z",
+  "filesChecked": 185,
+  "jsonFilesParsed": 41,
+  "scriptsSyntaxChecked": 14,
+  "knownTestTokensFound": false,
+  "personalPathsFound": false,
+  "credentialPatternsFound": false,
+  "unexpectedBinariesProfilesOrSourceModulesFound": false,
+  "findings": []
+}

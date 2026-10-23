@@ -1,0 +1,70 @@
+{
+  "artifact": "main-html.bundle.js",
+  "rangeUnit": "zero-based UTF-16 code units, end exclusive; CDP generated lineNumber is zero-based; sourceMap lines are one-based",
+  "witnesses": [
+    {
+      "name": "dirtySelector",
+      "generatedExpression": "s.sync_time < items.updated_time OR force_sync = 1",
+      "location": {
+        "start": 8291722,
+        "end": 8291772,
+        "lineNumber": 2606,
+        "columnNumber": 10,
+        "sourceMap": {
+          "source": null,
+          "line": null,
+          "column": null,
+          "name": null
+        }
+      }
+    },
+    {
+      "name": "remoteTimestamp",
+      "generatedExpression": "B.updated_time>D.sync_time",
+      "location": {
+        "start": 9078124,
+        "end": 9078150,
+        "lineNumber": 3123,
+        "columnNumber": 64288,
+        "sourceMap": {
+          "source": "../lib/Synchronizer.ts",
+          "line": 709,
+          "column": 11,
+          "name": "remoteContent"
+        }
+      }
+    },
+    {
+      "name": "saveUploadedTimestamp",
+      "generatedExpression": "E.saveSyncTime(l,D,D.updated_time)",
+      "location": {
+        "start": 9079884,
+        "end": 9079918,
+        "lineNumber": 3123,
+        "columnNumber": 66048,
+        "sourceMap": {
+          "source": "../lib/Synchronizer.ts",
+          "line": 851,
+          "column": 14,
+          "name": "ItemClass"
+        }
+      }
+    },
+    {
+      "name": "materialContentPredicate",
+      "generatedExpression": "!!(t.encryption_cipher_text||n.encryption_cipher_text||t.title!==n.title||t.body!==n.body)",
+      "location": {
+        "start": 8589122,
+        "end": 8589212,
+        "lineNumber": 2788,
+        "columnNumber": 1569,
+        "sourceMap": {
+          "source": "../lib/models/Note.ts",
+          "line": 1128,
+          "column": 6,
+          "name": null
+        }
+      }
+    }
+  ]
+}

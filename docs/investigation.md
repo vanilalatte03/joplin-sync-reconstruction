@@ -1,5 +1,7 @@
 # 역공학 과정과 근거
 
+> 초기 조사 기록이다. 2026-10-23 후속 조사에서 충돌 판정의 시각 조건, 동일 내용 비교, 삭제 순서를 추가 검증했다. [심층 조사와 증거](../investigation/conflict-algorithm/README.md)에 결과와 REA 자동 추적의 한계를 구분해 기록했다.
+
 ## 범위와 증거 구분
 
 실험일: 2026-10-22, Asia/Seoul. JSON의 `observedAt`은 UTC ISO 8601이다. 대상은 공식 Windows x64 Joplin Desktop **3.7.21**, 분석 도구는 REA **6.7.0**이다.

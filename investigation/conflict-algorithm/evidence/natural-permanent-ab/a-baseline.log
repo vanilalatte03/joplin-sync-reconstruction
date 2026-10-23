@@ -1,0 +1,33 @@
+2026-10-23 14:59:20: routes/notes: Request (1792735160313): Created note 2f597b3b8b9abbb0cf43229ce0fcd769
+2026-10-23 14:59:20: Preparing scheduled sync
+2026-10-23 14:59:20: Starting scheduled sync
+2026-10-23 14:59:20: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1792735160335]
+2026-10-23 14:59:20: Synchronizer: Indexing resources...
+2026-10-23 14:59:20: ResourceService::indexNoteResources: Start
+2026-10-23 14:59:20: Performance: ResourceService/indexNoteResources: Start at 575.76s
+2026-10-23 14:59:20: Performance: ResourceService/indexNoteResources: End at 575.88s (took 122.9ms)
+2026-10-23 14:59:20: ResourceService::indexNoteResources: Completed
+2026-10-23 14:59:20: Performance: ShareService/maintenance: Start at 575.88s
+2026-10-23 14:59:20: Performance: ShareService/maintenance: End at 575.88s (took 0.1ms)
+2026-10-23 14:59:20: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:59:20: Synchronizer: Sync target is already setup - checking it...
+2026-10-23 14:59:20: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:59:20: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 2f597b3b8b9abbb0cf43229ce0fcd769)
+2026-10-23 14:59:20: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-10-23 14:59:20: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-10-23 14:59:20: Synchronizer: BasicDelta (enhanced): Report: {"timestamp":1792735148638,"older":0,"newer":1,"equal":24}
+2026-10-23 14:59:20: Synchronizer: supportsDeltaWithItems =  <false>
+2026-10-23 14:59:20: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-10-23 14:59:20: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-10-23 14:59:20: Performance: DecryptionWorker/start: Start at 576.32s
+2026-10-23 14:59:20: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-10-23 14:59:20: Performance: DecryptionWorker/start: End at 576.33s (took 1ms)
+2026-10-23 14:59:29: Synchronizer: Sync: finished: Synchronisation finished [1792735160335]
+2026-10-23 14:59:29: Synchronizer: Operations completed:
+2026-10-23 14:59:29: Synchronizer: createRemote: 1
+2026-10-23 14:59:29: Synchronizer: fetchingTotal: 1
+2026-10-23 14:59:29: Synchronizer: fetchingProcessed: 1
+2026-10-23 14:59:29: Synchronizer: Total folders: 3
+2026-10-23 14:59:29: Synchronizer: Total notes: 26
+2026-10-23 14:59:29: Synchronizer: Total resources: 0
+2026-10-23 14:59:29: checkDisabledSyncItemsNotification: No errors: Hiding notification

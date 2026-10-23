@@ -1,0 +1,37 @@
+2026-10-23 14:52:38: Preparing scheduled sync
+2026-10-23 14:52:38: Starting scheduled sync
+2026-10-23 14:52:38: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1792734758603]
+2026-10-23 14:52:38: Synchronizer: Indexing resources...
+2026-10-23 14:52:38: ResourceService::indexNoteResources: Start
+2026-10-23 14:52:38: Performance: ResourceService/indexNoteResources: Start at 164.24s
+2026-10-23 14:52:38: Performance: ResourceService/indexNoteResources: End at 164.35s (took 117.9ms)
+2026-10-23 14:52:38: ResourceService::indexNoteResources: Completed
+2026-10-23 14:52:38: Performance: ShareService/maintenance: Start at 164.35s
+2026-10-23 14:52:38: Performance: ShareService/maintenance: End at 164.35s (took 0.1ms)
+2026-10-23 14:52:38: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:52:38: Synchronizer: Sync target is already setup - checking it...
+2026-10-23 14:52:38: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:52:38: Synchronizer: Sync: updateRemote: local has changes: Note: (Local 6cb961acc9072f7be76207c06fc6b181): (Remote 6cb961acc9072f7be76207c06fc6b181.md)
+2026-10-23 14:52:38: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-10-23 14:52:38: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-10-23 14:52:38: Synchronizer: BasicDelta (enhanced): Report: {"timestamp":1792734757520,"older":0,"newer":1,"equal":4}
+2026-10-23 14:52:38: Synchronizer: supportsDeltaWithItems =  <false>
+2026-10-23 14:52:38: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-10-23 14:52:38: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-10-23 14:52:39: Performance: SearchEngine/syncTables: Start at 164.8s
+2026-10-23 14:52:39: SearchEngine: Updating FTS table...
+2026-10-23 14:52:39: Performance: DecryptionWorker/start: Start at 164.98s
+2026-10-23 14:52:39: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-10-23 14:52:39: Performance: DecryptionWorker/start: End at 164.98s (took 0.3ms)
+2026-10-23 14:52:39: Synchronizer: Sync: finished: Synchronisation finished [1792734758603]
+2026-10-23 14:52:39: Synchronizer: Operations completed:
+2026-10-23 14:52:39: Synchronizer: updateRemote: 1
+2026-10-23 14:52:39: Synchronizer: fetchingTotal: 1
+2026-10-23 14:52:39: Synchronizer: fetchingProcessed: 1
+2026-10-23 14:52:39: Synchronizer: Total folders: 2
+2026-10-23 14:52:39: Synchronizer: Total notes: 4
+2026-10-23 14:52:39: Synchronizer: Total resources: 0
+2026-10-23 14:52:39: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-10-23 14:52:39: Updating items_normalized from {"updated_time":0,"id":""}
+2026-10-23 14:52:39: SearchEngine: Updated FTS table in 142ms. Inserted: 3. Deleted: 0
+2026-10-23 14:52:39: Performance: SearchEngine/syncTables: End at 165.06s (took 0.25s)

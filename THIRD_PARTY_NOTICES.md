@@ -9,7 +9,7 @@
 - 같은 태그의 전체 소스: https://github.com/laurent22/joplin/tree/v3.7.21
 - 저작권과 라이선스 본문: `investigation/JOPLIN-LICENSE.txt`
 
-Joplin 바이너리는 수정하지 않았으며 다운로드·전용 프로필 실행·디버깅·정적 분석만 수행했다. 배포 ASAR에서 추출한 생성 코드와 REA Evidence의 원본 표현은 로컬에만 보존하고 공개 저장소에 포함하지 않는다. 이들은 독립 Java/Node 구현의 소스 파일로 옮기지 않았다. Joplin 바이너리와 테스트 프로필도 포함하지 않으며 공식 URL에서 받는다.
+Joplin 바이너리는 수정하지 않았으며 다운로드·전용 프로필 실행·디버깅·정적 분석만 수행했다. 배포 ASAR에서 추출한 전체 생성 모듈과 REA Evidence의 원본 표현은 로컬에만 보존한다. 후속 [충돌 조사 고지](investigation/conflict-algorithm/THIRD_PARTY_NOTICES.md)에 설명한 최소 조건식과 코드 주소만 근거로 인용했다. 이들은 독립 Java/Node 엔진의 소스 파일로 옮기지 않았다. Joplin 바이너리와 테스트 프로필도 포함하지 않으며 공식 URL에서 받는다.
 
 ## REA
 

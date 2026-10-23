@@ -1,0 +1,29 @@
+2026-10-23 14:57:37: Preparing scheduled sync
+2026-10-23 14:57:37: Starting scheduled sync
+2026-10-23 14:57:37: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1792735057537]
+2026-10-23 14:57:37: Synchronizer: Indexing resources...
+2026-10-23 14:57:37: ResourceService::indexNoteResources: Start
+2026-10-23 14:57:37: Performance: ResourceService/indexNoteResources: Start at 463.17s
+2026-10-23 14:57:37: Performance: ResourceService/indexNoteResources: End at 463.28s (took 108.8ms)
+2026-10-23 14:57:37: ResourceService::indexNoteResources: Completed
+2026-10-23 14:57:37: Performance: ShareService/maintenance: Start at 463.28s
+2026-10-23 14:57:37: Performance: ShareService/maintenance: End at 463.28s (took 0.1ms)
+2026-10-23 14:57:37: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:57:37: Synchronizer: Sync target is already setup - checking it...
+2026-10-23 14:57:37: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"noteLockKey":null,"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.7.0","revisionServiceEnabled":{"value":true,"updatedTime":0},"revisionServiceTtlDays":{"value":90,"updatedTime":0}}
+2026-10-23 14:57:37: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-10-23 14:57:37: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-10-23 14:57:37: Synchronizer: BasicDelta (enhanced): Report: {"timestamp":1792735055523,"older":0,"newer":1,"equal":19}
+2026-10-23 14:57:37: Synchronizer: supportsDeltaWithItems =  <false>
+2026-10-23 14:57:37: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-10-23 14:57:37: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-10-23 14:57:38: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 41f132c63e8f0df8e50dfdc539b5a823.md)
+2026-10-23 14:57:38: Synchronizer: Sync: finished: Synchronisation finished [1792735057537]
+2026-10-23 14:57:38: Synchronizer: Operations completed:
+2026-10-23 14:57:38: Synchronizer: fetchingTotal: 1
+2026-10-23 14:57:38: Synchronizer: fetchingProcessed: 1
+2026-10-23 14:57:38: Synchronizer: createLocal: 1
+2026-10-23 14:57:38: Synchronizer: Total folders: 3
+2026-10-23 14:57:38: Synchronizer: Total notes: 26
+2026-10-23 14:57:38: Synchronizer: Total resources: 0
+2026-10-23 14:57:38: checkDisabledSyncItemsNotification: No errors: Hiding notification

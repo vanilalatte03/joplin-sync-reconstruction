@@ -1,0 +1,5893 @@
+[
+  {
+    "caseId": "order-ab",
+    "noteId": "86107d484ad04ae826504565cc1a7ce1",
+    "configuration": {
+      "caseId": "order-ab",
+      "order": [
+        "a",
+        "b"
+      ]
+    },
+    "canonicalA": {
+      "id": "86107d484ad04ae826504565cc1a7ce1",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "order-ab",
+      "body": "A_EDIT",
+      "updated_time": 1792731161344,
+      "user_updated_time": 1792734753359,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "86107d484ad04ae826504565cc1a7ce1",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "order-ab",
+      "body": "A_EDIT",
+      "updated_time": 1792731161344,
+      "user_updated_time": 1792734753359,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "5cbd5c561d4d47b1b7e608112c2d567f",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "order-ab",
+        "body": "B_EDIT",
+        "updated_time": 1792731171344,
+        "user_updated_time": 1792734753466,
+        "is_conflict": 1,
+        "conflict_original_id": "86107d484ad04ae826504565cc1a7ce1",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "order-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:33.685Z",
+        "captured": {
+          "local": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792731161344,
+            "user_updated_time": 1792734753359,
+            "sync_time": 1792731151344,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "BASE",
+            "updated_time": 1792731151344,
+            "user_updated_time": 1792731151344,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "86107d484ad04ae826504565cc1a7ce1.md",
+            "updated_time": 1792734751598,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:33.715Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792731161344,
+            "user_updated_time": 1792734753359,
+            "sync_time": 1792731151344,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "BASE",
+            "updated_time": 1792731151344,
+            "user_updated_time": 1792731151344,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:34.710Z",
+        "captured": {
+          "local": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "B_EDIT",
+            "updated_time": 1792731171344,
+            "user_updated_time": 1792734753466,
+            "sync_time": 1792731151344,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792731161344,
+            "user_updated_time": 1792734753359,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "86107d484ad04ae826504565cc1a7ce1.md",
+            "updated_time": 1792734753691,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:35.175Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "B_EDIT",
+            "updated_time": 1792731171344,
+            "user_updated_time": 1792734753466,
+            "sync_time": 1792731151344,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792731161344,
+            "user_updated_time": 1792734753359,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:52:35.641Z",
+        "captured": {
+          "local": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "B_EDIT",
+            "updated_time": 1792731171344,
+            "user_updated_time": 1792734753466,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "86107d484ad04ae826504565cc1a7ce1",
+            "title": "order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792731161344,
+            "user_updated_time": 1792734753359,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "order-ba",
+    "noteId": "6cb961acc9072f7be76207c06fc6b181",
+    "configuration": {
+      "caseId": "order-ba",
+      "order": [
+        "b",
+        "a"
+      ]
+    },
+    "canonicalA": {
+      "id": "6cb961acc9072f7be76207c06fc6b181",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "order-ba",
+      "body": "B_EDIT",
+      "updated_time": 1792731176689,
+      "user_updated_time": 1792734758566,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "6cb961acc9072f7be76207c06fc6b181",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "order-ba",
+      "body": "B_EDIT",
+      "updated_time": 1792731176689,
+      "user_updated_time": 1792734758566,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [
+      {
+        "id": "f67d9d5998f44f208f58a75bbba222e9",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "order-ba",
+        "body": "A_EDIT",
+        "updated_time": 1792731166689,
+        "user_updated_time": 1792734758440,
+        "is_conflict": 1,
+        "conflict_original_id": "6cb961acc9072f7be76207c06fc6b181",
+        "deleted_time": 0
+      }
+    ],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "order-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:38.753Z",
+        "captured": {
+          "local": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792731176689,
+            "user_updated_time": 1792734758566,
+            "sync_time": 1792731156689,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "BASE",
+            "updated_time": 1792731156689,
+            "user_updated_time": 1792731156689,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "6cb961acc9072f7be76207c06fc6b181.md",
+            "updated_time": 1792734756888,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:38.783Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792731176689,
+            "user_updated_time": 1792734758566,
+            "sync_time": 1792731156689,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "BASE",
+            "updated_time": 1792731156689,
+            "user_updated_time": 1792731156689,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:39.778Z",
+        "captured": {
+          "local": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "A_EDIT",
+            "updated_time": 1792731166689,
+            "user_updated_time": 1792734758440,
+            "sync_time": 1792731156689,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792731176689,
+            "user_updated_time": 1792734758566,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": false,
+          "remoteFileStat": {
+            "path": "6cb961acc9072f7be76207c06fc6b181.md",
+            "updated_time": 1792734758758,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:39.807Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "A_EDIT",
+            "updated_time": 1792731166689,
+            "user_updated_time": 1792734758440,
+            "sync_time": 1792731156689,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792731176689,
+            "user_updated_time": 1792734758566,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "order-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:52:40.258Z",
+        "captured": {
+          "local": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "A_EDIT",
+            "updated_time": 1792731166689,
+            "user_updated_time": 1792734758440,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6cb961acc9072f7be76207c06fc6b181",
+            "title": "order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792731176689,
+            "user_updated_time": 1792734758566,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "local-clock-ahead",
+    "noteId": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+    "configuration": {
+      "caseId": "local-clock-ahead",
+      "edits": {
+        "aTime": 10000,
+        "bTime": 30000
+      }
+    },
+    "canonicalA": {
+      "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-clock-ahead",
+      "body": "A_EDIT",
+      "updated_time": 1792731171681,
+      "user_updated_time": 1792734763366,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-clock-ahead",
+      "body": "A_EDIT",
+      "updated_time": 1792731171681,
+      "user_updated_time": 1792734763366,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "d169d7a57f0841b9ab62ae3b0664800e",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-clock-ahead",
+        "body": "B_EDIT",
+        "updated_time": 1792731191681,
+        "user_updated_time": 1792734763491,
+        "is_conflict": 1,
+        "conflict_original_id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "local-clock-ahead",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:43.681Z",
+        "captured": {
+          "local": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "A_EDIT",
+            "updated_time": 1792731171681,
+            "user_updated_time": 1792734763366,
+            "sync_time": 1792731161681,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "BASE",
+            "updated_time": 1792731161681,
+            "user_updated_time": 1792731161681,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "d38fd65cb34b5fd0de9d1b4da07d14b5.md",
+            "updated_time": 1792734761879,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-ahead",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:43.711Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "A_EDIT",
+            "updated_time": 1792731171681,
+            "user_updated_time": 1792734763366,
+            "sync_time": 1792731161681,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "BASE",
+            "updated_time": 1792731161681,
+            "user_updated_time": 1792731161681,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-ahead",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:44.718Z",
+        "captured": {
+          "local": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "B_EDIT",
+            "updated_time": 1792731191681,
+            "user_updated_time": 1792734763491,
+            "sync_time": 1792731161681,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "A_EDIT",
+            "updated_time": 1792731171681,
+            "user_updated_time": 1792734763366,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "d38fd65cb34b5fd0de9d1b4da07d14b5.md",
+            "updated_time": 1792734763687,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-ahead",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:44.749Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "B_EDIT",
+            "updated_time": 1792731191681,
+            "user_updated_time": 1792734763491,
+            "sync_time": 1792731161681,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "A_EDIT",
+            "updated_time": 1792731171681,
+            "user_updated_time": 1792734763366,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-ahead",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:52:44.780Z",
+        "captured": {
+          "local": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "B_EDIT",
+            "updated_time": 1792731191681,
+            "user_updated_time": 1792734763491,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d38fd65cb34b5fd0de9d1b4da07d14b5",
+            "title": "local-clock-ahead",
+            "body": "A_EDIT",
+            "updated_time": 1792731171681,
+            "user_updated_time": 1792734763366,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "local-clock-behind",
+    "noteId": "6b3aab5ed8bb7faabd6db5251cdce74e",
+    "configuration": {
+      "caseId": "local-clock-behind",
+      "edits": {
+        "aTime": 30000,
+        "bTime": 10000
+      }
+    },
+    "canonicalA": {
+      "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-clock-behind",
+      "body": "A_EDIT",
+      "updated_time": 1792731195818,
+      "user_updated_time": 1792734767442,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-clock-behind",
+      "body": "A_EDIT",
+      "updated_time": 1792731195818,
+      "user_updated_time": 1792734767442,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "10078b17967740a5b19f626257c5aba2",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "local-clock-behind",
+        "body": "B_EDIT",
+        "updated_time": 1792731175818,
+        "user_updated_time": 1792734767551,
+        "is_conflict": 1,
+        "conflict_original_id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "local-clock-behind",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:47.745Z",
+        "captured": {
+          "local": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "A_EDIT",
+            "updated_time": 1792731195818,
+            "user_updated_time": 1792734767442,
+            "sync_time": 1792731165818,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "BASE",
+            "updated_time": 1792731165818,
+            "user_updated_time": 1792731165818,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "6b3aab5ed8bb7faabd6db5251cdce74e.md",
+            "updated_time": 1792734766030,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-behind",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:47.776Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "A_EDIT",
+            "updated_time": 1792731195818,
+            "user_updated_time": 1792734767442,
+            "sync_time": 1792731165818,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "BASE",
+            "updated_time": 1792731165818,
+            "user_updated_time": 1792731165818,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-behind",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:48.620Z",
+        "captured": {
+          "local": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "B_EDIT",
+            "updated_time": 1792731175818,
+            "user_updated_time": 1792734767551,
+            "sync_time": 1792731165818,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "A_EDIT",
+            "updated_time": 1792731195818,
+            "user_updated_time": 1792734767442,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": false,
+          "remoteFileStat": {
+            "path": "6b3aab5ed8bb7faabd6db5251cdce74e.md",
+            "updated_time": 1792734767750,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-behind",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:48.650Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "B_EDIT",
+            "updated_time": 1792731175818,
+            "user_updated_time": 1792734767551,
+            "sync_time": 1792731165818,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "A_EDIT",
+            "updated_time": 1792731195818,
+            "user_updated_time": 1792734767442,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-clock-behind",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:52:48.681Z",
+        "captured": {
+          "local": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "B_EDIT",
+            "updated_time": 1792731175818,
+            "user_updated_time": 1792734767551,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "6b3aab5ed8bb7faabd6db5251cdce74e",
+            "title": "local-clock-behind",
+            "body": "A_EDIT",
+            "updated_time": 1792731195818,
+            "user_updated_time": 1792734767442,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "local-updated-equals-sync",
+    "noteId": "d929efcc599df9cdabd82f85204eb57a",
+    "configuration": {
+      "caseId": "local-updated-equals-sync",
+      "edits": {
+        "aTime": 10000,
+        "bTime": 0
+      }
+    },
+    "canonicalA": {
+      "id": "d929efcc599df9cdabd82f85204eb57a",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-updated-equals-sync",
+      "body": "A_EDIT",
+      "updated_time": 1792731179774,
+      "user_updated_time": 1792734771443,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "d929efcc599df9cdabd82f85204eb57a",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-updated-equals-sync",
+      "body": "A_EDIT",
+      "updated_time": 1792731179774,
+      "user_updated_time": 1792734771443,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "local-updated-equals-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:51.669Z",
+        "captured": {
+          "local": {
+            "id": "d929efcc599df9cdabd82f85204eb57a",
+            "title": "local-updated-equals-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731179774,
+            "user_updated_time": 1792734771443,
+            "sync_time": 1792731169774,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d929efcc599df9cdabd82f85204eb57a",
+            "title": "local-updated-equals-sync",
+            "body": "BASE",
+            "updated_time": 1792731169774,
+            "user_updated_time": 1792731169774,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "d929efcc599df9cdabd82f85204eb57a.md",
+            "updated_time": 1792734769974,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-updated-equals-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:51.699Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "d929efcc599df9cdabd82f85204eb57a",
+            "title": "local-updated-equals-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731179774,
+            "user_updated_time": 1792734771443,
+            "sync_time": 1792731169774,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d929efcc599df9cdabd82f85204eb57a",
+            "title": "local-updated-equals-sync",
+            "body": "BASE",
+            "updated_time": 1792731169774,
+            "user_updated_time": 1792731169774,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "local-updated-before-sync",
+    "noteId": "9538e446bcacce37433b50c690d9f71a",
+    "configuration": {
+      "caseId": "local-updated-before-sync",
+      "edits": {
+        "aTime": 10000,
+        "bTime": -1
+      }
+    },
+    "canonicalA": {
+      "id": "9538e446bcacce37433b50c690d9f71a",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-updated-before-sync",
+      "body": "A_EDIT",
+      "updated_time": 1792731183815,
+      "user_updated_time": 1792734775440,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "9538e446bcacce37433b50c690d9f71a",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "local-updated-before-sync",
+      "body": "A_EDIT",
+      "updated_time": 1792731183815,
+      "user_updated_time": 1792734775440,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "local-updated-before-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:55.754Z",
+        "captured": {
+          "local": {
+            "id": "9538e446bcacce37433b50c690d9f71a",
+            "title": "local-updated-before-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731183815,
+            "user_updated_time": 1792734775440,
+            "sync_time": 1792731173815,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "9538e446bcacce37433b50c690d9f71a",
+            "title": "local-updated-before-sync",
+            "body": "BASE",
+            "updated_time": 1792731173815,
+            "user_updated_time": 1792731173815,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "9538e446bcacce37433b50c690d9f71a.md",
+            "updated_time": 1792734774032,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "local-updated-before-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:55.785Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "9538e446bcacce37433b50c690d9f71a",
+            "title": "local-updated-before-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731183815,
+            "user_updated_time": 1792734775440,
+            "sync_time": 1792731173815,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "9538e446bcacce37433b50c690d9f71a",
+            "title": "local-updated-before-sync",
+            "body": "BASE",
+            "updated_time": 1792731173815,
+            "user_updated_time": 1792731173815,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "remote-updated-equals-sync",
+    "noteId": "bd594f54cf044834c3bc37f9b0808a08",
+    "configuration": {
+      "caseId": "remote-updated-equals-sync",
+      "remoteOffset": 0
+    },
+    "canonicalA": {
+      "id": "bd594f54cf044834c3bc37f9b0808a08",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "remote-updated-equals-sync",
+      "body": "B_EDIT",
+      "updated_time": 1792731197785,
+      "user_updated_time": 1792734779501,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "bd594f54cf044834c3bc37f9b0808a08",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "remote-updated-equals-sync",
+      "body": "B_EDIT",
+      "updated_time": 1792731197785,
+      "user_updated_time": 1792734779501,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "remote-updated-equals-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:52:59.696Z",
+        "captured": {
+          "local": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731187785,
+            "user_updated_time": 1792734779473,
+            "sync_time": 1792731177785,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "BASE",
+            "updated_time": 1792731177785,
+            "user_updated_time": 1792731177785,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "bd594f54cf044834c3bc37f9b0808a08.md",
+            "updated_time": 1792734778013,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-equals-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:52:59.726Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731187785,
+            "user_updated_time": 1792734779473,
+            "sync_time": 1792731177785,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "BASE",
+            "updated_time": 1792731177785,
+            "user_updated_time": 1792731177785,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-equals-sync",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:53:07.584Z",
+        "captured": {
+          "local": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "B_EDIT",
+            "updated_time": 1792731197785,
+            "user_updated_time": 1792734779501,
+            "sync_time": 1792731177785,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731177785,
+            "user_updated_time": 1792734779473,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "bd594f54cf044834c3bc37f9b0808a08.md",
+            "updated_time": 1792734787412,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-equals-sync",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:53:07.615Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "B_EDIT",
+            "updated_time": 1792731197785,
+            "user_updated_time": 1792734779501,
+            "sync_time": 1792731177785,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd594f54cf044834c3bc37f9b0808a08",
+            "title": "remote-updated-equals-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731177785,
+            "user_updated_time": 1792734779473,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "remote-updated-before-sync",
+    "noteId": "a8f12de4aa9b09fb967816327fe16e35",
+    "configuration": {
+      "caseId": "remote-updated-before-sync",
+      "remoteOffset": -1
+    },
+    "canonicalA": {
+      "id": "a8f12de4aa9b09fb967816327fe16e35",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "remote-updated-before-sync",
+      "body": "B_EDIT",
+      "updated_time": 1792731217372,
+      "user_updated_time": 1792734809481,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "a8f12de4aa9b09fb967816327fe16e35",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "remote-updated-before-sync",
+      "body": "B_EDIT",
+      "updated_time": 1792731217372,
+      "user_updated_time": 1792734809481,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "remote-updated-before-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:53:29.698Z",
+        "captured": {
+          "local": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731207372,
+            "user_updated_time": 1792734809369,
+            "sync_time": 1792731197372,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "BASE",
+            "updated_time": 1792731197372,
+            "user_updated_time": 1792731197372,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "a8f12de4aa9b09fb967816327fe16e35.md",
+            "updated_time": 1792734797693,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-before-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:53:29.729Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731207372,
+            "user_updated_time": 1792734809369,
+            "sync_time": 1792731197372,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "BASE",
+            "updated_time": 1792731197372,
+            "user_updated_time": 1792731197372,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-before-sync",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:53:36.555Z",
+        "captured": {
+          "local": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "B_EDIT",
+            "updated_time": 1792731217372,
+            "user_updated_time": 1792734809481,
+            "sync_time": 1792731197372,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731197371,
+            "user_updated_time": 1792734809369,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "a8f12de4aa9b09fb967816327fe16e35.md",
+            "updated_time": 1792734816307,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-before-sync",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:53:36.585Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "B_EDIT",
+            "updated_time": 1792731217372,
+            "user_updated_time": 1792734809481,
+            "sync_time": 1792731197372,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "a8f12de4aa9b09fb967816327fe16e35",
+            "title": "remote-updated-before-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731197371,
+            "user_updated_time": 1792734809369,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "remote-updated-one-ms-after-sync",
+    "noteId": "0129b8fbce601124a739664f53c173ec",
+    "configuration": {
+      "caseId": "remote-updated-one-ms-after-sync",
+      "remoteOffset": 1
+    },
+    "canonicalA": {
+      "id": "0129b8fbce601124a739664f53c173ec",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "remote-updated-one-ms-after-sync",
+      "body": "A_EDIT",
+      "updated_time": 1792731234999,
+      "user_updated_time": 1792734834361,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "0129b8fbce601124a739664f53c173ec",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "remote-updated-one-ms-after-sync",
+      "body": "A_EDIT",
+      "updated_time": 1792731225000,
+      "user_updated_time": 1792734834361,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "55e33a6306664cc29b0e5793d4890e99",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "remote-updated-one-ms-after-sync",
+        "body": "B_EDIT",
+        "updated_time": 1792731244999,
+        "user_updated_time": 1792734834389,
+        "is_conflict": 1,
+        "conflict_original_id": "0129b8fbce601124a739664f53c173ec",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "remote-updated-one-ms-after-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:53:54.582Z",
+        "captured": {
+          "local": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731234999,
+            "user_updated_time": 1792734834361,
+            "sync_time": 1792731224999,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "BASE",
+            "updated_time": 1792731224999,
+            "user_updated_time": 1792731224999,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "0129b8fbce601124a739664f53c173ec.md",
+            "updated_time": 1792734825204,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-one-ms-after-sync",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:53:54.612Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731234999,
+            "user_updated_time": 1792734834361,
+            "sync_time": 1792731224999,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "BASE",
+            "updated_time": 1792731224999,
+            "user_updated_time": 1792731224999,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-one-ms-after-sync",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:54:03.367Z",
+        "captured": {
+          "local": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "B_EDIT",
+            "updated_time": 1792731244999,
+            "user_updated_time": 1792734834389,
+            "sync_time": 1792731224999,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731225000,
+            "user_updated_time": 1792734834361,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "0129b8fbce601124a739664f53c173ec.md",
+            "updated_time": 1792734843151,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-one-ms-after-sync",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:54:03.398Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "B_EDIT",
+            "updated_time": 1792731244999,
+            "user_updated_time": 1792734834389,
+            "sync_time": 1792731224999,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731225000,
+            "user_updated_time": 1792734834361,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "remote-updated-one-ms-after-sync",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:54:03.429Z",
+        "captured": {
+          "local": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "B_EDIT",
+            "updated_time": 1792731244999,
+            "user_updated_time": 1792734834389,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "0129b8fbce601124a739664f53c173ec",
+            "title": "remote-updated-one-ms-after-sync",
+            "body": "A_EDIT",
+            "updated_time": 1792731225000,
+            "user_updated_time": 1792734834361,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "filesystem-mtime-old",
+    "noteId": "b772e44f83ee2c04cdb711b8de668367",
+    "configuration": {
+      "caseId": "filesystem-mtime-old",
+      "fileMtimeOffset": -100000
+    },
+    "canonicalA": {
+      "id": "b772e44f83ee2c04cdb711b8de668367",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "filesystem-mtime-old",
+      "body": "A_EDIT",
+      "updated_time": 1792731262915,
+      "user_updated_time": 1792734862347,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "b772e44f83ee2c04cdb711b8de668367",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "filesystem-mtime-old",
+      "body": "A_EDIT",
+      "updated_time": 1792731262915,
+      "user_updated_time": 1792734862347,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "1e862f45dc244dc887be2af9c5fb471b",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "filesystem-mtime-old",
+        "body": "B_EDIT",
+        "updated_time": 1792731272915,
+        "user_updated_time": 1792734862376,
+        "is_conflict": 1,
+        "conflict_original_id": "b772e44f83ee2c04cdb711b8de668367",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "filesystem-mtime-old",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:54:22.585Z",
+        "captured": {
+          "local": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "A_EDIT",
+            "updated_time": 1792731262915,
+            "user_updated_time": 1792734862347,
+            "sync_time": 1792731252915,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "BASE",
+            "updated_time": 1792731252915,
+            "user_updated_time": 1792731252915,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "b772e44f83ee2c04cdb711b8de668367.md",
+            "updated_time": 1792734853126,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "filesystem-mtime-old",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:54:22.614Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "A_EDIT",
+            "updated_time": 1792731262915,
+            "user_updated_time": 1792734862347,
+            "sync_time": 1792731252915,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "BASE",
+            "updated_time": 1792731252915,
+            "user_updated_time": 1792731252915,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "filesystem-mtime-old",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:54:32.670Z",
+        "captured": {
+          "local": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "B_EDIT",
+            "updated_time": 1792731272915,
+            "user_updated_time": 1792734862376,
+            "sync_time": 1792731252915,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "A_EDIT",
+            "updated_time": 1792731262915,
+            "user_updated_time": 1792734862347,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "b772e44f83ee2c04cdb711b8de668367.md",
+            "updated_time": 1792731152915,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "filesystem-mtime-old",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:54:32.699Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "B_EDIT",
+            "updated_time": 1792731272915,
+            "user_updated_time": 1792734862376,
+            "sync_time": 1792731252915,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "A_EDIT",
+            "updated_time": 1792731262915,
+            "user_updated_time": 1792734862347,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "filesystem-mtime-old",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:54:32.730Z",
+        "captured": {
+          "local": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "B_EDIT",
+            "updated_time": 1792731272915,
+            "user_updated_time": 1792734862376,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b772e44f83ee2c04cdb711b8de668367",
+            "title": "filesystem-mtime-old",
+            "body": "A_EDIT",
+            "updated_time": 1792731262915,
+            "user_updated_time": 1792734862347,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "user-updated-time-inverted",
+    "noteId": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+    "configuration": {
+      "caseId": "user-updated-time-inverted",
+      "edits": {
+        "aUser": 1792634751343,
+        "bUser": 1792834751343
+      }
+    },
+    "canonicalA": {
+      "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "user-updated-time-inverted",
+      "body": "A_EDIT",
+      "updated_time": 1792731294091,
+      "user_updated_time": 1792634751343,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "user-updated-time-inverted",
+      "body": "A_EDIT",
+      "updated_time": 1792731294091,
+      "user_updated_time": 1792634751343,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "6555a8b3c1a84e69812dc161d1b8eb88",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "user-updated-time-inverted",
+        "body": "B_EDIT",
+        "updated_time": 1792731304091,
+        "user_updated_time": 1792834751343,
+        "is_conflict": 1,
+        "conflict_original_id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "user-updated-time-inverted",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:54:54.654Z",
+        "captured": {
+          "local": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "A_EDIT",
+            "updated_time": 1792731294091,
+            "user_updated_time": 1792634751343,
+            "sync_time": 1792731284091,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "BASE",
+            "updated_time": 1792731284091,
+            "user_updated_time": 1792731284091,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "8a3d0bfcb6f6106e3d9b89644c2a1b65.md",
+            "updated_time": 1792734884390,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "user-updated-time-inverted",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:54:54.684Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "A_EDIT",
+            "updated_time": 1792731294091,
+            "user_updated_time": 1792634751343,
+            "sync_time": 1792731284091,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "BASE",
+            "updated_time": 1792731284091,
+            "user_updated_time": 1792731284091,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "user-updated-time-inverted",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:55:03.758Z",
+        "captured": {
+          "local": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "B_EDIT",
+            "updated_time": 1792731304091,
+            "user_updated_time": 1792834751343,
+            "sync_time": 1792731284091,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "A_EDIT",
+            "updated_time": 1792731294091,
+            "user_updated_time": 1792634751343,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "8a3d0bfcb6f6106e3d9b89644c2a1b65.md",
+            "updated_time": 1792734894659,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "user-updated-time-inverted",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:55:03.788Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "B_EDIT",
+            "updated_time": 1792731304091,
+            "user_updated_time": 1792834751343,
+            "sync_time": 1792731284091,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "A_EDIT",
+            "updated_time": 1792731294091,
+            "user_updated_time": 1792634751343,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "user-updated-time-inverted",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:55:03.819Z",
+        "captured": {
+          "local": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "B_EDIT",
+            "updated_time": 1792731304091,
+            "user_updated_time": 1792834751343,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "8a3d0bfcb6f6106e3d9b89644c2a1b65",
+            "title": "user-updated-time-inverted",
+            "body": "A_EDIT",
+            "updated_time": 1792731294091,
+            "user_updated_time": 1792634751343,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "same-title-and-body",
+    "noteId": "b94095eee21fd8c958c7dbbc4081653e",
+    "configuration": {
+      "caseId": "same-title-and-body",
+      "edits": {
+        "aBody": "SAME",
+        "bBody": "SAME"
+      }
+    },
+    "canonicalA": {
+      "id": "b94095eee21fd8c958c7dbbc4081653e",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "same-title-and-body",
+      "body": "SAME",
+      "updated_time": 1792731314634,
+      "user_updated_time": 1792734914362,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "b94095eee21fd8c958c7dbbc4081653e",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "same-title-and-body",
+      "body": "SAME",
+      "updated_time": 1792731314634,
+      "user_updated_time": 1792734914362,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "same-title-and-body",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:55:14.583Z",
+        "captured": {
+          "local": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731314634,
+            "user_updated_time": 1792734914362,
+            "sync_time": 1792731304634,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "BASE",
+            "updated_time": 1792731304634,
+            "user_updated_time": 1792731304634,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "b94095eee21fd8c958c7dbbc4081653e.md",
+            "updated_time": 1792734904852,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-title-and-body",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:55:14.614Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731314634,
+            "user_updated_time": 1792734914362,
+            "sync_time": 1792731304634,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "BASE",
+            "updated_time": 1792731304634,
+            "user_updated_time": 1792731304634,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-title-and-body",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:55:22.856Z",
+        "captured": {
+          "local": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731324634,
+            "user_updated_time": 1792734914388,
+            "sync_time": 1792731304634,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731314634,
+            "user_updated_time": 1792734914362,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "b94095eee21fd8c958c7dbbc4081653e.md",
+            "updated_time": 1792734914589,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-title-and-body",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:55:22.887Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731324634,
+            "user_updated_time": 1792734914388,
+            "sync_time": 1792731304634,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731314634,
+            "user_updated_time": 1792734914362,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-title-and-body",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:55:22.919Z",
+        "captured": {
+          "local": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731324634,
+            "user_updated_time": 1792734914388,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "b94095eee21fd8c958c7dbbc4081653e",
+            "title": "same-title-and-body",
+            "body": "SAME",
+            "updated_time": 1792731314634,
+            "user_updated_time": 1792734914362,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": true,
+          "hasCiphertext": false,
+          "predicateExpression": false
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "same-body-different-title",
+    "noteId": "4b290e6f06bdf480015f1694a7f70ddd",
+    "configuration": {
+      "caseId": "same-body-different-title",
+      "edits": {
+        "aBody": "SAME",
+        "bBody": "SAME",
+        "aTitle": "TITLE_A",
+        "bTitle": "TITLE_B"
+      }
+    },
+    "canonicalA": {
+      "id": "4b290e6f06bdf480015f1694a7f70ddd",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "TITLE_A",
+      "body": "SAME",
+      "updated_time": 1792731333596,
+      "user_updated_time": 1792734934357,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "4b290e6f06bdf480015f1694a7f70ddd",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "TITLE_A",
+      "body": "SAME",
+      "updated_time": 1792731333596,
+      "user_updated_time": 1792734934357,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "7ee20db7a28d4e60bbf59e05253bc6d8",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "TITLE_B",
+        "body": "SAME",
+        "updated_time": 1792731343596,
+        "user_updated_time": 1792734934385,
+        "is_conflict": 1,
+        "conflict_original_id": "4b290e6f06bdf480015f1694a7f70ddd",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "same-body-different-title",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:55:34.594Z",
+        "captured": {
+          "local": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_A",
+            "body": "SAME",
+            "updated_time": 1792731333596,
+            "user_updated_time": 1792734934357,
+            "sync_time": 1792731323596,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "same-body-different-title",
+            "body": "BASE",
+            "updated_time": 1792731323596,
+            "user_updated_time": 1792731323596,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "4b290e6f06bdf480015f1694a7f70ddd.md",
+            "updated_time": 1792734923810,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-body-different-title",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:55:34.625Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_A",
+            "body": "SAME",
+            "updated_time": 1792731333596,
+            "user_updated_time": 1792734934357,
+            "sync_time": 1792731323596,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "same-body-different-title",
+            "body": "BASE",
+            "updated_time": 1792731323596,
+            "user_updated_time": 1792731323596,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-body-different-title",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:55:42.556Z",
+        "captured": {
+          "local": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_B",
+            "body": "SAME",
+            "updated_time": 1792731343596,
+            "user_updated_time": 1792734934385,
+            "sync_time": 1792731323596,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_A",
+            "body": "SAME",
+            "updated_time": 1792731333596,
+            "user_updated_time": 1792734934357,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "4b290e6f06bdf480015f1694a7f70ddd.md",
+            "updated_time": 1792734934599,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-body-different-title",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:55:42.585Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_B",
+            "body": "SAME",
+            "updated_time": 1792731343596,
+            "user_updated_time": 1792734934385,
+            "sync_time": 1792731323596,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_A",
+            "body": "SAME",
+            "updated_time": 1792731333596,
+            "user_updated_time": 1792734934357,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "same-body-different-title",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:55:42.616Z",
+        "captured": {
+          "local": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_B",
+            "body": "SAME",
+            "updated_time": 1792731343596,
+            "user_updated_time": 1792734934385,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "4b290e6f06bdf480015f1694a7f70ddd",
+            "title": "TITLE_A",
+            "body": "SAME",
+            "updated_time": 1792731333596,
+            "user_updated_time": 1792734934357,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": false,
+          "sameBody": true,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "trash-delete-ab",
+    "noteId": "dbee487197e4aaeeb9c05cde1e02ce4c",
+    "configuration": {
+      "caseId": "trash-delete-ab",
+      "deletion": "trash",
+      "order": [
+        "a",
+        "b"
+      ]
+    },
+    "canonicalA": {
+      "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "trash-delete-ab",
+      "body": "BASE",
+      "updated_time": 1792734952367,
+      "user_updated_time": 1792731343599,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 1792734952367
+    },
+    "canonicalB": {
+      "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "trash-delete-ab",
+      "body": "BASE",
+      "updated_time": 1792734952367,
+      "user_updated_time": 1792731343599,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 1792734952367
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "25c34a6f8b9b45c68ad939bf0d4de597",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ab",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734952374,
+        "user_updated_time": 1792734952374,
+        "is_conflict": 1,
+        "conflict_original_id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "trash-delete-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:55:52.587Z",
+        "captured": {
+          "local": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "BASE",
+            "updated_time": 1792734952367,
+            "user_updated_time": 1792731343599,
+            "sync_time": 1792731343599,
+            "deleted_time": 1792734952367,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "BASE",
+            "updated_time": 1792731343599,
+            "user_updated_time": 1792731343599,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "dbee487197e4aaeeb9c05cde1e02ce4c.md",
+            "updated_time": 1792734943815,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:55:52.617Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "BASE",
+            "updated_time": 1792734952367,
+            "user_updated_time": 1792731343599,
+            "sync_time": 1792731343599,
+            "deleted_time": 1792734952367,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "BASE",
+            "updated_time": 1792731343599,
+            "user_updated_time": 1792731343599,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:56:01.457Z",
+        "captured": {
+          "local": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734952374,
+            "user_updated_time": 1792734952374,
+            "sync_time": 1792731343599,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "BASE",
+            "updated_time": 1792734952367,
+            "user_updated_time": 1792731343599,
+            "deleted_time": 1792734952367,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "dbee487197e4aaeeb9c05cde1e02ce4c.md",
+            "updated_time": 1792734952593,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:56:01.487Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734952374,
+            "user_updated_time": 1792734952374,
+            "sync_time": 1792731343599,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "BASE",
+            "updated_time": 1792734952367,
+            "user_updated_time": 1792731343599,
+            "deleted_time": 1792734952367,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:56:01.519Z",
+        "captured": {
+          "local": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734952374,
+            "user_updated_time": 1792734952374,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "dbee487197e4aaeeb9c05cde1e02ce4c",
+            "title": "trash-delete-ab",
+            "body": "BASE",
+            "updated_time": 1792734952367,
+            "user_updated_time": 1792731343599,
+            "deleted_time": 1792734952367,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "trash-delete-ba",
+    "noteId": "f848d4f51eccd7f9a5d18ec58b3a1671",
+    "configuration": {
+      "caseId": "trash-delete-ba",
+      "deletion": "trash",
+      "order": [
+        "b",
+        "a"
+      ]
+    },
+    "canonicalA": {
+      "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "trash-delete-ba",
+      "body": "B_OFFLINE_EDIT",
+      "updated_time": 1792734973383,
+      "user_updated_time": 1792734973383,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+      "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+      "title": "trash-delete-ba",
+      "body": "B_OFFLINE_EDIT",
+      "updated_time": 1792734973383,
+      "user_updated_time": 1792734973383,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [
+      {
+        "id": "8b133fed8ac84454a244fd2faa3183dd",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "trash-delete-ba",
+        "body": "BASE",
+        "updated_time": 1792734973377,
+        "user_updated_time": 1792731362583,
+        "is_conflict": 1,
+        "conflict_original_id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+        "deleted_time": 1792734973377
+      }
+    ],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "trash-delete-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:56:13.583Z",
+        "captured": {
+          "local": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734973383,
+            "user_updated_time": 1792734973383,
+            "sync_time": 1792731362583,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "BASE",
+            "updated_time": 1792731362583,
+            "user_updated_time": 1792731362583,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "f848d4f51eccd7f9a5d18ec58b3a1671.md",
+            "updated_time": 1792734962796,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:56:13.614Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734973383,
+            "user_updated_time": 1792734973383,
+            "sync_time": 1792731362583,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "BASE",
+            "updated_time": 1792731362583,
+            "user_updated_time": 1792731362583,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:56:14.578Z",
+        "captured": {
+          "local": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "BASE",
+            "updated_time": 1792734973377,
+            "user_updated_time": 1792731362583,
+            "sync_time": 1792731362583,
+            "deleted_time": 1792734973377,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734973383,
+            "user_updated_time": 1792734973383,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": false,
+          "remoteFileStat": {
+            "path": "f848d4f51eccd7f9a5d18ec58b3a1671.md",
+            "updated_time": 1792734973589,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:56:14.608Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "BASE",
+            "updated_time": 1792734973377,
+            "user_updated_time": 1792731362583,
+            "sync_time": 1792731362583,
+            "deleted_time": 1792734973377,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734973383,
+            "user_updated_time": 1792734973383,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "trash-delete-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:56:14.640Z",
+        "captured": {
+          "local": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "BASE",
+            "updated_time": 1792734973377,
+            "user_updated_time": 1792731362583,
+            "deleted_time": 1792734973377,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "f848d4f51eccd7f9a5d18ec58b3a1671",
+            "title": "trash-delete-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734973383,
+            "user_updated_time": 1792734973383,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "permanent-delete-ab",
+    "noteId": "6c1c0a9b03523730a25acf7c2f968abc",
+    "configuration": {
+      "caseId": "permanent-delete-ab",
+      "deletion": "permanent",
+      "order": [
+        "a",
+        "b"
+      ]
+    },
+    "canonicalA": null,
+    "canonicalB": null,
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "8d19cce71eb44b0aa3131c2c04ab2c1c",
+        "parent_id": "6427b1439ed241f4b5619fad067f00f2",
+        "title": "permanent-delete-ab",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792734993383,
+        "user_updated_time": 1792734993383,
+        "is_conflict": 1,
+        "conflict_original_id": "6c1c0a9b03523730a25acf7c2f968abc",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "permanent-delete-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "remoteMissing",
+        "observedAt": "2026-10-23T05:56:33.871Z",
+        "captured": {
+          "local": {
+            "id": "6c1c0a9b03523730a25acf7c2f968abc",
+            "title": "permanent-delete-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734993383,
+            "user_updated_time": 1792734993383,
+            "sync_time": 1792731383751,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": false,
+          "hasSyncTime": true
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 63771
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "permanent-delete-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:56:33.901Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "6c1c0a9b03523730a25acf7c2f968abc",
+            "title": "permanent-delete-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792734993383,
+            "user_updated_time": 1792734993383,
+            "sync_time": 1792731383751,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": null,
+          "remoteExists": false,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "permanent-delete-ba",
+    "noteId": "64691a6d797171544b6f94b6301a33ae",
+    "configuration": {
+      "caseId": "permanent-delete-ba",
+      "deletion": "permanent",
+      "order": [
+        "b",
+        "a"
+      ]
+    },
+    "canonicalA": null,
+    "canonicalB": null,
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "permanent-delete-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:56:44.556Z",
+        "captured": {
+          "local": {
+            "id": "64691a6d797171544b6f94b6301a33ae",
+            "title": "permanent-delete-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735004376,
+            "user_updated_time": 1792735004376,
+            "sync_time": 1792731394442,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "64691a6d797171544b6f94b6301a33ae",
+            "title": "permanent-delete-ba",
+            "body": "BASE",
+            "updated_time": 1792731394442,
+            "user_updated_time": 1792731394442,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "64691a6d797171544b6f94b6301a33ae.md",
+            "updated_time": 1792734994638,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "permanent-delete-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:56:44.587Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "64691a6d797171544b6f94b6301a33ae",
+            "title": "permanent-delete-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735004376,
+            "user_updated_time": 1792735004376,
+            "sync_time": 1792731394442,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "64691a6d797171544b6f94b6301a33ae",
+            "title": "permanent-delete-ba",
+            "body": "BASE",
+            "updated_time": 1792731394442,
+            "user_updated_time": 1792731394442,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "natural-order-ab",
+    "noteId": "41f132c63e8f0df8e50dfdc539b5a823",
+    "configuration": {
+      "caseId": "natural-order-ab",
+      "natural": true,
+      "order": [
+        "a",
+        "b"
+      ]
+    },
+    "canonicalA": {
+      "id": "41f132c63e8f0df8e50dfdc539b5a823",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-order-ab",
+      "body": "A_EDIT",
+      "updated_time": 1792735058361,
+      "user_updated_time": 1792735058361,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "41f132c63e8f0df8e50dfdc539b5a823",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-order-ab",
+      "body": "A_EDIT",
+      "updated_time": 1792735058361,
+      "user_updated_time": 1792735058361,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "e56579a5feaa41e6b0c60df08fe5c917",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-order-ab",
+        "body": "B_EDIT",
+        "updated_time": 1792735058371,
+        "user_updated_time": 1792735058371,
+        "is_conflict": 1,
+        "conflict_original_id": "41f132c63e8f0df8e50dfdc539b5a823",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "natural-order-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:57:38.565Z",
+        "captured": {
+          "local": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792735058361,
+            "user_updated_time": 1792735058361,
+            "sync_time": 1792735056430,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "BASE",
+            "updated_time": 1792735056430,
+            "user_updated_time": 1792735056430,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "41f132c63e8f0df8e50dfdc539b5a823.md",
+            "updated_time": 1792735056612,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:57:38.624Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792735058361,
+            "user_updated_time": 1792735058361,
+            "sync_time": 1792735056430,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "BASE",
+            "updated_time": 1792735056430,
+            "user_updated_time": 1792735056430,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:57:43.979Z",
+        "captured": {
+          "local": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "B_EDIT",
+            "updated_time": 1792735058371,
+            "user_updated_time": 1792735058371,
+            "sync_time": 1792735056430,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792735058361,
+            "user_updated_time": 1792735058361,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "41f132c63e8f0df8e50dfdc539b5a823.md",
+            "updated_time": 1792735058584,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:57:44.008Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "B_EDIT",
+            "updated_time": 1792735058371,
+            "user_updated_time": 1792735058371,
+            "sync_time": 1792735056430,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792735058361,
+            "user_updated_time": 1792735058361,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:57:44.039Z",
+        "captured": {
+          "local": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "B_EDIT",
+            "updated_time": 1792735058371,
+            "user_updated_time": 1792735058371,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "41f132c63e8f0df8e50dfdc539b5a823",
+            "title": "natural-order-ab",
+            "body": "A_EDIT",
+            "updated_time": 1792735058361,
+            "user_updated_time": 1792735058361,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "natural-order-ba",
+    "noteId": "ba778abe80ddfb156e76beef626945db",
+    "configuration": {
+      "caseId": "natural-order-ba",
+      "natural": true,
+      "order": [
+        "b",
+        "a"
+      ]
+    },
+    "canonicalA": {
+      "id": "ba778abe80ddfb156e76beef626945db",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-order-ba",
+      "body": "B_EDIT",
+      "updated_time": 1792735074378,
+      "user_updated_time": 1792735074378,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "ba778abe80ddfb156e76beef626945db",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-order-ba",
+      "body": "B_EDIT",
+      "updated_time": 1792735074378,
+      "user_updated_time": 1792735074378,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [
+      {
+        "id": "076dd4e5eea644809a048c448b54b0b6",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-order-ba",
+        "body": "A_EDIT",
+        "updated_time": 1792735074368,
+        "user_updated_time": 1792735074368,
+        "is_conflict": 1,
+        "conflict_original_id": "ba778abe80ddfb156e76beef626945db",
+        "deleted_time": 0
+      }
+    ],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "natural-order-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:57:54.550Z",
+        "captured": {
+          "local": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792735074378,
+            "user_updated_time": 1792735074378,
+            "sync_time": 1792735064631,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "BASE",
+            "updated_time": 1792735064631,
+            "user_updated_time": 1792735064631,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "ba778abe80ddfb156e76beef626945db.md",
+            "updated_time": 1792735064835,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:57:54.580Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792735074378,
+            "user_updated_time": 1792735074378,
+            "sync_time": 1792735064631,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "BASE",
+            "updated_time": 1792735064631,
+            "user_updated_time": 1792735064631,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:57:55.577Z",
+        "captured": {
+          "local": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "A_EDIT",
+            "updated_time": 1792735074368,
+            "user_updated_time": 1792735074368,
+            "sync_time": 1792735064631,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792735074378,
+            "user_updated_time": 1792735074378,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": false,
+          "remoteFileStat": {
+            "path": "ba778abe80ddfb156e76beef626945db.md",
+            "updated_time": 1792735074556,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:57:55.608Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "A_EDIT",
+            "updated_time": 1792735074368,
+            "user_updated_time": 1792735074368,
+            "sync_time": 1792735064631,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792735074378,
+            "user_updated_time": 1792735074378,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-order-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:57:55.637Z",
+        "captured": {
+          "local": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "A_EDIT",
+            "updated_time": 1792735074368,
+            "user_updated_time": 1792735074368,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "ba778abe80ddfb156e76beef626945db",
+            "title": "natural-order-ba",
+            "body": "B_EDIT",
+            "updated_time": 1792735074378,
+            "user_updated_time": 1792735074378,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "natural-identical",
+    "noteId": "40f8c33559f49d6695f6907d5598e5aa",
+    "configuration": {
+      "caseId": "natural-identical",
+      "natural": true,
+      "edits": {
+        "aBody": "SAME",
+        "bBody": "SAME"
+      }
+    },
+    "canonicalA": {
+      "id": "40f8c33559f49d6695f6907d5598e5aa",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-identical",
+      "body": "SAME",
+      "updated_time": 1792735096386,
+      "user_updated_time": 1792735096386,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "40f8c33559f49d6695f6907d5598e5aa",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-identical",
+      "body": "SAME",
+      "updated_time": 1792735096386,
+      "user_updated_time": 1792735096386,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "natural-identical",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:58:16.592Z",
+        "captured": {
+          "local": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096386,
+            "user_updated_time": 1792735096386,
+            "sync_time": 1792735084924,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "BASE",
+            "updated_time": 1792735084924,
+            "user_updated_time": 1792735084924,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "40f8c33559f49d6695f6907d5598e5aa.md",
+            "updated_time": 1792735085134,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-identical",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:58:16.622Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096386,
+            "user_updated_time": 1792735096386,
+            "sync_time": 1792735084924,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "BASE",
+            "updated_time": 1792735084924,
+            "user_updated_time": 1792735084924,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-identical",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:58:28.058Z",
+        "captured": {
+          "local": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096397,
+            "user_updated_time": 1792735096397,
+            "sync_time": 1792735084924,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096386,
+            "user_updated_time": 1792735096386,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "40f8c33559f49d6695f6907d5598e5aa.md",
+            "updated_time": 1792735096597,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-identical",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:58:28.092Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096397,
+            "user_updated_time": 1792735096397,
+            "sync_time": 1792735084924,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096386,
+            "user_updated_time": 1792735096386,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-identical",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:58:28.119Z",
+        "captured": {
+          "local": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096397,
+            "user_updated_time": 1792735096397,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "40f8c33559f49d6695f6907d5598e5aa",
+            "title": "natural-identical",
+            "body": "SAME",
+            "updated_time": 1792735096386,
+            "user_updated_time": 1792735096386,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": true,
+          "hasCiphertext": false,
+          "predicateExpression": false
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "natural-trash-ab",
+    "noteId": "d08df10048b5b23ce6eefaea8f574161",
+    "configuration": {
+      "caseId": "natural-trash-ab",
+      "natural": true,
+      "deletion": "trash",
+      "order": [
+        "a",
+        "b"
+      ]
+    },
+    "canonicalA": {
+      "id": "d08df10048b5b23ce6eefaea8f574161",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-trash-ab",
+      "body": "BASE",
+      "updated_time": 1792735124379,
+      "user_updated_time": 1792735109628,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 1792735124379
+    },
+    "canonicalB": {
+      "id": "d08df10048b5b23ce6eefaea8f574161",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-trash-ab",
+      "body": "BASE",
+      "updated_time": 1792735124379,
+      "user_updated_time": 1792735109628,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 1792735124379
+    },
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "d6bce06595584f27877e94e4aae31d71",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ab",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735124387,
+        "user_updated_time": 1792735124387,
+        "is_conflict": 1,
+        "conflict_original_id": "d08df10048b5b23ce6eefaea8f574161",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "natural-trash-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:58:44.679Z",
+        "captured": {
+          "local": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "BASE",
+            "updated_time": 1792735124379,
+            "user_updated_time": 1792735109628,
+            "sync_time": 1792735109628,
+            "deleted_time": 1792735124379,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "BASE",
+            "updated_time": 1792735109628,
+            "user_updated_time": 1792735109628,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "d08df10048b5b23ce6eefaea8f574161.md",
+            "updated_time": 1792735109814,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ab",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:58:44.707Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "BASE",
+            "updated_time": 1792735124379,
+            "user_updated_time": 1792735109628,
+            "sync_time": 1792735109628,
+            "deleted_time": 1792735124379,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "BASE",
+            "updated_time": 1792735109628,
+            "user_updated_time": 1792735109628,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:58:54.149Z",
+        "captured": {
+          "local": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735124387,
+            "user_updated_time": 1792735124387,
+            "sync_time": 1792735109628,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "BASE",
+            "updated_time": 1792735124379,
+            "user_updated_time": 1792735109628,
+            "deleted_time": 1792735124379,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "d08df10048b5b23ce6eefaea8f574161.md",
+            "updated_time": 1792735124686,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:58:54.182Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735124387,
+            "user_updated_time": 1792735124387,
+            "sync_time": 1792735109628,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "BASE",
+            "updated_time": 1792735124379,
+            "user_updated_time": 1792735109628,
+            "deleted_time": 1792735124379,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:58:54.211Z",
+        "captured": {
+          "local": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735124387,
+            "user_updated_time": 1792735124387,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "d08df10048b5b23ce6eefaea8f574161",
+            "title": "natural-trash-ab",
+            "body": "BASE",
+            "updated_time": 1792735124379,
+            "user_updated_time": 1792735109628,
+            "deleted_time": 1792735124379,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "natural-trash-ba",
+    "noteId": "bd1305965695150289fcd31d732734db",
+    "configuration": {
+      "caseId": "natural-trash-ba",
+      "natural": true,
+      "deletion": "trash",
+      "order": [
+        "b",
+        "a"
+      ]
+    },
+    "canonicalA": {
+      "id": "bd1305965695150289fcd31d732734db",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-trash-ba",
+      "body": "B_OFFLINE_EDIT",
+      "updated_time": 1792735147387,
+      "user_updated_time": 1792735147387,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "canonicalB": {
+      "id": "bd1305965695150289fcd31d732734db",
+      "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+      "title": "natural-trash-ba",
+      "body": "B_OFFLINE_EDIT",
+      "updated_time": 1792735147387,
+      "user_updated_time": 1792735147387,
+      "is_conflict": 0,
+      "conflict_original_id": "",
+      "deleted_time": 0
+    },
+    "conflictsA": [
+      {
+        "id": "c847b512875f42669d924d158cfd532d",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-trash-ba",
+        "body": "BASE",
+        "updated_time": 1792735147382,
+        "user_updated_time": 1792735135607,
+        "is_conflict": 1,
+        "conflict_original_id": "bd1305965695150289fcd31d732734db",
+        "deleted_time": 1792735147382
+      }
+    ],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "natural-trash-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:59:07.598Z",
+        "captured": {
+          "local": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735147387,
+            "user_updated_time": 1792735147387,
+            "sync_time": 1792735135607,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "BASE",
+            "updated_time": 1792735135607,
+            "user_updated_time": 1792735135607,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "bd1305965695150289fcd31d732734db.md",
+            "updated_time": 1792735135817,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:59:07.652Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735147387,
+            "user_updated_time": 1792735147387,
+            "sync_time": 1792735135607,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "BASE",
+            "updated_time": 1792735135607,
+            "user_updated_time": 1792735135607,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:59:08.534Z",
+        "captured": {
+          "local": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "BASE",
+            "updated_time": 1792735147382,
+            "user_updated_time": 1792735135607,
+            "sync_time": 1792735135607,
+            "deleted_time": 1792735147382,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735147387,
+            "user_updated_time": 1792735147387,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": true,
+          "localGreaterThanRemote": false,
+          "remoteFileStat": {
+            "path": "bd1305965695150289fcd31d732734db.md",
+            "updated_time": 1792735147610,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:59:08.565Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "BASE",
+            "updated_time": 1792735147382,
+            "user_updated_time": 1792735135607,
+            "sync_time": 1792735135607,
+            "deleted_time": 1792735147382,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735147387,
+            "user_updated_time": 1792735147387,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-trash-ba",
+        "phase": "experiment",
+        "client": "a",
+        "kind": "contentFunction",
+        "observedAt": "2026-10-23T05:59:08.596Z",
+        "captured": {
+          "local": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "BASE",
+            "updated_time": 1792735147382,
+            "user_updated_time": 1792735135607,
+            "deleted_time": 1792735147382,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "bd1305965695150289fcd31d732734db",
+            "title": "natural-trash-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735147387,
+            "user_updated_time": 1792735147387,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "sameTitle": true,
+          "sameBody": false,
+          "hasCiphertext": false,
+          "predicateExpression": true
+        },
+        "stack": [
+          {
+            "functionName": "mustHandleConflict",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 2788,
+              "columnNumber": 1487
+            }
+          },
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44863
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "natural-permanent-ab",
+    "noteId": "2f597b3b8b9abbb0cf43229ce0fcd769",
+    "configuration": {
+      "caseId": "natural-permanent-ab",
+      "natural": true,
+      "deletion": "permanent",
+      "order": [
+        "a",
+        "b"
+      ]
+    },
+    "canonicalA": null,
+    "canonicalB": null,
+    "conflictsA": [],
+    "conflictsB": [
+      {
+        "id": "4d1c3f3b55474efa9e1e98b6d6ba43b7",
+        "parent_id": "3a44f588a7364fb787780bcc23c537f8",
+        "title": "natural-permanent-ab",
+        "body": "B_OFFLINE_EDIT",
+        "updated_time": 1792735170369,
+        "user_updated_time": 1792735170369,
+        "is_conflict": 1,
+        "conflict_original_id": "2f597b3b8b9abbb0cf43229ce0fcd769",
+        "deleted_time": 0
+      }
+    ],
+    "trace": [
+      {
+        "caseId": "natural-permanent-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "remoteMissing",
+        "observedAt": "2026-10-23T05:59:30.877Z",
+        "captured": {
+          "local": {
+            "id": "2f597b3b8b9abbb0cf43229ce0fcd769",
+            "title": "natural-permanent-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735170369,
+            "user_updated_time": 1792735170369,
+            "sync_time": 1792735160314,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": false,
+          "hasSyncTime": true
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 63771
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-permanent-ab",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:59:30.908Z",
+        "captured": {
+          "action": "noteConflict",
+          "local": {
+            "id": "2f597b3b8b9abbb0cf43229ce0fcd769",
+            "title": "natural-permanent-ab",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735170369,
+            "user_updated_time": 1792735170369,
+            "sync_time": 1792735160314,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": null,
+          "remoteExists": false,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caseId": "natural-permanent-ba",
+    "noteId": "52f51a9b52f49e12ff3338df012f4b78",
+    "configuration": {
+      "caseId": "natural-permanent-ba",
+      "natural": true,
+      "deletion": "permanent",
+      "order": [
+        "b",
+        "a"
+      ]
+    },
+    "canonicalA": null,
+    "canonicalB": null,
+    "conflictsA": [],
+    "conflictsB": [],
+    "trace": [
+      {
+        "caseId": "natural-permanent-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "timestampCandidate",
+        "observedAt": "2026-10-23T05:59:44.571Z",
+        "captured": {
+          "local": {
+            "id": "52f51a9b52f49e12ff3338df012f4b78",
+            "title": "natural-permanent-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735184378,
+            "user_updated_time": 1792735184378,
+            "sync_time": 1792735171371,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "52f51a9b52f49e12ff3338df012f4b78",
+            "title": "natural-permanent-ba",
+            "body": "BASE",
+            "updated_time": 1792735171371,
+            "user_updated_time": 1792735171371,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteGreaterThanSync": false,
+          "localGreaterThanRemote": true,
+          "remoteFileStat": {
+            "path": "52f51a9b52f49e12ff3338df012f4b78.md",
+            "updated_time": 1792735171573,
+            "isDir": false
+          },
+          "selectedBefore": null
+        },
+        "stack": [
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 64290
+            }
+          }
+        ]
+      },
+      {
+        "caseId": "natural-permanent-ba",
+        "phase": "experiment",
+        "client": "b",
+        "kind": "conflictHandler",
+        "observedAt": "2026-10-23T05:59:44.601Z",
+        "captured": {
+          "action": "updateRemote",
+          "local": {
+            "id": "52f51a9b52f49e12ff3338df012f4b78",
+            "title": "natural-permanent-ba",
+            "body": "B_OFFLINE_EDIT",
+            "updated_time": 1792735184378,
+            "user_updated_time": 1792735184378,
+            "sync_time": 1792735171371,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remote": {
+            "id": "52f51a9b52f49e12ff3338df012f4b78",
+            "title": "natural-permanent-ba",
+            "body": "BASE",
+            "updated_time": 1792735171371,
+            "user_updated_time": 1792735171371,
+            "deleted_time": 0,
+            "is_conflict": 0
+          },
+          "remoteExists": true,
+          "isReadOnly": false
+        },
+        "stack": [
+          {
+            "functionName": "C1e.default",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 44199
+            }
+          },
+          {
+            "functionName": "start",
+            "url": "",
+            "location": {
+              "scriptId": "129",
+              "lineNumber": 3123,
+              "columnNumber": 66206
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-23T06:17:21.769Z",
+  "repository": "vanilalatte03/joplin-sync-reconstruction",
+  "head": "910f83d87ec67f44708d98fe9f555ec503dc2a20",
+  "workingTreeClean": true,
+  "engineFile": "src/main/java/lab/SyncEngine.java",
+  "engineFileSha256": "e5418d45a9948261229e3955bff120a203f2d05bdbfab77325333055c1b58f7a",
+  "engineImplementationChanged": false,
+  "comparisonMethod": "Static review of existing engine; no new engine scenario execution claimed"
+}

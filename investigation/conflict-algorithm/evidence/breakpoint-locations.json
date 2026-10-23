@@ -1,0 +1,68 @@
+{
+  "bootstrap": {
+    "offset": 9072120,
+    "lineNumber": 3123,
+    "columnNumber": 58284,
+    "original": {
+      "source": "../lib/Synchronizer.ts",
+      "line": 399,
+      "column": 52,
+      "name": null
+    }
+  },
+  "timestampCandidate": {
+    "offset": 9078124,
+    "lineNumber": 3123,
+    "columnNumber": 64288,
+    "original": {
+      "source": "../lib/Synchronizer.ts",
+      "line": 709,
+      "column": 11,
+      "name": "remoteContent"
+    }
+  },
+  "remoteMissing": {
+    "offset": 9077605,
+    "lineNumber": 3123,
+    "columnNumber": 63769,
+    "original": {
+      "source": "../lib/Synchronizer.ts",
+      "line": 670,
+      "column": 12,
+      "name": "local"
+    }
+  },
+  "conflictHandler": {
+    "offset": 9058035,
+    "lineNumber": 3123,
+    "columnNumber": 44199,
+    "original": {
+      "source": "../lib/services/synchronizer/utils/handleConflictAction.ts",
+      "line": 14,
+      "column": 1,
+      "name": null
+    }
+  },
+  "contentFunction": {
+    "offset": 8589035,
+    "lineNumber": 2788,
+    "columnNumber": 1482,
+    "original": {
+      "source": "../lib/models/Note.ts",
+      "line": 1125,
+      "column": 2,
+      "name": null
+    }
+  },
+  "contentDecision": {
+    "offset": 9058685,
+    "lineNumber": 3123,
+    "columnNumber": 44849,
+    "original": {
+      "source": "../lib/services/synchronizer/utils/handleConflictAction.ts",
+      "line": 56,
+      "column": 3,
+      "name": "mustHandleConflict"
+    }
+  }
+}

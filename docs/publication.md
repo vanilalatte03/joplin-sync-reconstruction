@@ -4,6 +4,8 @@
 
 ## 포함한 내용
 
+후속 공개 자료인 `investigation/conflict-algorithm/`에는 24개 Desktop 실험의 합성 노트 스냅샷, 로그, 중단점 기록, 조사 스크립트가 있다. 원본 전체 번들·추출 모듈·프로필·원시 REA bundle은 제외했다. 최소 조건식 인용과 생성 코드 주소는 `evidence/code-witnesses.json`에 출처와 함께 남겼다. 포함된 `package-audit.json`, `engine-unchanged.json`, `cleanup.json`은 로컬 조사 당시의 검사 기록이며 현재 저장소 전체의 보안 보증이 아니다.
+
 - 자체 작성한 Java / Node.js 동기화 엔진과 테스트.
 - 조사 과정·설계·차이·미검증 사항을 기록한 문서.
 - 테스트 노트, 시나리오 결과, 동기화 로그, digest, 소스맵 위치에 대응하는 함수 이름·범위 같은 선별 증거.

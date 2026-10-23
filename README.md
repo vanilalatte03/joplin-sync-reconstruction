@@ -4,7 +4,23 @@ Joplin 공식 프로젝트와 관계없는 연구용 저장소다. 공개본의 
 
 2026-10-22 Windows에서 공식 Joplin Desktop 3.7.21 두 개를 별도 프로필로 실행하고, REA 6.7.0과 로컬 파일 동기화 대상으로 실험했다. 관찰 뒤 Java 21 / Spring Boot 4.1.2 / H2로 독립적인 동기화 엔진을 작성했다. Joplin 프로토콜과 호환되는 구현은 아니다.
 
-## 확인한 결과
+## 충돌 알고리즘 심층 조사 — 2026-10-23
+
+후속 조사에서 원본 Desktop 두 개로 **24개 사례**를 실행했다. 수정 시각·파일 메타데이터를 통제한 17개와 API가 생성한 자연 수정 시각을 사용하는 대조 사례 7개이며, 모든 사례에서 자동 업로드 예약을 지연하고 원본 수동 동기화를 실행했다. 아래 결과는 파일 시스템 대상·일반 비암호화 노트 범위다. 재구축 엔진은 변경하지 않았다.
+
+- 업로드 충돌 후보는 `remote.updated_time > local.sync_time`으로 정했다. 로컬 `updated_time`은 업로드 대상 선정에 관여하며, 로컬과 원격 수정 시각의 대소로 승자를 고르지 않았다.
+- 제목·본문이 같으면 내부 `noteConflict` 경로에 들어가도 충돌 사본은 생기지 않았다.
+- 동기화 순서를 바꾸면 원본과 충돌 사본이 바뀌었다. 휴지통 이동과 영구 삭제는 결과가 달랐고, 편집 업로드 후 영구 삭제를 동기화하면 새 충돌 사본 없이 원본이 제거됐다. 노트 기록을 통한 복구는 미검증이다.
+- REA 자동 호출 그래프는 관계를 복구하지 못했다. 배포 번들·소스맵 분석과 실제 renderer의 중단점 스택을 구분해 근거로 사용했다.
+
+[질문별 분석·미확인 범위](investigation/conflict-algorithm/docs/conflict-algorithm.md), [재현 절차](investigation/conflict-algorithm/docs/reproduction.md), [기존 엔진과의 차이](investigation/conflict-algorithm/docs/engine-comparison.md), [증거 색인](investigation/conflict-algorithm/evidence/README.md)에 상세 결과가 있다. 저장된 관찰의 27개 검증은 Desktop 설치 없이 실행할 수 있다. 이는 Desktop 실험 재실행과는 다르다.
+
+```powershell
+Push-Location investigation/conflict-algorithm
+try { node scripts/conflict-verify.mjs --check } finally { Pop-Location }
+```
+
+## 초기 조사에서 확인한 결과
 
 - 원본: 노트 생성·수정 전파, 동기화하지 않은 로컬 편집 보존, 두 클라이언트의 충돌 보존, 파일 대상 오류 후 재시도, 일반 삭제와 영구 삭제 전파를 확인했다.
 - 원본에서 B의 미전송 편집과 A의 원격 편집이 충돌하면, B에 별도 충돌 노트가 생겼고 원래 노트는 A의 본문을 받았다. 이 한 실행 순서의 관찰이며 모든 충돌 규칙을 규명한 것은 아니다.

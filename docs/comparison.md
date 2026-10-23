@@ -1,5 +1,7 @@
 # 원본과 재구축 비교
 
+> 이 문서의 아래 표와 가설은 초기 조사 당시의 기록으로 보존한다. 후속 조사에서는 반대 동기화 순서, 시각 경계, 편집/삭제 충돌, 동일 내용의 사본 억제를 확인했다. 현재 확인 범위는 [충돌 알고리즘 심층 조사](../investigation/conflict-algorithm/docs/conflict-algorithm.md)와 [엔진 차이 비교](../investigation/conflict-algorithm/docs/engine-comparison.md)를 참조한다. 다른 미검증 항목까지 해결됐다는 뜻은 아니다.
+
 원본 실행은 공식 Joplin 3.7.21 / 파일 시스템 대상, 재구축은 Spring Boot / HTTP / H2다. 동일한 사용자 시나리오로 비교했지만 저장 포맷과 전송 프로토콜을 일치시키려 하지 않았다.
 
 | 시나리오 | 원본에서 직접 관찰 | 재구축에서 실행 검증 | 차이·원인 가설·선택한 설계 |
